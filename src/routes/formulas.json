@@ -548,7 +548,7 @@
         ]
       }
     ],
-    "FY1003 Formulas": [
+    "FY1003 Exam Formulas": [
       {
         "id": 41,
         "name": "Coulomb's Constant",
@@ -1123,7 +1123,7 @@
         ]
       }
     ],
-  "FY1003 Exam Formulas": [
+  "TFY4163 Exam Formulas (Previous)": [
     {
       "id": 110,
       "name": "Harmonic Plane Wave (1D)",
