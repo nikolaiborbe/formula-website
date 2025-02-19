@@ -1,38 +1,14 @@
-# sv
+# Formula Website
+> This website needed to exist for my own insanity
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Why?
+1. There are no great way to look up formulas
+2. If you find formulas, there often are no explanations
+3. Or simply just variable names
 
-## Creating a project
+## Solution
+1. Simple formula website that can display formulas
+2. With explanations and variable names
+3. Links to Wikipedia for further reading
+4. And a way to ![contribute](CONTRIBUTING.md) to the project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
