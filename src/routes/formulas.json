@@ -194,6 +194,27 @@
         "formula": "V = IR",
         "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
         "description": "V: voltage, I: current, R: resistance"
+      },
+      {
+        "id": 81,
+        "name": "EMF (Battery with Internal Resistance)",
+        "formula": "\\varepsilon = V + I r",
+        "link": "https://en.wikipedia.org/wiki/Internal_resistance",
+        "description": "ε: electromotive force, V: terminal voltage, I: current, r: internal resistance"
+      },
+      {
+        "id": 82,
+        "name": "Faraday's Law of Induction",
+        "formula": "\\varepsilon = -\\frac{d\\Phi}{dt}",
+        "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+        "description": "ε: induced electromotive force, Φ: magnetic flux, t: time"
+      },
+      {
+        "id": 83,
+        "name": "Faraday's Law for a Coil",
+        "formula": "\\varepsilon = -N\\frac{d\\Phi}{dt}",
+        "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+        "description": "ε: induced electromotive force, N: number of turns, Φ: magnetic flux, t: time"
       }
     ],
     "FY1003 Exam Formulas": [
