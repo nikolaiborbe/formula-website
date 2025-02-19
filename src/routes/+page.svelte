@@ -1,5 +1,5 @@
 <!-- src/App.svelte -->
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import FormulaCard from '../components/FormulaCard.svelte';
 	import SearchModal from '../components/SearchModal.svelte';
@@ -10,21 +10,21 @@
 	let showSearch = false;
 
 	// Helper: create URL-friendly IDs.
-	const slugify = (str) =>
+	const slugify = (str: string) =>
 		str
 			.toLowerCase()
 			.replace(/\s+/g, '-')
 			.replace(/[^\w-]+/g, '');
 
 	// Close sidebar on Escape.
-	const handleKeydown = (event) => {
+	const handleKeydown = (event: KeyboardEvent) => {
 		if (event.key === 'Escape') {
 			showSidebar = false;
 		}
 	};
 
 	// Open search modal on Ctrl+K or Cmd+K.
-	const handleGlobalKeydown = (event) => {
+	const handleGlobalKeydown = (event: KeyboardEvent) => {
 		if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
 			event.preventDefault();
 			showSearch = true;
@@ -45,7 +45,7 @@
 <div class="flex">
 	<!-- Desktop Sidebar (md:block) -->
 	<aside
-		class="relative sticky top-0 hidden h-screen w-64 overflow-y-auto border-r border-gray-300 p-4 md:block"
+		class="sticky top-0 hidden h-screen w-64 overflow-y-auto border-r border-gray-300 p-4 md:block"
 	>
 		<!-- Header row in the sidebar -->
 		<div class="mb-4 flex items-center justify-between">
@@ -59,7 +59,7 @@
 						 text-gray-700
 						 transition hover:bg-gray-100 focus:ring-2
 						 focus:ring-blue-500 focus:outline-none"
-				on:click={() => (showSearch = true)}
+				onclick={() => (showSearch = true)}
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@
 		<!-- Mobile header (shows only on small screens) -->
 		<header class="fixed top-0 right-0 left-0 z-20 flex items-center bg-white p-4 shadow md:hidden">
 			<!-- Button to open mobile sidebar -->
-			<button on:click={() => (showSidebar = true)} class="text-gray-700 focus:outline-none">
+			<button aria-label="Mobile sidebar" onclick={() => (showSidebar = true)} class="text-gray-700 focus:outline-none">
 				<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
 				</svg>
@@ -126,7 +126,7 @@
 		{#if showSidebar}
 			<div class="fixed inset-0 z-30 flex">
 				<!-- Overlay background -->
-				<div class="fixed inset-0 bg-black opacity-50" on:click={() => (showSidebar = false)}></div>
+				<button type="button" class="fixed inset-0 bg-black opacity-50" aria-label="Close sidebar" onclick={() => (showSidebar = false)} onkeydown={(event) => event.key === 'Enter' && (showSidebar = false)}></button>
 
 				<!-- Actual sidebar -->
 				<aside class="relative flex w-64 flex-col bg-white shadow">
@@ -137,8 +137,9 @@
 							<div class="flex items-center space-x-2">
 								<!-- Search button (mobile) -->
 								<button
+									aria-label="Search"
 									class="flex items-center space-x-2 rounded-md border border-gray-300 px-4 py-2 text-sm text-gray-700 transition hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-									on:click={() => {
+									onclick={() => {
 										showSearch = true;
 										showSidebar = false; // Optionally close sidebar when opening search
 									}}
@@ -161,7 +162,8 @@
 
 								<!-- Close sidebar button -->
 								<button
-									on:click={() => (showSidebar = false)}
+									aria-label="Close sidebar"
+									onclick={() => (showSidebar = false)}
 									class="text-gray-700 focus:outline-none"
 								>
 									<svg
@@ -186,7 +188,7 @@
 									<a
 										class="text-blue-600 hover:underline"
 										href={`#${slugify(category)}`}
-										on:click={() => (showSidebar = false)}
+										onclick={() => (showSidebar = false)}
 									>
 										{category}
 									</a>
@@ -196,7 +198,7 @@
 												<a
 													class="text-blue-500 hover:underline"
 													href={`#${slugify(category)}-${slugify(subcategory)}`}
-													on:click={() => (showSidebar = false)}
+													onclick={() => (showSidebar = false)}
 												>
 													{subcategory}
 												</a>
