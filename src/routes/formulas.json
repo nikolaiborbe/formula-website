@@ -1,0 +1,394 @@
+{
+  "Physics": {
+    "Maxwell's Equations": [
+      {
+        "id": 1,
+        "name": "Gauss's Law (Electric)",
+        "formula": "\\oint_{S} \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{Q}{\\varepsilon_0}",
+        "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
+        "description": "E: electric field, dA: differential area, Q: enclosed charge, ε₀: permittivity of free space, S: closed surface"
+      },
+      {
+        "id": 2,
+        "name": "Faraday's Law",
+        "formula": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
+        "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+        "description": "ε: induced electromotive force, Φ_B: magnetic flux, t: time"
+      },
+      {
+        "id": 7,
+        "name": "Ampère's Law",
+        "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc}",
+        "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
+        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, μ₀: permeability of free space, C: closed loop"
+      },
+      {
+        "id": 8,
+        "name": "Gauss's Law (Magnetic)",
+        "formula": "\\oint_{S} \\mathbf{B} \\cdot d\\mathbf{A} = 0",
+        "link": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
+        "description": "B: magnetic field, dA: differential area, S: closed surface"
+      }
+    ],
+    "Newtonian Mechanics": [
+      {
+        "id": 3,
+        "name": "Newton's Second Law",
+        "formula": "F = ma",
+        "link": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+        "description": "F: force, m: mass, a: acceleration"
+      },
+      {
+        "id": 9,
+        "name": "Kinetic Energy",
+        "formula": "KE = \\frac{1}{2}mv^2",
+        "link": "https://en.wikipedia.org/wiki/Kinetic_energy",
+        "description": "KE: kinetic energy, m: mass, v: velocity"
+      },
+      {
+        "id": 10,
+        "name": "Gravitational Potential Energy",
+        "formula": "U = mgh",
+        "link": "https://en.wikipedia.org/wiki/Potential_energy#Gravitational_potential_energy",
+        "description": "U: gravitational potential energy, m: mass, g: gravitational acceleration, h: height"
+      },
+      {
+        "id": 11,
+        "name": "Work",
+        "formula": "W = Fd\\cos\\theta",
+        "link": "https://en.wikipedia.org/wiki/Work_(physics)",
+        "description": "W: work, F: force, d: displacement, θ: angle between force and displacement"
+      }
+    ],
+    "Relativity": [
+      {
+        "id": 12,
+        "name": "Mass-Energy Equivalence",
+        "formula": "E = mc^2",
+        "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+        "description": "E: energy, m: mass, c: speed of light"
+      },
+      {
+        "id": 13,
+        "name": "Lorentz Factor",
+        "formula": "\\gamma = \\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}",
+        "link": "https://en.wikipedia.org/wiki/Lorentz_factor",
+        "description": "γ: Lorentz factor, v: velocity, c: speed of light"
+      }
+    ],
+    "Thermodynamics": [
+      {
+        "id": 14,
+        "name": "Ideal Gas Law",
+        "formula": "PV = nRT",
+        "link": "https://en.wikipedia.org/wiki/Ideal_gas_law",
+        "description": "P: pressure, V: volume, n: amount of substance, R: gas constant, T: temperature"
+      },
+      {
+        "id": 15,
+        "name": "First Law of Thermodynamics",
+        "formula": "\\Delta U = Q - W",
+        "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+        "description": "ΔU: change in internal energy, Q: heat added to the system, W: work done by the system"
+      }
+    ],
+    "Quantum Mechanics": [
+      {
+        "id": 16,
+        "name": "Time-Dependent Schrödinger Equation",
+        "formula": "i\\hbar\\frac{\\partial}{\\partial t}\\Psi(\\mathbf{r},t) = \\hat{H}\\Psi(\\mathbf{r},t)",
+        "link": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
+        "description": "i: imaginary unit, ħ: reduced Planck's constant, Ψ: wavefunction, r: position vector, t: time, Ĥ: Hamiltonian operator"
+      },
+      {
+        "id": 17,
+        "name": "Heisenberg Uncertainty Principle",
+        "formula": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}",
+        "link": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+        "description": "Δx: uncertainty in position, Δp: uncertainty in momentum, ħ: reduced Planck's constant"
+      }
+    ],
+    "Optics": [
+      {
+        "id": 18,
+        "name": "Thin Lens Formula",
+        "formula": "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}",
+        "link": "https://en.wikipedia.org/wiki/Thin_lens",
+        "description": "f: focal length, d_o: object distance, d_i: image distance"
+      }
+    ],
+    "Electricity and Magnetism": [
+      {
+        "id": 30,
+        "name": "Coulomb's Law",
+        "formula": "F = k \\frac{q_1 q_2}{r^2}",
+        "link": "https://en.wikipedia.org/wiki/Coulomb%27s_law",
+        "description": "F: force, k: Coulomb's constant, q₁ and q₂: point charges, r: distance between charges"
+      },
+      {
+        "id": 31,
+        "name": "Lorentz Force",
+        "formula": "F = q(\\mathbf{E} + \\mathbf{v} \\times \\mathbf{B})",
+        "link": "https://en.wikipedia.org/wiki/Lorentz_force",
+        "description": "F: force, q: charge, E: electric field, v: velocity, B: magnetic field"
+      },
+      {
+        "id": 32,
+        "name": "Ampère's Law with Maxwell's Correction",
+        "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc} + \\mu_0 \\varepsilon_0 \\frac{d\\Phi_E}{dt}",
+        "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law#Maxwell%27s_correction",
+        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, ε₀: permittivity of free space, dΦ_E/dt: time derivative of electric flux, μ₀: permeability of free space"
+      },
+      {
+        "id": 33,
+        "name": "Biot–Savart Law",
+        "formula": "d\\mathbf{B} = \\frac{\\mu_0}{4\\pi} \\frac{I d\\mathbf{l} \\times \\hat{\\mathbf{r}}}{r^2}",
+        "link": "https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law",
+        "description": "dB: differential magnetic field, μ₀: permeability of free space, I: current, dl: differential length, r: distance, r̂: unit vector from current element to point"
+      },
+      {
+        "id": 34,
+        "name": "Electric Potential",
+        "formula": "V = -\\int_C \\mathbf{E} \\cdot d\\mathbf{l}",
+        "link": "https://en.wikipedia.org/wiki/Electric_potential",
+        "description": "V: electric potential, E: electric field, dl: differential length, C: integration path"
+      },
+      {
+        "id": 35,
+        "name": "Capacitance",
+        "formula": "C = \\frac{Q}{V}",
+        "link": "https://en.wikipedia.org/wiki/Capacitance",
+        "description": "C: capacitance, Q: charge, V: potential difference"
+      },
+      {
+        "id": 36,
+        "name": "Energy Stored in a Capacitor",
+        "formula": "U = \\frac{1}{2} C V^2",
+        "link": "https://en.wikipedia.org/wiki/Energy_storage_in_capacitors",
+        "description": "U: energy stored, C: capacitance, V: potential difference"
+      },
+      {
+        "id": 37,
+        "name": "Magnetic Flux",
+        "formula": "\\Phi_B = \\int_S \\mathbf{B} \\cdot d\\mathbf{A}",
+        "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
+        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area, S: surface"
+      },
+      {
+        "id": 38,
+        "name": "Inductance",
+        "formula": "L = \\frac{N\\Phi_B}{I}",
+        "link": "https://en.wikipedia.org/wiki/Inductance",
+        "description": "L: inductance, N: number of turns, Φ_B: magnetic flux, I: current"
+      },
+      {
+        "id": 39,
+        "name": "Energy Stored in an Inductor",
+        "formula": "U = \\frac{1}{2} L I^2",
+        "link": "https://en.wikipedia.org/wiki/Inductance#Energy_stored",
+        "description": "U: energy stored, L: inductance, I: current"
+      },
+      {
+        "id": 40,
+        "name": "Ohm's Law",
+        "formula": "V = IR",
+        "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+        "description": "V: voltage, I: current, R: resistance"
+      }
+    ]
+  },
+  "Trigonometry": {
+    "Sin Identities": [
+      {
+        "id": 4,
+        "name": "Basic Sine Identity",
+        "formula": "\\sin^2 \\theta + \\cos^2 \\theta = 1",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
+        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+      },
+      {
+        "id": 7,
+        "name": "Sine Addition Formula",
+        "formula": "\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+        "description": "α, β: angles, sin: sine, cos: cosine"
+      },
+      {
+        "id": 8,
+        "name": "Sine Subtraction Formula",
+        "formula": "\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+        "description": "α, β: angles, sin: sine, cos: cosine"
+      }
+    ],
+    "Cos Identities": [
+      {
+        "id": 5,
+        "name": "Cosine Double-Angle",
+        "formula": "\\cos(2\\theta) = 2\\cos^2\\theta - 1",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
+        "description": "θ: angle, cosθ: cosine"
+      },
+      {
+        "id": 9,
+        "name": "Cosine Double-Angle Alternative",
+        "formula": "\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+      },
+      {
+        "id": 10,
+        "name": "Cosine Addition Formula",
+        "formula": "\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+        "description": "α, β: angles, sin: sine, cos: cosine"
+      }
+    ],
+    "Tan Identities": [
+      {
+        "id": 11,
+        "name": "Tangent Addition Formula",
+        "formula": "\\tan(\\alpha+\\beta)=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+        "description": "α, β: angles, tan: tangent"
+      },
+      {
+        "id": 12,
+        "name": "Tangent Double-Angle Formula",
+        "formula": "\\tan(2\\theta)=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+        "description": "θ: angle, tanθ: tangent"
+      }
+    ],
+    "Other Identities": [
+      {
+        "id": 13,
+        "name": "Pythagorean Identity (Tangent-Secant)",
+        "formula": "1+\\tan^2\\theta = \\sec^2\\theta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
+        "description": "θ: angle, tanθ: tangent, secθ: secant"
+      },
+      {
+        "id": 14,
+        "name": "Pythagorean Identity (Cotangent-Cosecant)",
+        "formula": "1+\\cot^2\\theta = \\csc^2\\theta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
+        "description": "θ: angle, cotθ: cotangent, cscθ: cosecant"
+      },
+      {
+        "id": 15,
+        "name": "Sine of a Double Angle",
+        "formula": "\\sin(2\\theta)=2\\sin\\theta\\cos\\theta",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+      },
+      {
+        "id": 16,
+        "name": "Cosine of a Half Angle",
+        "formula": "\\cos\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
+        "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
+        "description": "θ: angle, cosθ: cosine"
+      },
+      {
+        "id": 17,
+        "name": "Standard Circle Equation",
+        "formula": "(x - h)^2 + (y - k)^2 = r^2",
+        "link": "https://en.wikipedia.org/wiki/Circle",
+        "description": "x, y: coordinates, h, k: center of the circle, r: radius"
+      }
+    ]
+  },
+  "Algebra": {
+    "Quadratic Equations": [
+      {
+        "id": 6,
+        "name": "Quadratic Formula",
+        "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+        "link": "https://en.wikipedia.org/wiki/Quadratic_equation",
+        "description": "x: solution, a, b, c: coefficients of the quadratic equation"
+      }
+    ]
+  },
+  "Statistics": {
+    "Descriptive Statistics": [
+      {
+        "id": 20,
+        "name": "Mean",
+        "formula": "\\mu = \\frac{1}{N}\\sum_{i=1}^{N} x_i",
+        "link": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+        "description": "μ: mean, N: number of data points, xᵢ: individual data values"
+      },
+      {
+        "id": 21,
+        "name": "Variance",
+        "formula": "\\sigma^2 = \\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2",
+        "link": "https://en.wikipedia.org/wiki/Variance",
+        "description": "σ²: variance, N: number of data points, xᵢ: individual data values, μ: mean"
+      },
+      {
+        "id": 22,
+        "name": "Standard Deviation",
+        "formula": "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2}",
+        "link": "https://en.wikipedia.org/wiki/Standard_deviation",
+        "description": "σ: standard deviation, N: number of data points, xᵢ: individual data values, μ: mean"
+      }
+    ],
+    "Probability": [
+      {
+        "id": 23,
+        "name": "Bayes' Theorem",
+        "formula": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
+        "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+        "description": "P(A|B): probability of A given B, P(B|A): probability of B given A, P(A): probability of A, P(B): probability of B"
+      },
+      {
+        "id": 24,
+        "name": "Normal Distribution (PDF)",
+        "formula": "f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\,e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+        "link": "https://en.wikipedia.org/wiki/Normal_distribution",
+        "description": "f(x): probability density, x: variable, μ: mean, σ: standard deviation"
+      }
+    ]
+  },
+  "Economics": {
+    "Macroeconomics": [
+      {
+        "id": 25,
+        "name": "GDP (Expenditure Approach)",
+        "formula": "GDP = C + I + G + (X - M)",
+        "link": "https://en.wikipedia.org/wiki/Gross_domestic_product",
+        "description": "GDP: gross domestic product, C: consumption, I: investment, G: government spending, X: exports, M: imports"
+      },
+      {
+        "id": 26,
+        "name": "Consumer Surplus (Approximation)",
+        "formula": "CS \\approx \\frac{1}{2} Q (P_{max} - P)",
+        "link": "https://en.wikipedia.org/wiki/Consumer_surplus",
+        "description": "CS: consumer surplus, Q: quantity, Pₘₐₓ: maximum price, P: market price"
+      }
+    ],
+    "Microeconomics": [
+      {
+        "id": 27,
+        "name": "Price Elasticity of Demand",
+        "formula": "E_p = \\frac{\\%\\Delta Q}{\\%\\Delta P}",
+        "link": "https://en.wikipedia.org/wiki/Price_elasticity_of_demand",
+        "description": "Eₚ: price elasticity, %ΔQ: percentage change in quantity demanded, %ΔP: percentage change in price"
+      },
+      {
+        "id": 28,
+        "name": "Cobb-Douglas Production Function",
+        "formula": "Y = A K^{\\alpha} L^{1-\\alpha}",
+        "link": "https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function",
+        "description": "Y: output, A: total factor productivity, K: capital input, L: labor input, α: output elasticity of capital"
+      },
+      {
+        "id": 29,
+        "name": "Present Value",
+        "formula": "PV = \\frac{FV}{(1 + r)^n}",
+        "link": "https://en.wikipedia.org/wiki/Present_value",
+        "description": "PV: present value, FV: future value, r: interest rate, n: number of periods"
+      }
+    ]
+  }
+}
