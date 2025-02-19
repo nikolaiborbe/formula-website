@@ -3,8 +3,7 @@
 
 ## Why?
 1. There are no great way to look up formulas
-2. If you find formulas, there often are no explanations
-3. Or simply just variable names
+2. If you find formulas there often are no variable names
 
 ## Solution
 1. Simple formula website that can display formulas
