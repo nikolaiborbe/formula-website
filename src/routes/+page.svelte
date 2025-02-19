@@ -105,7 +105,7 @@
 		<!-- Custom div locked to the bottom left -->
 		<div class="absolute bottom-0 left-0 w-full">
 			<!-- Customize this content as needed -->
-      <Credits />
+			<Credits />
 		</div>
 	</aside>
 
@@ -129,90 +129,89 @@
 				<div class="fixed inset-0 bg-black opacity-50" on:click={() => (showSidebar = false)}></div>
 
 				<!-- Actual sidebar -->
-				<aside class="relative w-64 overflow-y-auto bg-white p-4 shadow">
-					<div class="mb-4 flex items-center justify-between">
-						<h2 class="text-xl font-bold">Contents</h2>
-						<div class="flex items-center space-x-2">
-							<!-- Search button (mobile) -->
-							<button
-								class="flex items-center space-x-2
-									 rounded-md border border-gray-300
-									 px-4 py-2
-									 text-sm text-gray-700
-									 transition
-									 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500
-									 focus:outline-none"
-								on:click={() => {
-									showSearch = true;
-									showSidebar = false; // Optionally close sidebar when opening search
-								}}
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="h-4 w-4 text-gray-500"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-									stroke-width="2"
+				<aside class="relative flex w-64 flex-col bg-white shadow">
+					<!-- Header (stuck to the top) -->
+					<header class="sticky top-0 z-10 bg-white p-4">
+						<div class="flex items-center justify-between">
+							<h2 class="text-xl font-bold">Contents</h2>
+							<div class="flex items-center space-x-2">
+								<!-- Search button (mobile) -->
+								<button
+									class="flex items-center space-x-2 rounded-md border border-gray-300 px-4 py-2 text-sm text-gray-700 transition hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+									on:click={() => {
+										showSearch = true;
+										showSidebar = false; // Optionally close sidebar when opening search
+									}}
 								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M11 4a7 7 0 015.196 11.938l4.133 4.133a1 1 0 01-1.414 1.414l-4.133-4.133A7 7 0 1111 4z"
-									/>
-								</svg>
-							</button>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="h-4 w-4 text-gray-500"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M11 4a7 7 0 015.196 11.938l4.133 4.133a1 1 0 01-1.414 1.414l-4.133-4.133A7 7 0 1111 4z"
+										/>
+									</svg>
+								</button>
 
-							<!-- Close sidebar button -->
-							<button
-								on:click={() => (showSidebar = false)}
-								class="text-gray-700 focus:outline-none"
-							>
-								<svg
-									class="h-6 w-6"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									viewBox="0 0 24 24"
-								>
-									<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-								</svg>
-							</button>
-						</div>
-					</div>
-
-					<ul class="space-y-2">
-						{#each Object.entries(nestedCategories) as [category, subcategories]}
-							<li>
-								<a
-									class="text-blue-600 hover:underline"
-									href={`#${slugify(category)}`}
+								<!-- Close sidebar button -->
+								<button
 									on:click={() => (showSidebar = false)}
+									class="text-gray-700 focus:outline-none"
 								>
-									{category}
-								</a>
-								<ul class="mt-1 ml-4 space-y-1">
-									{#each Object.entries(subcategories) as [subcategory, formulas]}
-										<li>
-											<a
-												class="text-blue-500 hover:underline"
-												href={`#${slugify(category)}-${slugify(subcategory)}`}
-												on:click={() => (showSidebar = false)}
-											>
-												{subcategory}
-											</a>
-										</li>
-									{/each}
-								</ul>
-							</li>
-						{/each}
-					</ul>
+									<svg
+										class="h-6 w-6"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										viewBox="0 0 24 24"
+									>
+										<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+									</svg>
+								</button>
+							</div>
+						</div>
+					</header>
 
-					<!-- Custom div locked to the bottom left for mobile sidebar -->
-					<div class="absolute bottom-0 left-0 w-full">
-						<!-- Customize this content as needed -->
-             <Credits />
+					<!-- Scrollable content -->
+					<div class="flex-1 overflow-y-auto p-4">
+						<ul class="space-y-2">
+							{#each Object.entries(nestedCategories) as [category, subcategories]}
+								<li>
+									<a
+										class="text-blue-600 hover:underline"
+										href={`#${slugify(category)}`}
+										on:click={() => (showSidebar = false)}
+									>
+										{category}
+									</a>
+									<ul class="mt-1 ml-4 space-y-1">
+										{#each Object.entries(subcategories) as [subcategory, formulas]}
+											<li>
+												<a
+													class="text-blue-500 hover:underline"
+													href={`#${slugify(category)}-${slugify(subcategory)}`}
+													on:click={() => (showSidebar = false)}
+												>
+													{subcategory}
+												</a>
+											</li>
+										{/each}
+									</ul>
+								</li>
+							{/each}
+						</ul>
 					</div>
+
+					<!-- Footer (stuck to the bottom) -->
+					<footer class="sticky bottom-0 z-10 bg-white p-4">
+						<Credits />
+					</footer>
 				</aside>
 			</div>
 		{/if}
