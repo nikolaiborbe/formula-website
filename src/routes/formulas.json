@@ -195,6 +195,239 @@
         "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
         "description": "V: voltage, I: current, R: resistance"
       }
+    ],
+    "FY1003 Exam Formulas": [
+      {
+        "id": 41,
+        "name": "Coulomb's Constant",
+        "formula": "k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9.0\\times10^9\\,N\\cdot m^2/C^2",
+        "link": "https://en.wikipedia.org/wiki/Coulomb_constant",
+        "description": "k: Coulomb's constant, ε₀: vacuum permittivity"
+      },
+      {
+        "id": 42,
+        "name": "Electric Field of a Point Charge",
+        "formula": "E(\\mathbf{r}) = k \\frac{q}{r^2} \\hat{r}",
+        "link": "https://en.wikipedia.org/wiki/Electric_field",
+        "description": "E: electric field, q: point charge, r: distance, r̂: unit vector"
+      },
+      {
+        "id": 43,
+        "name": "Linear Charge Density",
+        "formula": "\\lambda = \\frac{dq}{dl} = \\frac{Q}{L}",
+        "link": "https://en.wikipedia.org/wiki/Charge_density",
+        "description": "λ: linear charge density, Q: total charge, L: length"
+      },
+      {
+        "id": 44,
+        "name": "Surface Charge Density",
+        "formula": "\\sigma = \\frac{dq}{dA} = \\frac{Q}{A}",
+        "link": "https://en.wikipedia.org/wiki/Charge_density",
+        "description": "σ: surface charge density, Q: total charge, A: area"
+      },
+      {
+        "id": 45,
+        "name": "Volume Charge Density",
+        "formula": "\\rho = \\frac{dq}{dV} = \\frac{Q}{V}",
+        "link": "https://en.wikipedia.org/wiki/Charge_density",
+        "description": "ρ: volume charge density, Q: total charge, V: volume"
+      },
+      {
+        "id": 46,
+        "name": "Electric Flux (Gauss's Law)",
+        "formula": "\\Phi_E = \\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{Q_{enc}}{\\varepsilon_0}",
+        "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
+        "description": "Φ_E: electric flux, Q_enc: enclosed charge, ε₀: vacuum permittivity"
+      },
+      {
+        "id": 47,
+        "name": "Capacitance of a Parallel Plate Capacitor",
+        "formula": "C = \\frac{\\varepsilon_0 A}{d} = \\frac{Q}{V}",
+        "link": "https://en.wikipedia.org/wiki/Parallel-plate_capacitor",
+        "description": "C: capacitance, ε₀: vacuum permittivity, A: plate area, d: separation distance, Q: charge, V: potential difference"
+      },
+      {
+        "id": 48,
+        "name": "Electric Field Between Infinite Sheets",
+        "formula": "E = \\frac{\\sigma}{\\varepsilon_0}",
+        "link": "https://en.wikipedia.org/wiki/Infinite_sheet_of_charge",
+        "description": "E: electric field magnitude, σ: surface charge density, ε₀: vacuum permittivity"
+      },
+      {
+        "id": 49,
+        "name": "Electric Potential Outside a Spherical Conductor",
+        "formula": "V(r) = k \\frac{q}{r}",
+        "link": "https://en.wikipedia.org/wiki/Electric_potential",
+        "description": "V: electric potential, k: Coulomb's constant, q: charge, r: radial distance"
+      },
+      {
+        "id": 50,
+        "name": "Electric Potential on a Conductor's Surface",
+        "formula": "V(P) = k \\frac{q}{R}",
+        "link": "https://en.wikipedia.org/wiki/Electric_potential",
+        "description": "V: electric potential, k: Coulomb's constant, q: charge, R: radius of the conductor"
+      },
+      {
+        "id": 51,
+        "name": "Ohm's Law",
+        "formula": "V = IR",
+        "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+        "description": "V: voltage, I: current, R: resistance"
+      },
+      {
+        "id": 52,
+        "name": "Magnetic Flux",
+        "formula": "\\Phi_B = \\int \\mathbf{B}\\cdot d\\mathbf{A}",
+        "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
+        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area"
+      },
+      {
+        "id": 53,
+        "name": "Equivalent Resistance (Series)",
+        "formula": "R_{eq} = R_1 + R_2 + \\dots + R_n",
+        "link": "https://en.wikipedia.org/wiki/Series_circuit",
+        "description": "Req: equivalent resistance, R_i: individual resistances"
+      },
+      {
+        "id": 54,
+        "name": "Kirchhoff’s Loop Rule",
+        "formula": "\\sum V = 0",
+        "link": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
+        "description": "∑V: sum of potential differences around a closed loop"
+      },
+      {
+        "id": 55,
+        "name": "Equivalent Resistance (Parallel)",
+        "formula": "R_{eq} = \\left( \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots + \\frac{1}{R_n} \\right)^{-1}",
+        "link": "https://en.wikipedia.org/wiki/Parallel_circuit",
+        "description": "Req: equivalent resistance, R_i: individual resistances"
+      },
+      {
+        "id": 56,
+        "name": "Magnetic Torque on a Coil",
+        "formula": "\\tau = N I A B \\sin(\\theta)",
+        "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
+        "description": "τ: torque, N: number of loops, I: current, A: area, B: magnetic field, θ: angle between B and the normal to the coil"
+      },
+      {
+        "id": 57,
+        "name": "Magnetic Force on a Wire",
+        "formula": "\\mathbf{F} = I \\mathbf{l} \\times \\mathbf{B}",
+        "link": "https://en.wikipedia.org/wiki/Lorentz_force",
+        "description": "F: force, I: current, l: length vector of the wire, B: magnetic field"
+      },
+      {
+        "id": 58,
+        "name": "RC Circuit Discharge",
+        "formula": "Q = Q_0 e^{-t/(RC)}",
+        "link": "https://en.wikipedia.org/wiki/RC_circuit",
+        "description": "Q: charge at time t, Q₀: initial charge, R: resistance, C: capacitance, t: time"
+      },
+      {
+        "id": 59,
+        "name": "Current Density",
+        "formula": "J = \\frac{I}{A}",
+        "link": "https://en.wikipedia.org/wiki/Current_density",
+        "description": "J: current density, I: current, A: cross-sectional area"
+      },
+      {
+        "id": 60,
+        "name": "Magnetic Field of a Long Straight Conductor",
+        "formula": "B = \\frac{\\mu_0}{2\\pi} \\frac{I}{r}",
+        "link": "https://en.wikipedia.org/wiki/Magnetic_field#Current-carrying_conductor",
+        "description": "B: magnetic field, μ₀: permeability of free space, I: current, r: distance from the conductor"
+      },
+      {
+        "id": 61,
+        "name": "Electromagnetic Wave Relation",
+        "formula": "\\nu \\lambda = c",
+        "link": "https://en.wikipedia.org/wiki/Electromagnetic_radiation",
+        "description": "ν: frequency, λ: wavelength, c: speed of light"
+      },
+      {
+        "id": 62,
+        "name": "Speed of Light",
+        "formula": "c = 3 \\times 10^8\\,m/s",
+        "link": "https://en.wikipedia.org/wiki/Speed_of_light",
+        "description": "c: speed of light in vacuum"
+      },
+      {
+        "id": 63,
+        "name": "Electric and Magnetic Field Relation in EM Waves",
+        "formula": "c = \\frac{E}{B}",
+        "link": "https://en.wikipedia.org/wiki/Electromagnetic_wave",
+        "description": "E: electric field amplitude, B: magnetic field amplitude, c: speed of light"
+      },
+      {
+        "id": 64,
+        "name": "Maxwell-Ampère Law (with Displacement Current)",
+        "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 \\left(i_C + \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\right)",
+        "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
+        "description": "B: magnetic field, dl: differential length, i_C: conduction current, ε₀: permittivity of free space, dΦ_E/dt: rate of change of electric flux, μ₀: permeability of free space"
+      },
+      {
+        "id": 65,
+        "name": "Self-Inductance",
+        "formula": "L = \\frac{\\Phi_B}{I}",
+        "link": "https://en.wikipedia.org/wiki/Inductance",
+        "description": "L: inductance, Φ_B: magnetic flux, I: current"
+      },
+      {
+        "id": 66,
+        "name": "Power Dissipated in a Resistor",
+        "formula": "P_{loss} = I^2 R",
+        "link": "https://en.wikipedia.org/wiki/Electric_power#Dissipation",
+        "description": "P_loss: power loss, I: current, R: resistance"
+      },
+      {
+        "id": 67,
+        "name": "Electrical Power",
+        "formula": "P = V I",
+        "link": "https://en.wikipedia.org/wiki/Electric_power",
+        "description": "P: power, V: voltage, I: current"
+      },
+      {
+        "id": 68,
+        "name": "Phase Angle in AC Circuits",
+        "formula": "\\phi = \\arctan\\left(\\frac{X_L - X_C}{R}\\right)",
+        "link": "https://en.wikipedia.org/wiki/Alternating_current",
+        "description": "φ: phase angle, X_L: inductive reactance, X_C: capacitive reactance, R: resistance"
+      },
+      {
+        "id": 69,
+        "name": "Inductive Reactance",
+        "formula": "X_L = \\omega L",
+        "link": "https://en.wikipedia.org/wiki/Inductive_reactance",
+        "description": "X_L: inductive reactance, ω: angular frequency, L: inductance"
+      },
+      {
+        "id": 70,
+        "name": "Capacitive Reactance",
+        "formula": "X_C = \\frac{1}{\\omega C}",
+        "link": "https://en.wikipedia.org/wiki/Capacitive_reactance",
+        "description": "X_C: capacitive reactance, ω: angular frequency, C: capacitance"
+      },
+      {
+        "id": 71,
+        "name": "Impedance of an AC Circuit",
+        "formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+        "link": "https://en.wikipedia.org/wiki/Impedance",
+        "description": "Z: impedance, R: resistance, X_L: inductive reactance, X_C: capacitive reactance"
+      },
+      {
+        "id": 72,
+        "name": "Voltage Amplitude in an AC Circuit",
+        "formula": "V = Z I",
+        "link": "https://en.wikipedia.org/wiki/Alternating_current",
+        "description": "V: voltage amplitude, Z: impedance, I: current amplitude"
+      },
+      {
+        "id": 73,
+        "name": "Average AC Power",
+        "formula": "P_{av} = \\frac{1}{2} V I \\cos\\phi",
+        "link": "https://en.wikipedia.org/wiki/AC_power",
+        "description": "P_av: average power, V: voltage amplitude, I: current amplitude, φ: phase angle"
+      }
     ]
   },
   "Trigonometry": {
