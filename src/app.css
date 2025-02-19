@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+.flash-highlight {
+  animation: flash 6s ease-in-out;
+}
+
+@keyframes flash {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: blue;
+  }
+    75% {
+        background-color: lightblue;
+    }
+  100% {
+    background-color: transparent;
+}
+}

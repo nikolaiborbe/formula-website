@@ -6,28 +6,76 @@
         "name": "Gauss's Law (Electric)",
         "formula": "\\oint_{S} \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{Q}{\\varepsilon_0}",
         "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
-        "description": "E: electric field, dA: differential area, Q: enclosed charge, ε₀: permittivity of free space, S: closed surface"
+        "description": "E: electric field, dA: differential area, Q: enclosed charge, ε₀: permittivity of free space, S: closed surface",
+        "search_terms": [
+          "E",
+          "electric field",
+          "dA",
+          "differential area",
+          "Q",
+          "enclosed charge",
+          "charge",
+          "ε₀",
+          "permittivity of free space",
+          "S",
+          "closed surface",
+          "Gauss's Law",
+          "Electric Gauss Law"
+        ]
       },
       {
         "id": 2,
         "name": "Faraday's Law",
         "formula": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
         "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
-        "description": "ε: induced electromotive force, Φ_B: magnetic flux, t: time"
+        "description": "ε: induced electromotive force, Φ_B: magnetic flux, t: time",
+        "search_terms": [
+          "ε",
+          "induced electromotive force",
+          "emf",
+          "Φ_B",
+          "magnetic flux",
+          "t",
+          "time",
+          "Faraday's Law"
+        ]
       },
       {
         "id": 7,
         "name": "Ampère's Law",
         "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc}",
         "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
-        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, μ₀: permeability of free space, C: closed loop"
+        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, μ₀: permeability of free space, C: closed loop",
+        "search_terms": [
+          "B",
+          "magnetic field",
+          "dl",
+          "differential length",
+          "I_enc",
+          "enclosed current",
+          "μ₀",
+          "permeability of free space",
+          "C",
+          "closed loop",
+          "Ampère's Law"
+        ]
       },
       {
         "id": 8,
         "name": "Gauss's Law (Magnetic)",
         "formula": "\\oint_{S} \\mathbf{B} \\cdot d\\mathbf{A} = 0",
         "link": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
-        "description": "B: magnetic field, dA: differential area, S: closed surface"
+        "description": "B: magnetic field, dA: differential area, S: closed surface",
+        "search_terms": [
+          "B",
+          "magnetic field",
+          "dA",
+          "differential area",
+          "S",
+          "closed surface",
+          "Gauss's Law",
+          "Magnetic Gauss Law"
+        ]
       }
     ],
     "Newtonian Mechanics": [
@@ -36,28 +84,67 @@
         "name": "Newton's Second Law",
         "formula": "F = ma",
         "link": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
-        "description": "F: force, m: mass, a: acceleration"
+        "description": "F: force, m: mass, a: acceleration",
+        "search_terms": [
+          "F",
+          "force",
+          "m",
+          "mass",
+          "a",
+          "acceleration",
+          "Newton's Second Law"
+        ]
       },
       {
         "id": 9,
         "name": "Kinetic Energy",
         "formula": "KE = \\frac{1}{2}mv^2",
         "link": "https://en.wikipedia.org/wiki/Kinetic_energy",
-        "description": "KE: kinetic energy, m: mass, v: velocity"
+        "description": "KE: kinetic energy, m: mass, v: velocity",
+        "search_terms": [
+          "KE",
+          "kinetic energy",
+          "m",
+          "mass",
+          "v",
+          "velocity"
+        ]
       },
       {
         "id": 10,
         "name": "Gravitational Potential Energy",
         "formula": "U = mgh",
         "link": "https://en.wikipedia.org/wiki/Potential_energy#Gravitational_potential_energy",
-        "description": "U: gravitational potential energy, m: mass, g: gravitational acceleration, h: height"
+        "description": "U: gravitational potential energy, m: mass, g: gravitational acceleration, h: height",
+        "search_terms": [
+          "U",
+          "gravitational potential energy",
+          "potential energy",
+          "m",
+          "mass",
+          "g",
+          "gravitational acceleration",
+          "h",
+          "height"
+        ]
       },
       {
         "id": 11,
         "name": "Work",
         "formula": "W = Fd\\cos\\theta",
         "link": "https://en.wikipedia.org/wiki/Work_(physics)",
-        "description": "W: work, F: force, d: displacement, θ: angle between force and displacement"
+        "description": "W: work, F: force, d: displacement, θ: angle between force and displacement",
+        "search_terms": [
+          "W",
+          "work",
+          "F",
+          "force",
+          "d",
+          "displacement",
+          "θ",
+          "angle",
+          "work formula"
+        ]
       }
     ],
     "Relativity": [
@@ -66,14 +153,32 @@
         "name": "Mass-Energy Equivalence",
         "formula": "E = mc^2",
         "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
-        "description": "E: energy, m: mass, c: speed of light"
+        "description": "E: energy, m: mass, c: speed of light",
+        "search_terms": [
+          "E",
+          "energy",
+          "m",
+          "mass",
+          "c",
+          "speed of light",
+          "mass-energy equivalence"
+        ]
       },
       {
         "id": 13,
         "name": "Lorentz Factor",
         "formula": "\\gamma = \\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}",
         "link": "https://en.wikipedia.org/wiki/Lorentz_factor",
-        "description": "γ: Lorentz factor, v: velocity, c: speed of light"
+        "description": "γ: Lorentz factor, v: velocity, c: speed of light",
+        "search_terms": [
+          "γ",
+          "Lorentz factor",
+          "gamma",
+          "v",
+          "velocity",
+          "c",
+          "speed of light"
+        ]
       }
     ],
     "Thermodynamics": [
@@ -82,14 +187,39 @@
         "name": "Ideal Gas Law",
         "formula": "PV = nRT",
         "link": "https://en.wikipedia.org/wiki/Ideal_gas_law",
-        "description": "P: pressure, V: volume, n: amount of substance, R: gas constant, T: temperature"
+        "description": "P: pressure, V: volume, n: amount of substance, R: gas constant, T: temperature",
+        "search_terms": [
+          "P",
+          "pressure",
+          "V",
+          "volume",
+          "n",
+          "amount of substance",
+          "moles",
+          "R",
+          "gas constant",
+          "T",
+          "temperature",
+          "ideal gas law"
+        ]
       },
       {
         "id": 15,
         "name": "First Law of Thermodynamics",
         "formula": "\\Delta U = Q - W",
         "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
-        "description": "ΔU: change in internal energy, Q: heat added to the system, W: work done by the system"
+        "description": "ΔU: change in internal energy, Q: heat added to the system, W: work done by the system",
+        "search_terms": [
+          "ΔU",
+          "change in internal energy",
+          "Q",
+          "heat added",
+          "heat",
+          "W",
+          "work done",
+          "work",
+          "first law of thermodynamics"
+        ]
       }
     ],
     "Quantum Mechanics": [
@@ -98,14 +228,41 @@
         "name": "Time-Dependent Schrödinger Equation",
         "formula": "i\\hbar\\frac{\\partial}{\\partial t}\\Psi(\\mathbf{r},t) = \\hat{H}\\Psi(\\mathbf{r},t)",
         "link": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
-        "description": "i: imaginary unit, ħ: reduced Planck's constant, Ψ: wavefunction, r: position vector, t: time, Ĥ: Hamiltonian operator"
+        "description": "i: imaginary unit, ħ: reduced Planck's constant, Ψ: wavefunction, r: position vector, t: time, Ĥ: Hamiltonian operator",
+        "search_terms": [
+          "i",
+          "imaginary unit",
+          "ħ",
+          "reduced Planck's constant",
+          "Ψ",
+          "wavefunction",
+          "r",
+          "position vector",
+          "t",
+          "time",
+          "Ĥ",
+          "Hamiltonian operator",
+          "Schrödinger equation",
+          "time-dependent Schrödinger equation"
+        ]
       },
       {
         "id": 17,
         "name": "Heisenberg Uncertainty Principle",
         "formula": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}",
         "link": "https://en.wikipedia.org/wiki/Uncertainty_principle",
-        "description": "Δx: uncertainty in position, Δp: uncertainty in momentum, ħ: reduced Planck's constant"
+        "description": "Δx: uncertainty in position, Δp: uncertainty in momentum, ħ: reduced Planck's constant",
+        "search_terms": [
+          "Δx",
+          "uncertainty in position",
+          "position uncertainty",
+          "Δp",
+          "uncertainty in momentum",
+          "momentum uncertainty",
+          "ħ",
+          "reduced Planck's constant",
+          "Heisenberg Uncertainty Principle"
+        ]
       }
     ],
     "Optics": [
@@ -114,7 +271,16 @@
         "name": "Thin Lens Formula",
         "formula": "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}",
         "link": "https://en.wikipedia.org/wiki/Thin_lens",
-        "description": "f: focal length, d_o: object distance, d_i: image distance"
+        "description": "f: focal length, d_o: object distance, d_i: image distance",
+        "search_terms": [
+          "f",
+          "focal length",
+          "d_o",
+          "object distance",
+          "d_i",
+          "image distance",
+          "thin lens formula"
+        ]
       }
     ],
     "Electricity and Magnetism": [
@@ -123,98 +289,263 @@
         "name": "Coulomb's Law",
         "formula": "F = k \\frac{q_1 q_2}{r^2}",
         "link": "https://en.wikipedia.org/wiki/Coulomb%27s_law",
-        "description": "F: force, k: Coulomb's constant, q₁ and q₂: point charges, r: distance between charges"
+        "description": "F: force, k: Coulomb's constant, q₁ and q₂: point charges, r: distance between charges",
+        "search_terms": [
+          "F",
+          "force",
+          "k",
+          "Coulomb's constant",
+          "q₁",
+          "charge",
+          "q₂",
+          "charge",
+          "r",
+          "distance",
+          "Coulomb's Law"
+        ]
       },
       {
         "id": 31,
         "name": "Lorentz Force",
         "formula": "F = q(\\mathbf{E} + \\mathbf{v} \\times \\mathbf{B})",
         "link": "https://en.wikipedia.org/wiki/Lorentz_force",
-        "description": "F: force, q: charge, E: electric field, v: velocity, B: magnetic field"
+        "description": "F: force, q: charge, E: electric field, v: velocity, B: magnetic field",
+        "search_terms": [
+          "F",
+          "force",
+          "q",
+          "charge",
+          "E",
+          "electric field",
+          "v",
+          "velocity",
+          "B",
+          "magnetic field",
+          "Lorentz Force"
+        ]
       },
       {
         "id": 32,
         "name": "Ampère's Law with Maxwell's Correction",
         "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc} + \\mu_0 \\varepsilon_0 \\frac{d\\Phi_E}{dt}",
         "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law#Maxwell%27s_correction",
-        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, ε₀: permittivity of free space, dΦ_E/dt: time derivative of electric flux, μ₀: permeability of free space"
+        "description": "B: magnetic field, dl: differential length, I_enc: enclosed current, ε₀: permittivity of free space, dΦ_E/dt: time derivative of electric flux, μ₀: permeability of free space",
+        "search_terms": [
+          "B",
+          "magnetic field",
+          "dl",
+          "differential length",
+          "I_enc",
+          "enclosed current",
+          "μ₀",
+          "permeability of free space",
+          "ε₀",
+          "permittivity of free space",
+          "dΦ_E/dt",
+          "time derivative of electric flux",
+          "Ampère's Law with Maxwell's Correction"
+        ]
       },
       {
         "id": 33,
         "name": "Biot–Savart Law",
         "formula": "d\\mathbf{B} = \\frac{\\mu_0}{4\\pi} \\frac{I d\\mathbf{l} \\times \\hat{\\mathbf{r}}}{r^2}",
         "link": "https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law",
-        "description": "dB: differential magnetic field, μ₀: permeability of free space, I: current, dl: differential length, r: distance, r̂: unit vector from current element to point"
+        "description": "dB: differential magnetic field, μ₀: permeability of free space, I: current, dl: differential length, r: distance, r̂: unit vector from current element to point",
+        "search_terms": [
+          "dB",
+          "differential magnetic field",
+          "μ₀",
+          "permeability of free space",
+          "I",
+          "current",
+          "dl",
+          "differential length",
+          "r",
+          "distance",
+          "r̂",
+          "unit vector",
+          "Biot–Savart Law"
+        ]
       },
       {
         "id": 34,
         "name": "Electric Potential",
         "formula": "V = -\\int_C \\mathbf{E} \\cdot d\\mathbf{l}",
         "link": "https://en.wikipedia.org/wiki/Electric_potential",
-        "description": "V: electric potential, E: electric field, dl: differential length, C: integration path"
+        "description": "V: electric potential, E: electric field, dl: differential length, C: integration path",
+        "search_terms": [
+          "V",
+          "electric potential",
+          "voltage",
+          "E",
+          "electric field",
+          "dl",
+          "differential length",
+          "C",
+          "integration path",
+          "electric potential formula"
+        ]
       },
       {
         "id": 35,
         "name": "Capacitance",
         "formula": "C = \\frac{Q}{V}",
         "link": "https://en.wikipedia.org/wiki/Capacitance",
-        "description": "C: capacitance, Q: charge, V: potential difference"
+        "description": "C: capacitance, Q: charge, V: potential difference",
+        "search_terms": [
+          "C",
+          "capacitance",
+          "Q",
+          "charge",
+          "V",
+          "potential difference",
+          "voltage",
+          "Capacitance"
+        ]
       },
       {
         "id": 36,
         "name": "Energy Stored in a Capacitor",
         "formula": "U = \\frac{1}{2} C V^2",
         "link": "https://en.wikipedia.org/wiki/Energy_storage_in_capacitors",
-        "description": "U: energy stored, C: capacitance, V: potential difference"
+        "description": "U: energy stored, C: capacitance, V: potential difference",
+        "search_terms": [
+          "U",
+          "energy stored",
+          "energy",
+          "C",
+          "capacitance",
+          "V",
+          "potential difference",
+          "voltage",
+          "capacitor energy"
+        ]
       },
       {
         "id": 37,
         "name": "Magnetic Flux",
         "formula": "\\Phi_B = \\int_S \\mathbf{B} \\cdot d\\mathbf{A}",
         "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
-        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area, S: surface"
+        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area, S: surface",
+        "search_terms": [
+          "Φ_B",
+          "magnetic flux",
+          "B",
+          "magnetic field",
+          "dA",
+          "differential area",
+          "S",
+          "surface",
+          "Magnetic Flux"
+        ]
       },
       {
         "id": 38,
         "name": "Inductance",
         "formula": "L = \\frac{N\\Phi_B}{I}",
         "link": "https://en.wikipedia.org/wiki/Inductance",
-        "description": "L: inductance, N: number of turns, Φ_B: magnetic flux, I: current"
+        "description": "L: inductance, N: number of turns, Φ_B: magnetic flux, I: current",
+        "search_terms": [
+          "L",
+          "inductance",
+          "N",
+          "number of turns",
+          "Φ_B",
+          "magnetic flux",
+          "I",
+          "current"
+        ]
       },
       {
         "id": 39,
         "name": "Energy Stored in an Inductor",
         "formula": "U = \\frac{1}{2} L I^2",
         "link": "https://en.wikipedia.org/wiki/Inductance#Energy_stored",
-        "description": "U: energy stored, L: inductance, I: current"
+        "description": "U: energy stored, L: inductance, I: current",
+        "search_terms": [
+          "U",
+          "energy stored",
+          "energy",
+          "L",
+          "inductance",
+          "I",
+          "current",
+          "inductor energy"
+        ]
       },
       {
         "id": 40,
         "name": "Ohm's Law",
         "formula": "V = IR",
         "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
-        "description": "V: voltage, I: current, R: resistance"
+        "description": "V: voltage, I: current, R: resistance",
+        "search_terms": [
+          "V",
+          "voltage",
+          "I",
+          "current",
+          "R",
+          "resistance",
+          "Ohm's Law"
+        ]
       },
       {
         "id": 81,
         "name": "EMF (Battery with Internal Resistance)",
         "formula": "\\varepsilon = V + I r",
         "link": "https://en.wikipedia.org/wiki/Internal_resistance",
-        "description": "ε: electromotive force, V: terminal voltage, I: current, r: internal resistance"
+        "description": "ε: electromotive force, V: terminal voltage, I: current, r: internal resistance",
+        "search_terms": [
+          "ε",
+          "electromotive force",
+          "EMF",
+          "V",
+          "terminal voltage",
+          "I",
+          "current",
+          "r",
+          "internal resistance",
+          "battery internal resistance"
+        ]
       },
       {
         "id": 82,
         "name": "Faraday's Law of Induction",
         "formula": "\\varepsilon = -\\frac{d\\Phi}{dt}",
         "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
-        "description": "ε: induced electromotive force, Φ: magnetic flux, t: time"
+        "description": "ε: induced electromotive force, Φ: magnetic flux, t: time",
+        "search_terms": [
+          "ε",
+          "induced electromotive force",
+          "EMF",
+          "Φ",
+          "magnetic flux",
+          "t",
+          "time",
+          "Faraday's Law",
+          "induction"
+        ]
       },
       {
         "id": 83,
         "name": "Faraday's Law for a Coil",
         "formula": "\\varepsilon = -N\\frac{d\\Phi}{dt}",
         "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
-        "description": "ε: induced electromotive force, N: number of turns, Φ: magnetic flux, t: time"
+        "description": "ε: induced electromotive force, N: number of turns, Φ: magnetic flux, t: time",
+        "search_terms": [
+          "ε",
+          "induced electromotive force",
+          "EMF",
+          "N",
+          "number of turns",
+          "Φ",
+          "magnetic flux",
+          "t",
+          "time",
+          "Faraday's Law for a Coil",
+          "coil induction"
+        ]
       }
     ],
     "FY1003 Exam Formulas": [
@@ -223,231 +554,573 @@
         "name": "Coulomb's Constant",
         "formula": "k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9.0\\times10^9\\,N\\cdot m^2/C^2",
         "link": "https://en.wikipedia.org/wiki/Coulomb_constant",
-        "description": "k: Coulomb's constant, ε₀: vacuum permittivity"
+        "description": "k: Coulomb's constant, ε₀: vacuum permittivity",
+        "search_terms": [
+          "k",
+          "Coulomb's constant",
+          "ε₀",
+          "vacuum permittivity",
+          "electric constant"
+        ]
       },
       {
         "id": 42,
         "name": "Electric Field of a Point Charge",
         "formula": "E(\\mathbf{r}) = k \\frac{q}{r^2} \\hat{r}",
         "link": "https://en.wikipedia.org/wiki/Electric_field",
-        "description": "E: electric field, q: point charge, r: distance, r̂: unit vector"
+        "description": "E: electric field, q: point charge, r: distance, r̂: unit vector",
+        "search_terms": [
+          "E",
+          "electric field",
+          "q",
+          "point charge",
+          "r",
+          "distance",
+          "r̂",
+          "unit vector",
+          "electric field formula"
+        ]
       },
       {
         "id": 43,
         "name": "Linear Charge Density",
         "formula": "\\lambda = \\frac{dq}{dl} = \\frac{Q}{L}",
         "link": "https://en.wikipedia.org/wiki/Charge_density",
-        "description": "λ: linear charge density, Q: total charge, L: length"
+        "description": "λ: linear charge density, Q: total charge, L: length",
+        "search_terms": [
+          "λ",
+          "linear charge density",
+          "dq/dl",
+          "Q",
+          "total charge",
+          "L",
+          "length",
+          "charge per unit length"
+        ]
       },
       {
         "id": 44,
         "name": "Surface Charge Density",
         "formula": "\\sigma = \\frac{dq}{dA} = \\frac{Q}{A}",
         "link": "https://en.wikipedia.org/wiki/Charge_density",
-        "description": "σ: surface charge density, Q: total charge, A: area"
+        "description": "σ: surface charge density, Q: total charge, A: area",
+        "search_terms": [
+          "σ",
+          "surface charge density",
+          "dq/dA",
+          "Q",
+          "total charge",
+          "A",
+          "area",
+          "charge per unit area"
+        ]
       },
       {
         "id": 45,
         "name": "Volume Charge Density",
         "formula": "\\rho = \\frac{dq}{dV} = \\frac{Q}{V}",
         "link": "https://en.wikipedia.org/wiki/Charge_density",
-        "description": "ρ: volume charge density, Q: total charge, V: volume"
+        "description": "ρ: volume charge density, Q: total charge, V: volume",
+        "search_terms": [
+          "ρ",
+          "volume charge density",
+          "dq/dV",
+          "Q",
+          "total charge",
+          "V",
+          "volume",
+          "charge per unit volume"
+        ]
       },
       {
         "id": 46,
         "name": "Electric Flux (Gauss's Law)",
         "formula": "\\Phi_E = \\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{Q_{enc}}{\\varepsilon_0}",
         "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
-        "description": "Φ_E: electric flux, Q_enc: enclosed charge, ε₀: vacuum permittivity"
+        "description": "Φ_E: electric flux, Q_enc: enclosed charge, ε₀: vacuum permittivity",
+        "search_terms": [
+          "Φ_E",
+          "electric flux",
+          "E",
+          "electric field",
+          "dA",
+          "differential area",
+          "Q_enc",
+          "enclosed charge",
+          "ε₀",
+          "vacuum permittivity",
+          "Gauss's Law"
+        ]
       },
       {
         "id": 47,
         "name": "Capacitance of a Parallel Plate Capacitor",
         "formula": "C = \\frac{\\varepsilon_0 A}{d} = \\frac{Q}{V}",
         "link": "https://en.wikipedia.org/wiki/Parallel-plate_capacitor",
-        "description": "C: capacitance, ε₀: vacuum permittivity, A: plate area, d: separation distance, Q: charge, V: potential difference"
+        "description": "C: capacitance, ε₀: vacuum permittivity, A: plate area, d: separation distance, Q: charge, V: potential difference",
+        "search_terms": [
+          "C",
+          "capacitance",
+          "ε₀",
+          "vacuum permittivity",
+          "A",
+          "plate area",
+          "d",
+          "separation distance",
+          "Q",
+          "charge",
+          "V",
+          "potential difference",
+          "parallel plate capacitor"
+        ]
       },
       {
         "id": 48,
         "name": "Electric Field Between Infinite Sheets",
         "formula": "E = \\frac{\\sigma}{\\varepsilon_0}",
         "link": "https://en.wikipedia.org/wiki/Infinite_sheet_of_charge",
-        "description": "E: electric field magnitude, σ: surface charge density, ε₀: vacuum permittivity"
+        "description": "E: electric field magnitude, σ: surface charge density, ε₀: vacuum permittivity",
+        "search_terms": [
+          "E",
+          "electric field",
+          "σ",
+          "surface charge density",
+          "ε₀",
+          "vacuum permittivity",
+          "infinite sheets",
+          "infinite sheet of charge"
+        ]
       },
       {
         "id": 49,
         "name": "Electric Potential Outside a Spherical Conductor",
         "formula": "V(r) = k \\frac{q}{r}",
         "link": "https://en.wikipedia.org/wiki/Electric_potential",
-        "description": "V: electric potential, k: Coulomb's constant, q: charge, r: radial distance"
+        "description": "V: electric potential, k: Coulomb's constant, q: charge, r: radial distance",
+        "search_terms": [
+          "V",
+          "electric potential",
+          "k",
+          "Coulomb's constant",
+          "q",
+          "charge",
+          "r",
+          "radial distance",
+          "spherical conductor"
+        ]
       },
       {
         "id": 50,
         "name": "Electric Potential on a Conductor's Surface",
         "formula": "V(P) = k \\frac{q}{R}",
         "link": "https://en.wikipedia.org/wiki/Electric_potential",
-        "description": "V: electric potential, k: Coulomb's constant, q: charge, R: radius of the conductor"
+        "description": "V: electric potential, k: Coulomb's constant, q: charge, R: radius of the conductor",
+        "search_terms": [
+          "V",
+          "electric potential",
+          "k",
+          "Coulomb's constant",
+          "q",
+          "charge",
+          "R",
+          "radius",
+          "conductor surface"
+        ]
       },
       {
         "id": 51,
         "name": "Ohm's Law",
         "formula": "V = IR",
         "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
-        "description": "V: voltage, I: current, R: resistance"
+        "description": "V: voltage, I: current, R: resistance",
+        "search_terms": [
+          "V",
+          "voltage",
+          "I",
+          "current",
+          "R",
+          "resistance",
+          "Ohm's Law"
+        ]
       },
       {
         "id": 52,
         "name": "Magnetic Flux",
         "formula": "\\Phi_B = \\int \\mathbf{B}\\cdot d\\mathbf{A}",
         "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
-        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area"
+        "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area",
+        "search_terms": [
+          "Φ_B",
+          "magnetic flux",
+          "B",
+          "magnetic field",
+          "dA",
+          "differential area"
+        ]
       },
       {
         "id": 53,
         "name": "Equivalent Resistance (Series)",
         "formula": "R_{eq} = R_1 + R_2 + \\dots + R_n",
         "link": "https://en.wikipedia.org/wiki/Series_circuit",
-        "description": "Req: equivalent resistance, R_i: individual resistances"
+        "description": "Req: equivalent resistance, R_i: individual resistances",
+        "search_terms": [
+          "R_{eq}",
+          "equivalent resistance",
+          "R_1",
+          "R_2",
+          "R_n",
+          "series circuit",
+          "series resistance"
+        ]
       },
       {
         "id": 54,
         "name": "Kirchhoff’s Loop Rule",
         "formula": "\\sum V = 0",
         "link": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
-        "description": "∑V: sum of potential differences around a closed loop"
+        "description": "∑V: sum of potential differences around a closed loop",
+        "search_terms": [
+          "∑V",
+          "Kirchhoff’s Loop Rule",
+          "Kirchhoff's voltage law",
+          "closed loop",
+          "potential difference"
+        ]
       },
       {
         "id": 55,
         "name": "Equivalent Resistance (Parallel)",
         "formula": "R_{eq} = \\left( \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots + \\frac{1}{R_n} \\right)^{-1}",
         "link": "https://en.wikipedia.org/wiki/Parallel_circuit",
-        "description": "Req: equivalent resistance, R_i: individual resistances"
+        "description": "Req: equivalent resistance, R_i: individual resistances",
+        "search_terms": [
+          "R_{eq}",
+          "equivalent resistance",
+          "R_1",
+          "R_2",
+          "R_n",
+          "parallel circuit",
+          "parallel resistance"
+        ]
       },
       {
         "id": 56,
         "name": "Magnetic Torque on a Coil",
         "formula": "\\tau = N I A B \\sin(\\theta)",
         "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
-        "description": "τ: torque, N: number of loops, I: current, A: area, B: magnetic field, θ: angle between B and the normal to the coil"
+        "description": "τ: torque, N: number of loops, I: current, A: area, B: magnetic field, θ: angle between B and the normal to the coil",
+        "search_terms": [
+          "τ",
+          "torque",
+          "N",
+          "number of loops",
+          "I",
+          "current",
+          "A",
+          "area",
+          "B",
+          "magnetic field",
+          "θ",
+          "angle",
+          "magnetic torque",
+          "coil torque"
+        ]
       },
       {
         "id": 57,
         "name": "Magnetic Force on a Wire",
         "formula": "\\mathbf{F} = I \\mathbf{l} \\times \\mathbf{B}",
         "link": "https://en.wikipedia.org/wiki/Lorentz_force",
-        "description": "F: force, I: current, l: length vector of the wire, B: magnetic field"
+        "description": "F: force, I: current, l: length vector of the wire, B: magnetic field",
+        "search_terms": [
+          "F",
+          "force",
+          "I",
+          "current",
+          "l",
+          "length vector",
+          "B",
+          "magnetic field",
+          "Lorentz force",
+          "magnetic force on a wire"
+        ]
       },
       {
         "id": 58,
         "name": "RC Circuit Discharge",
         "formula": "Q = Q_0 e^{-t/(RC)}",
         "link": "https://en.wikipedia.org/wiki/RC_circuit",
-        "description": "Q: charge at time t, Q₀: initial charge, R: resistance, C: capacitance, t: time"
+        "description": "Q: charge at time t, Q₀: initial charge, R: resistance, C: capacitance, t: time",
+        "search_terms": [
+          "Q",
+          "charge",
+          "Q₀",
+          "initial charge",
+          "t",
+          "time",
+          "R",
+          "resistance",
+          "C",
+          "capacitance",
+          "RC circuit",
+          "discharge"
+        ]
       },
       {
         "id": 59,
         "name": "Current Density",
         "formula": "J = \\frac{I}{A}",
         "link": "https://en.wikipedia.org/wiki/Current_density",
-        "description": "J: current density, I: current, A: cross-sectional area"
+        "description": "J: current density, I: current, A: cross-sectional area",
+        "search_terms": [
+          "J",
+          "current density",
+          "I",
+          "current",
+          "A",
+          "area",
+          "cross-sectional area"
+        ]
       },
       {
         "id": 60,
         "name": "Magnetic Field of a Long Straight Conductor",
         "formula": "B = \\frac{\\mu_0}{2\\pi} \\frac{I}{r}",
         "link": "https://en.wikipedia.org/wiki/Magnetic_field#Current-carrying_conductor",
-        "description": "B: magnetic field, μ₀: permeability of free space, I: current, r: distance from the conductor"
+        "description": "B: magnetic field, μ₀: permeability of free space, I: current, r: distance from the conductor",
+        "search_terms": [
+          "B",
+          "magnetic field",
+          "μ₀",
+          "permeability of free space",
+          "I",
+          "current",
+          "r",
+          "distance",
+          "long straight conductor",
+          "magnetic field conductor"
+        ]
       },
       {
         "id": 61,
         "name": "Electromagnetic Wave Relation",
         "formula": "\\nu \\lambda = c",
         "link": "https://en.wikipedia.org/wiki/Electromagnetic_radiation",
-        "description": "ν: frequency, λ: wavelength, c: speed of light"
+        "description": "ν: frequency, λ: wavelength, c: speed of light",
+        "search_terms": [
+          "ν",
+          "frequency",
+          "λ",
+          "wavelength",
+          "c",
+          "speed of light",
+          "electromagnetic wave relation"
+        ]
       },
       {
         "id": 62,
         "name": "Speed of Light",
         "formula": "c = 3 \\times 10^8\\,m/s",
         "link": "https://en.wikipedia.org/wiki/Speed_of_light",
-        "description": "c: speed of light in vacuum"
+        "description": "c: speed of light in vacuum",
+        "search_terms": [
+          "c",
+          "speed of light",
+          "3x10^8 m/s",
+          "vacuum speed of light"
+        ]
       },
       {
         "id": 63,
         "name": "Electric and Magnetic Field Relation in EM Waves",
         "formula": "c = \\frac{E}{B}",
         "link": "https://en.wikipedia.org/wiki/Electromagnetic_wave",
-        "description": "E: electric field amplitude, B: magnetic field amplitude, c: speed of light"
+        "description": "E: electric field amplitude, B: magnetic field amplitude, c: speed of light",
+        "search_terms": [
+          "c",
+          "speed of light",
+          "E",
+          "electric field amplitude",
+          "B",
+          "magnetic field amplitude",
+          "EM waves",
+          "electric and magnetic field relation"
+        ]
       },
       {
         "id": 64,
         "name": "Maxwell-Ampère Law (with Displacement Current)",
         "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 \\left(i_C + \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\right)",
         "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
-        "description": "B: magnetic field, dl: differential length, i_C: conduction current, ε₀: permittivity of free space, dΦ_E/dt: rate of change of electric flux, μ₀: permeability of free space"
+        "description": "B: magnetic field, dl: differential length, i_C: conduction current, ε₀: permittivity of free space, dΦ_E/dt: rate of change of electric flux, μ₀: permeability of free space",
+        "search_terms": [
+          "B",
+          "magnetic field",
+          "dl",
+          "differential length",
+          "i_C",
+          "conduction current",
+          "ε₀",
+          "permittivity of free space",
+          "dΦ_E/dt",
+          "rate of change of electric flux",
+          "μ₀",
+          "permeability of free space",
+          "Maxwell-Ampère Law",
+          "displacement current"
+        ]
       },
       {
         "id": 65,
         "name": "Self-Inductance",
         "formula": "L = \\frac{\\Phi_B}{I}",
         "link": "https://en.wikipedia.org/wiki/Inductance",
-        "description": "L: inductance, Φ_B: magnetic flux, I: current"
+        "description": "L: inductance, Φ_B: magnetic flux, I: current",
+        "search_terms": [
+          "L",
+          "inductance",
+          "Φ_B",
+          "magnetic flux",
+          "I",
+          "current",
+          "self-inductance"
+        ]
       },
       {
         "id": 66,
         "name": "Power Dissipated in a Resistor",
         "formula": "P_{loss} = I^2 R",
         "link": "https://en.wikipedia.org/wiki/Electric_power#Dissipation",
-        "description": "P_loss: power loss, I: current, R: resistance"
+        "description": "P_loss: power loss, I: current, R: resistance",
+        "search_terms": [
+          "P_{loss}",
+          "power loss",
+          "power dissipated",
+          "I",
+          "current",
+          "R",
+          "resistance",
+          "Joule heating"
+        ]
       },
       {
         "id": 67,
         "name": "Electrical Power",
         "formula": "P = V I",
         "link": "https://en.wikipedia.org/wiki/Electric_power",
-        "description": "P: power, V: voltage, I: current"
+        "description": "P: power, V: voltage, I: current",
+        "search_terms": [
+          "P",
+          "power",
+          "V",
+          "voltage",
+          "I",
+          "current",
+          "electrical power"
+        ]
       },
       {
         "id": 68,
         "name": "Phase Angle in AC Circuits",
         "formula": "\\phi = \\arctan\\left(\\frac{X_L - X_C}{R}\\right)",
         "link": "https://en.wikipedia.org/wiki/Alternating_current",
-        "description": "φ: phase angle, X_L: inductive reactance, X_C: capacitive reactance, R: resistance"
+        "description": "φ: phase angle, X_L: inductive reactance, X_C: capacitive reactance, R: resistance",
+        "search_terms": [
+          "φ",
+          "phase angle",
+          "X_L",
+          "inductive reactance",
+          "X_C",
+          "capacitive reactance",
+          "R",
+          "resistance",
+          "AC circuits",
+          "alternating current"
+        ]
       },
       {
         "id": 69,
         "name": "Inductive Reactance",
         "formula": "X_L = \\omega L",
         "link": "https://en.wikipedia.org/wiki/Inductive_reactance",
-        "description": "X_L: inductive reactance, ω: angular frequency, L: inductance"
+        "description": "X_L: inductive reactance, ω: angular frequency, L: inductance",
+        "search_terms": [
+          "X_L",
+          "inductive reactance",
+          "ω",
+          "angular frequency",
+          "L",
+          "inductance"
+        ]
       },
       {
         "id": 70,
         "name": "Capacitive Reactance",
         "formula": "X_C = \\frac{1}{\\omega C}",
         "link": "https://en.wikipedia.org/wiki/Capacitive_reactance",
-        "description": "X_C: capacitive reactance, ω: angular frequency, C: capacitance"
+        "description": "X_C: capacitive reactance, ω: angular frequency, C: capacitance",
+        "search_terms": [
+          "X_C",
+          "capacitive reactance",
+          "ω",
+          "angular frequency",
+          "C",
+          "capacitance"
+        ]
       },
       {
         "id": 71,
         "name": "Impedance of an AC Circuit",
         "formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
         "link": "https://en.wikipedia.org/wiki/Impedance",
-        "description": "Z: impedance, R: resistance, X_L: inductive reactance, X_C: capacitive reactance"
+        "description": "Z: impedance, R: resistance, X_L: inductive reactance, X_C: capacitive reactance",
+        "search_terms": [
+          "Z",
+          "impedance",
+          "R",
+          "resistance",
+          "X_L",
+          "inductive reactance",
+          "X_C",
+          "capacitive reactance",
+          "AC circuit impedance"
+        ]
       },
       {
         "id": 72,
         "name": "Voltage Amplitude in an AC Circuit",
         "formula": "V = Z I",
         "link": "https://en.wikipedia.org/wiki/Alternating_current",
-        "description": "V: voltage amplitude, Z: impedance, I: current amplitude"
+        "description": "V: voltage amplitude, Z: impedance, I: current amplitude",
+        "search_terms": [
+          "V",
+          "voltage amplitude",
+          "Z",
+          "impedance",
+          "I",
+          "current amplitude",
+          "AC circuit voltage"
+        ]
       },
       {
         "id": 73,
         "name": "Average AC Power",
         "formula": "P_{av} = \\frac{1}{2} V I \\cos\\phi",
         "link": "https://en.wikipedia.org/wiki/AC_power",
-        "description": "P_av: average power, V: voltage amplitude, I: current amplitude, φ: phase angle"
+        "description": "P_av: average power, V: voltage amplitude, I: current amplitude, φ: phase angle",
+        "search_terms": [
+          "P_{av}",
+          "average power",
+          "V",
+          "voltage amplitude",
+          "I",
+          "current amplitude",
+          "φ",
+          "phase angle",
+          "AC power",
+          "alternating current power"
+        ]
       }
     ]
   },
@@ -458,21 +1131,47 @@
         "name": "Basic Sine Identity",
         "formula": "\\sin^2 \\theta + \\cos^2 \\theta = 1",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
-        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+        "description": "θ: angle, sinθ: sine, cosθ: cosine",
+        "search_terms": [
+          "sin^2 θ",
+          "cos^2 θ",
+          "sine squared",
+          "cosine squared",
+          "1",
+          "basic sine identity",
+          "trigonometric identity",
+          "Pythagorean identity"
+        ]
       },
       {
         "id": 7,
         "name": "Sine Addition Formula",
         "formula": "\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
-        "description": "α, β: angles, sin: sine, cos: cosine"
+        "description": "α, β: angles, sin: sine, cos: cosine",
+        "search_terms": [
+          "sin(α+β)",
+          "sine addition",
+          "sinα cosβ",
+          "cosα sinβ",
+          "trigonometric addition",
+          "sine addition formula"
+        ]
       },
       {
         "id": 8,
         "name": "Sine Subtraction Formula",
         "formula": "\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
-        "description": "α, β: angles, sin: sine, cos: cosine"
+        "description": "α, β: angles, sin: sine, cos: cosine",
+        "search_terms": [
+          "sin(α-β)",
+          "sine subtraction",
+          "sinα cosβ",
+          "cosα sinβ",
+          "trigonometric subtraction",
+          "sine subtraction formula"
+        ]
       }
     ],
     "Cos Identities": [
@@ -481,21 +1180,43 @@
         "name": "Cosine Double-Angle",
         "formula": "\\cos(2\\theta) = 2\\cos^2\\theta - 1",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
-        "description": "θ: angle, cosθ: cosine"
+        "description": "θ: angle, cosθ: cosine",
+        "search_terms": [
+          "cos(2θ)",
+          "double-angle cosine",
+          "2cos^2θ",
+          "cosine identity",
+          "trigonometric double-angle"
+        ]
       },
       {
         "id": 9,
         "name": "Cosine Double-Angle Alternative",
         "formula": "\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
-        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+        "description": "θ: angle, sinθ: sine, cosθ: cosine",
+        "search_terms": [
+          "cos(2θ)",
+          "cos^2θ - sin^2θ",
+          "alternative double-angle",
+          "cosine identity",
+          "trigonometric identity"
+        ]
       },
       {
         "id": 10,
         "name": "Cosine Addition Formula",
         "formula": "\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
-        "description": "α, β: angles, sin: sine, cos: cosine"
+        "description": "α, β: angles, sin: sine, cos: cosine",
+        "search_terms": [
+          "cos(α+β)",
+          "cosine addition",
+          "cosα cosβ",
+          "sinα sinβ",
+          "trigonometric addition",
+          "cosine addition formula"
+        ]
       }
     ],
     "Tan Identities": [
@@ -504,14 +1225,30 @@
         "name": "Tangent Addition Formula",
         "formula": "\\tan(\\alpha+\\beta)=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
-        "description": "α, β: angles, tan: tangent"
+        "description": "α, β: angles, tan: tangent",
+        "search_terms": [
+          "tan(α+β)",
+          "tangent addition",
+          "tanα",
+          "tanβ",
+          "addition formula",
+          "trigonometric tangent"
+        ]
       },
       {
         "id": 12,
         "name": "Tangent Double-Angle Formula",
         "formula": "\\tan(2\\theta)=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
-        "description": "θ: angle, tanθ: tangent"
+        "description": "θ: angle, tanθ: tangent",
+        "search_terms": [
+          "tan(2θ)",
+          "double-angle tangent",
+          "2tanθ",
+          "tan^2θ",
+          "tangent identity",
+          "trigonometric double-angle"
+        ]
       }
     ],
     "Other Identities": [
@@ -520,35 +1257,73 @@
         "name": "Pythagorean Identity (Tangent-Secant)",
         "formula": "1+\\tan^2\\theta = \\sec^2\\theta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
-        "description": "θ: angle, tanθ: tangent, secθ: secant"
+        "description": "θ: angle, tanθ: tangent, secθ: secant",
+        "search_terms": [
+          "1+tan^2θ",
+          "sec^2θ",
+          "tangent secant identity",
+          "Pythagorean identity",
+          "trigonometric identity"
+        ]
       },
       {
         "id": 14,
         "name": "Pythagorean Identity (Cotangent-Cosecant)",
         "formula": "1+\\cot^2\\theta = \\csc^2\\theta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
-        "description": "θ: angle, cotθ: cotangent, cscθ: cosecant"
+        "description": "θ: angle, cotθ: cotangent, cscθ: cosecant",
+        "search_terms": [
+          "1+cot^2θ",
+          "csc^2θ",
+          "cotangent cosecant identity",
+          "Pythagorean identity",
+          "trigonometric identity"
+        ]
       },
       {
         "id": 15,
         "name": "Sine of a Double Angle",
         "formula": "\\sin(2\\theta)=2\\sin\\theta\\cos\\theta",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
-        "description": "θ: angle, sinθ: sine, cosθ: cosine"
+        "description": "θ: angle, sinθ: sine, cosθ: cosine",
+        "search_terms": [
+          "sin(2θ)",
+          "double-angle sine",
+          "2sinθ cosθ",
+          "sine double-angle",
+          "trigonometric identity"
+        ]
       },
       {
         "id": 16,
         "name": "Cosine of a Half Angle",
         "formula": "\\cos\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
         "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
-        "description": "θ: angle, cosθ: cosine"
+        "description": "θ: angle, cosθ: cosine",
+        "search_terms": [
+          "cos(θ/2)",
+          "half-angle cosine",
+          "±sqrt((1+cosθ)/2)",
+          "cosine half-angle",
+          "trigonometric half-angle"
+        ]
       },
       {
         "id": 17,
         "name": "Standard Circle Equation",
         "formula": "(x - h)^2 + (y - k)^2 = r^2",
         "link": "https://en.wikipedia.org/wiki/Circle",
-        "description": "x, y: coordinates, h, k: center of the circle, r: radius"
+        "description": "x, y: coordinates, h, k: center of the circle, r: radius",
+        "search_terms": [
+          "(x-h)^2",
+          "(y-k)^2",
+          "r^2",
+          "circle equation",
+          "standard circle equation",
+          "coordinates",
+          "radius",
+          "center of circle"
+        ]
       }
     ]
   },
@@ -559,7 +1334,17 @@
         "name": "Quadratic Formula",
         "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
         "link": "https://en.wikipedia.org/wiki/Quadratic_equation",
-        "description": "x: solution, a, b, c: coefficients of the quadratic equation"
+        "description": "x: solution, a, b, c: coefficients of the quadratic equation",
+        "search_terms": [
+          "quadratic formula",
+          "-b ± sqrt(b^2 - 4ac)",
+          "2a",
+          "quadratic equation solution",
+          "a",
+          "b",
+          "c",
+          "coefficients"
+        ]
       }
     ]
   },
@@ -570,21 +1355,51 @@
         "name": "Mean",
         "formula": "\\mu = \\frac{1}{N}\\sum_{i=1}^{N} x_i",
         "link": "https://en.wikipedia.org/wiki/Arithmetic_mean",
-        "description": "μ: mean, N: number of data points, xᵢ: individual data values"
+        "description": "μ: mean, N: number of data points, xᵢ: individual data values",
+        "search_terms": [
+          "μ",
+          "mean",
+          "arithmetic mean",
+          "average",
+          "N",
+          "number of data points",
+          "x_i",
+          "data values"
+        ]
       },
       {
         "id": 21,
         "name": "Variance",
         "formula": "\\sigma^2 = \\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2",
         "link": "https://en.wikipedia.org/wiki/Variance",
-        "description": "σ²: variance, N: number of data points, xᵢ: individual data values, μ: mean"
+        "description": "σ²: variance, N: number of data points, xᵢ: individual data values, μ: mean",
+        "search_terms": [
+          "σ²",
+          "variance",
+          "data variance",
+          "N",
+          "number of data points",
+          "x_i",
+          "mean",
+          "statistical variance"
+        ]
       },
       {
         "id": 22,
         "name": "Standard Deviation",
         "formula": "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2}",
         "link": "https://en.wikipedia.org/wiki/Standard_deviation",
-        "description": "σ: standard deviation, N: number of data points, xᵢ: individual data values, μ: mean"
+        "description": "σ: standard deviation, N: number of data points, xᵢ: individual data values, μ: mean",
+        "search_terms": [
+          "σ",
+          "standard deviation",
+          "square root",
+          "variance",
+          "data dispersion",
+          "N",
+          "x_i",
+          "mean"
+        ]
       }
     ],
     "Probability": [
@@ -593,14 +1408,34 @@
         "name": "Bayes' Theorem",
         "formula": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
         "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
-        "description": "P(A|B): probability of A given B, P(B|A): probability of B given A, P(A): probability of A, P(B): probability of B"
+        "description": "P(A|B): probability of A given B, P(B|A): probability of B given A, P(A): probability of A, P(B): probability of B",
+        "search_terms": [
+          "Bayes' Theorem",
+          "P(A|B)",
+          "conditional probability",
+          "P(B|A)",
+          "P(A)",
+          "P(B)",
+          "probability theorem",
+          "Bayesian"
+        ]
       },
       {
         "id": 24,
         "name": "Normal Distribution (PDF)",
         "formula": "f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\,e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
         "link": "https://en.wikipedia.org/wiki/Normal_distribution",
-        "description": "f(x): probability density, x: variable, μ: mean, σ: standard deviation"
+        "description": "f(x): probability density, x: variable, μ: mean, σ: standard deviation",
+        "search_terms": [
+          "normal distribution",
+          "PDF",
+          "probability density function",
+          "μ",
+          "σ",
+          "mean",
+          "standard deviation",
+          "Gaussian"
+        ]
       }
     ]
   },
@@ -611,14 +1446,41 @@
         "name": "GDP (Expenditure Approach)",
         "formula": "GDP = C + I + G + (X - M)",
         "link": "https://en.wikipedia.org/wiki/Gross_domestic_product",
-        "description": "GDP: gross domestic product, C: consumption, I: investment, G: government spending, X: exports, M: imports"
+        "description": "GDP: gross domestic product, C: consumption, I: investment, G: government spending, X: exports, M: imports",
+        "search_terms": [
+          "GDP",
+          "gross domestic product",
+          "C",
+          "consumption",
+          "I",
+          "investment",
+          "G",
+          "government spending",
+          "X",
+          "exports",
+          "M",
+          "imports",
+          "expenditure approach"
+        ]
       },
       {
         "id": 26,
         "name": "Consumer Surplus (Approximation)",
         "formula": "CS \\approx \\frac{1}{2} Q (P_{max} - P)",
         "link": "https://en.wikipedia.org/wiki/Consumer_surplus",
-        "description": "CS: consumer surplus, Q: quantity, Pₘₐₓ: maximum price, P: market price"
+        "description": "CS: consumer surplus, Q: quantity, Pₘₐₓ: maximum price, P: market price",
+        "search_terms": [
+          "CS",
+          "consumer surplus",
+          "quantity",
+          "Q",
+          "P_max",
+          "maximum price",
+          "P",
+          "market price",
+          "approximation",
+          "economic surplus"
+        ]
       }
     ],
     "Microeconomics": [
@@ -627,21 +1489,57 @@
         "name": "Price Elasticity of Demand",
         "formula": "E_p = \\frac{\\%\\Delta Q}{\\%\\Delta P}",
         "link": "https://en.wikipedia.org/wiki/Price_elasticity_of_demand",
-        "description": "Eₚ: price elasticity, %ΔQ: percentage change in quantity demanded, %ΔP: percentage change in price"
+        "description": "Eₚ: price elasticity, %ΔQ: percentage change in quantity demanded, %ΔP: percentage change in price",
+        "search_terms": [
+          "E_p",
+          "price elasticity",
+          "elasticity of demand",
+          "%ΔQ",
+          "percentage change in quantity",
+          "%ΔP",
+          "percentage change in price",
+          "demand elasticity"
+        ]
       },
       {
         "id": 28,
         "name": "Cobb-Douglas Production Function",
         "formula": "Y = A K^{\\alpha} L^{1-\\alpha}",
         "link": "https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function",
-        "description": "Y: output, A: total factor productivity, K: capital input, L: labor input, α: output elasticity of capital"
+        "description": "Y: output, A: total factor productivity, K: capital input, L: labor input, α: output elasticity of capital",
+        "search_terms": [
+          "Cobb-Douglas",
+          "production function",
+          "Y",
+          "output",
+          "A",
+          "total factor productivity",
+          "K",
+          "capital",
+          "L",
+          "labor",
+          "α",
+          "output elasticity"
+        ]
       },
       {
         "id": 29,
         "name": "Present Value",
         "formula": "PV = \\frac{FV}{(1 + r)^n}",
         "link": "https://en.wikipedia.org/wiki/Present_value",
-        "description": "PV: present value, FV: future value, r: interest rate, n: number of periods"
+        "description": "PV: present value, FV: future value, r: interest rate, n: number of periods",
+        "search_terms": [
+          "PV",
+          "present value",
+          "FV",
+          "future value",
+          "r",
+          "interest rate",
+          "n",
+          "number of periods",
+          "discounting",
+          "time value of money"
+        ]
       }
     ]
   }

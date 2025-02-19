@@ -11,19 +11,26 @@
   function toggleDescription() {
     showDescription = !showDescription;
   }
+
+  // Helper: create URL-friendly IDs.
+  const slugify = str =>
+    str
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]+/g, '');
 </script>
 
 <div
-  class="border rounded-lg p-4 shadow hover:shadow-lg transition-shadow relative cursor-pointer"
-  on:mouseenter={() => showDescription = true}
-  on:mouseleave={() => showDescription = false}
-  on:click|stopPropagation={toggleDescription}
-  style="transition: all 200ms ease;">
+  id={slugify(formula.name)}
+  class="border rounded-lg p-4 shadow hover:shadow-lg transition-shadow relative"
+  on:click={toggleDescription}
+  style="transition: all 200ms ease;"
+  >
   <a
     href={formula.link}
     target="_blank"
     rel="noopener noreferrer"
-    class="text-lg font-semibold mb-2 block hover:underline"
+    class="text-lg w-fit font-semibold mb-2 block hover:underline"
   >
     {formula.name}
   </a>
