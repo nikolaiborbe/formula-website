@@ -218,7 +218,7 @@
 
 <!-- Background container with click handler -->
 <div
-	class="fixed inset-0 z-50 flex items-start justify-center bg-black/5 pt-56 backdrop-blur-xs"
+	class="fixed inset-0 z-50 flex items-start justify-center bg-black/5 pt-4 md:pt-56 backdrop-blur-xs"
 	on:click={onClose}
 >
 	<!-- Modal container; stop propagation to prevent onClose when clicking inside -->
