@@ -1,6 +1,6 @@
 <!-- src/SearchModal.svelte -->
 <script>
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy, afterUpdate } from 'svelte';
 
 	// Data passed from parent – this should be your nested JSON of formulas.
 	export let data = {};
@@ -10,10 +10,15 @@
 	let query = '';
 	let results = [];
 	let selectedIndex = 0;
+	// Array to store references to each list item
+	let resultItems = [];
 
 	// A basic slugify helper for generating URL-friendly strings.
 	const slugify = (str) =>
-		str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
+		str
+			.toLowerCase()
+			.replace(/\s+/g, '-')
+			.replace(/[^\w-]+/g, '');
 
 	// Run a search every time the query changes.
 	$: results = query.trim() ? search(query) : [];
@@ -45,8 +50,8 @@
 				} else {
 					matrix[i][j] = Math.min(
 						matrix[i - 1][j - 1] + 1, // substitution
-						matrix[i][j - 1] + 1,     // insertion
-						matrix[i - 1][j] + 1      // deletion
+						matrix[i][j - 1] + 1, // insertion
+						matrix[i - 1][j] + 1 // deletion
 					);
 				}
 			}
@@ -67,7 +72,10 @@
 
 	// --- Updated Search Function with Fuzzy Matching ---
 	function search(q) {
-		const tokens = q.trim().split(/\s+/).map((token) => token.toLowerCase());
+		const tokens = q
+			.trim()
+			.split(/\s+/)
+			.map((token) => token.toLowerCase());
 		let matches = [];
 		for (const category in data) {
 			const subcategories = data[category];
@@ -105,7 +113,7 @@
 						} else if (link.includes(token)) {
 							score += 1;
 							tokenFound = true;
-						} 
+						}
 
 						// Fuzzy matching if exact match wasn't found.
 						if (!tokenFound) {
@@ -196,33 +204,56 @@
 		}
 		onClose();
 	}
+
+	// After every update, scroll the selected item into view.
+	afterUpdate(() => {
+		if (resultItems[selectedIndex]) {
+			resultItems[selectedIndex].scrollIntoView({
+				behavior: 'smooth',
+				block: 'nearest'
+			});
+		}
+	});
 </script>
 
 <!-- Background container with click handler -->
 <div
-	class="fixed inset-0 z-50 flex items-center justify-center bg-black/5 pb-[40vh] backdrop-blur-xs"
+	class="fixed inset-0 z-50 flex items-start justify-center bg-black/5 pt-56 backdrop-blur-xs"
 	on:click={onClose}
 >
 	<!-- Modal container; stop propagation to prevent onClose when clicking inside -->
-	<div class="w-[40rem] rounded-xl bg-white p-6 shadow-lg" on:click|stopPropagation>
-		<input
-			type="text"
-			bind:value={query}
-			on:keydown={handleInputKeydown}
-			placeholder="Search formulas..."
-			class="mb-4 w-full rounded border p-2 focus:ring focus:outline-none"
-			autofocus
-		/>
+	<div class="w-[40rem] rounded-xl bg-white shadow-lg" on:click|stopPropagation>
+		<div class="relative">
+			<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+				<svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1116.65 6.65a7.5 7.5 0 010 10.5z"
+					/>
+				</svg>
+			</div>
+			<input
+				type="text"
+				bind:value={query}
+				on:keydown={handleInputKeydown}
+				placeholder="Search formulas..."
+				class="w-full rounded p-4 pl-12 focus:outline-none"
+				autofocus
+			/>
+		</div>
 		{#if query.trim() && results.length === 0}
 			<div>No results found.</div>
 		{/if}
 		{#if results.length > 0}
-			<ul class="max-h-60 overflow-y-auto">
+			<ul class="max-h-96 overflow-y-auto">
 				{#each results as result, index}
 					<li
-						class="cursor-pointer border-b p-2 last:border-0 hover:bg-gray-100"
+						class="cursor-pointer p-4 last:border-0 hover:bg-gray-100"
 						class:bg-gray-200={index === selectedIndex}
 						on:click={() => goToResult(result)}
+						bind:this={resultItems[index]}
 					>
 						<div class="font-bold">{result.name}</div>
 						<div class="text-sm text-gray-500">{result.description}</div>

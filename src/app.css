@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+body {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+
 .flash-highlight {
   animation: flash 6s ease-in-out;
 }
