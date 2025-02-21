@@ -166,7 +166,7 @@
 	let originalOverflow;
 	onMount(() => {
 		originalOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+		document.body.style.overflow = 'hidden';
 		window.addEventListener('keydown', handleGlobalKeydown);
 		if (inputEl) {
 			inputEl.focus();
