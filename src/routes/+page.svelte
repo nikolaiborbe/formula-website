@@ -2,15 +2,21 @@
 <script lang="ts">
 	import RightContent from '../components/RightContent.svelte';
 	import { onMount } from 'svelte';
+	import { fade, scale } from 'svelte/transition';
 	import FormulaCard from '../components/FormulaCard.svelte';
 	import SearchModal from '../components/SearchModal.svelte';
 	import nestedCategories from './formulas.json';
 	import Sidebar from '../components/Sidebar.svelte';
+	import LandingPage from '../components/LandingPage.svelte';
 
 	let isMac = false;
+	let morphed = false;
 
 	onMount(() => {
 		isMac = /Mac/.test(navigator.platform);
+		setTimeout(() => {
+			morphed = true;
+		}, 2000);
 	});
 
 	let showSidebar = false;
@@ -82,6 +88,19 @@
 						<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
 					</svg>
 				</button>
+
+				{#if !morphed}
+					<div in:fade={{ duration: 800 }}>
+						<h1 in:scale={{ duration: 800 }} class="font-light">Nikolai's Formula Sheet</h1>
+					</div>
+				{:else}
+					<div in:fade={{ duration: 800 }}>
+						<a href="/">
+							<img in:scale={{ duration: 800 }} src="favicon.png" alt="logo" class="h-8" />
+						</a>
+					</div>
+				{/if}
+
 				<button
 					aria-label="Search"
 					class="flex items-center rounded-lg px-3 py-5 text-sm text-gray-700 transition hover:bg-gray-100 focus:outline-none"
@@ -107,12 +126,8 @@
 			<!-- Main content area -->
 			<main class="mx-auto mt-4 max-w-6xl p-4 lg:pt-4">
 				<!-- Large screen header (hidden on mobile) -->
-				<div class="hidden lg:block">
-					<div class="mb-8 flex justify-center rounded-lg bg-blue-500 p-4 text-white">
-						<h1 class="text-center text-3xl font-bold drop-shadow-lg">Nikolai's Formula Sheet</h1>
-					</div>
-				</div>
-
+				<LandingPage onSearch={() => (showSearch = true)}/>
+				
 				<!-- Sections of formulas -->
 				{#each Object.entries(nestedCategories) as [category, subcategories]}
 					<section id={slugify(category)} class="mb-12">
@@ -153,5 +168,13 @@
 		main {
 			padding-top: 4rem;
 		}
+	}
+	.intro {
+		width: 200px; /* adjust as needed */
+		height: 50px; /* adjust as needed */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 </style>
