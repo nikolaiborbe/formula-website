@@ -12,6 +12,7 @@
 	let selectedIndex = 0;
 	// Array to store references to each list item
 	let resultItems = [];
+	let inputEl;
 
 	// A basic slugify helper for generating URL-friendly strings.
 	const slugify = (str) =>
@@ -162,11 +163,19 @@
 		}
 	}
 
+	let originalOverflow;
 	onMount(() => {
+		originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
 		window.addEventListener('keydown', handleGlobalKeydown);
+		if (inputEl) {
+			inputEl.focus();
+			inputEl.select();
+		}
 	});
 
 	onDestroy(() => {
+		document.body.style.overflow = originalOverflow;
 		window.removeEventListener('keydown', handleGlobalKeydown);
 	});
 
@@ -194,11 +203,11 @@
 	function goToResult(result) {
 		const element = document.getElementById(result.hash);
 		if (element) {
-			element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			element.scrollIntoView({ behavior: 'smooth', block: 'center' });
 			element.classList.add('flash-highlight');
 			setTimeout(() => {
 				element.classList.remove('flash-highlight');
-			}, 1000);
+			}, 3000);
 		} else {
 			location.hash = result.hash;
 		}
@@ -216,13 +225,11 @@
 	});
 </script>
 
-<!-- Background container with click handler -->
 <div
-	class="fixed inset-0 z-50 flex items-start justify-center bg-black/5 pt-4 md:pt-56 backdrop-blur-xs"
+	class="fixed inset-0 z-50 flex items-start justify-center bg-black/5 pt-0 backdrop-blur-xs md:pt-56"
 	on:click={onClose}
 >
-	<!-- Modal container; stop propagation to prevent onClose when clicking inside -->
-	<div class="w-[40rem] rounded-xl bg-white shadow-lg" on:click|stopPropagation>
+	<div class="w-[40rem] rounded-b-xl bg-white shadow-lg md:rounded-xl" on:click|stopPropagation>
 		<div class="relative">
 			<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
 				<svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,13 +248,14 @@
 				placeholder="Search formulas..."
 				class="w-full rounded p-4 pl-12 focus:outline-none"
 				autofocus
+				bind:this={inputEl}
 			/>
 		</div>
 		{#if query.trim() && results.length === 0}
 			<div>No results found.</div>
 		{/if}
 		{#if results.length > 0}
-			<ul class="max-h-96 overflow-y-auto">
+			<ul class="max-h-[30rem] overflow-y-auto md:max-h-96">
 				{#each results as result, index}
 					<li
 						class="cursor-pointer p-4 last:border-0 hover:bg-gray-100"

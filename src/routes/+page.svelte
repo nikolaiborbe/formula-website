@@ -7,6 +7,12 @@
 	import nestedCategories from './formulas.json';
 	import Sidebar from '../components/Sidebar.svelte';
 
+	let isMac = false;
+
+	onMount(() => {
+		isMac = /Mac/.test(navigator.platform);
+	});
+
 	let showSidebar = false;
 	let showSearch = false;
 
@@ -58,16 +64,16 @@
 		<div class="relative mx-auto flex-1">
 			<!-- Mobile header (shows only on small screens) -->
 			<header
-				class="fixed top-0 right-0 left-0 z-20 flex items-center bg-white p-4 shadow lg:hidden"
+				class="fixed top-0 right-0 left-0 z-20 flex items-center justify-between bg-white px-3 shadow lg:hidden"
 			>
 				<!-- Button to open mobile sidebar -->
 				<button
 					aria-label="Mobile sidebar"
 					on:click={() => (showSidebar = true)}
-					class="text-gray-700 focus:outline-none"
+					class="px-3 py-5 text-gray-700 focus:outline-none"
 				>
 					<svg
-						class="h-6 w-6"
+						class="h-4 w-4"
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
@@ -76,11 +82,30 @@
 						<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
 					</svg>
 				</button>
-				<h1 class="flex-1 text-center text-xl font-bold">Nikolai's Formula Sheet</h1>
+				<button
+					aria-label="Search"
+					class="flex items-center rounded-lg px-3 py-5 text-sm text-gray-700 transition hover:bg-gray-100 focus:outline-none"
+					on:click={() => (showSearch = true)}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-4 w-4 text-gray-500"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M11 4a7 7 0 015.196 11.938l4.133 4.133a1 1 0 01-1.414 1.414l-4.133-4.133A7 7 0 1111 4z"
+						/>
+					</svg>
+				</button>
 			</header>
 
 			<!-- Main content area -->
-			<main class="mx-auto max-w-6xl p-4 pt-20 lg:pt-4">
+			<main class="mx-auto mt-4 max-w-6xl p-4 lg:pt-4">
 				<!-- Large screen header (hidden on mobile) -->
 				<div class="hidden lg:block">
 					<div class="mb-8 flex justify-center rounded-lg bg-blue-500 p-4 text-white">

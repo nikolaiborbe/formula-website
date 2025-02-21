@@ -6,23 +6,17 @@ body {
 }
 
 .flash-highlight {
-  animation: flash 6s ease-in-out;
+  animation: flash 2s ease-in-out;
 }
 
 @keyframes flash {
   0% {
-    background-color: blue;
-  }
-  25% {
-    background-color: lightblue;
+    background-color: transparent;
   }
   50% {
-    background-color: blue;
+    background-color: lightblue;
   }
-    75% {
-        background-color: lightblue;
-    }
   100% {
     background-color: transparent;
-}
+  }
 }
