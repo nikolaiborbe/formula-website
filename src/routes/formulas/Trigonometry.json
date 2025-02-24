@@ -43,6 +43,71 @@
         "trigonometric subtraction",
         "sine subtraction formula"
       ]
+    },
+    {
+      "name": "Sine Double-Angle Formula",
+      "formula": "\\sin(2\\theta)=2\\sin\\theta\\cos\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin(2θ)",
+        "double-angle sine",
+        "2sinθ cosθ",
+        "sine double-angle",
+        "trigonometric double-angle"
+      ]
+    },
+    {
+      "name": "Sine Half-Angle Formula",
+      "formula": "\\sin\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin(θ/2)",
+        "half-angle sine",
+        "±sqrt((1-cosθ)/2)",
+        "sine half-angle",
+        "trigonometric half-angle"
+      ]
+    },
+    {
+      "name": "Sine of Negative Angle",
+      "formula": "\\sin(-\\theta)=-\\sin\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Negative_angles",
+      "description": "θ: angle, sinθ: sine",
+      "search_terms": [
+        "sin(-θ)",
+        "negative angle",
+        "-sinθ",
+        "sine odd function",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "name": "Sine of a Complementary Angle",
+      "formula": "\\sin\\left(\\frac{\\pi}{2}-\\theta\\right)=\\cos\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Co-function_identities",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin(π/2 - θ)",
+        "complementary angle",
+        "co-function",
+        "cosθ",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "name": "Product-to-Sum for Sine",
+      "formula": "2\\sin\\alpha\\sin\\beta=\\cos(\\alpha-\\beta)-\\cos(\\alpha+\\beta)",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Product-to-sum_formulas",
+      "description": "α, β: angles, sin: sine, cos: cosine",
+      "search_terms": [
+        "2sinα sinβ",
+        "product-to-sum sine",
+        "cos(α-β)",
+        "cos(α+β)",
+        "trigonometric identity"
+      ]
     }
   ],
   "Cos Identities": [
@@ -85,6 +150,58 @@
         "trigonometric addition",
         "cosine addition formula"
       ]
+    },
+    {
+      "name": "Cosine of Negative Angle",
+      "formula": "\\cos(-\\theta)=\\cos\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Even%E2%80%93odd_identities",
+      "description": "θ: angle, cosθ: cosine",
+      "search_terms": [
+        "cos(-θ)",
+        "negative angle",
+        "even function",
+        "cosine",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "name": "Cosine of a Complementary Angle",
+      "formula": "\\cos\\left(\\frac{\\pi}{2}-\\theta\\right)=\\sin\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Co-function_identities",
+      "description": "θ: angle, cosθ: cosine, sinθ: sine",
+      "search_terms": [
+        "cos(π/2 - θ)",
+        "complementary angle",
+        "co-function",
+        "sinθ",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "name": "Cosine Subtraction Formula",
+      "formula": "\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, cos: cosine, sin: sine",
+      "search_terms": [
+        "cos(α-β)",
+        "cosine subtraction",
+        "cosα cosβ",
+        "sinα sinβ",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "name": "Product-to-Sum for Cosine",
+      "formula": "2\\cos\\alpha\\cos\\beta=\\cos(\\alpha+\\beta)+\\cos(\\alpha-\\beta)",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Product-to-sum_formulas",
+      "description": "α, β: angles, cos: cosine",
+      "search_terms": [
+        "2cosα cosβ",
+        "product-to-sum cosine",
+        "cos(α+β)",
+        "cos(α-β)",
+        "trigonometric identity"
+      ]
     }
   ],
   "Tan Identities": [
@@ -114,6 +231,19 @@
         "tan^2θ",
         "tangent identity",
         "trigonometric double-angle"
+      ]
+    },
+    {
+      "name": "Tangent Half-Angle Formula",
+      "formula": "\\tan\\left(\\frac{\\theta}{2}\\right)=\\frac{1-\\cos\\theta}{\\sin\\theta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
+      "description": "θ: angle, tanθ: tangent, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "tan(θ/2)",
+        "half-angle tangent",
+        "1-cosθ",
+        "sinθ",
+        "trigonometric half-angle"
       ]
     }
   ],
@@ -184,6 +314,114 @@
         "coordinates",
         "radius",
         "center of circle"
+      ]
+    },
+    {
+      "name": "Sine of a Half Angle",
+      "formula": "\\sin\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin(θ/2)",
+        "half-angle sine",
+        "±sqrt((1-cosθ)/2)",
+        "sine half-angle",
+        "trigonometric half-angle"
+      ]
+    },
+    {
+      "name": "Sine Triple-Angle Formula",
+      "formula": "\\sin(3\\theta)=3\\sin\\theta-4\\sin^3\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Triple-angle_formulas",
+      "description": "θ: angle, sinθ: sine",
+      "search_terms": [
+        "sin(3θ)",
+        "triple-angle sine",
+        "3sinθ",
+        "4sin^3θ",
+        "trigonometric triple-angle"
+      ]
+    },
+    {
+      "name": "Cosine Triple-Angle Formula",
+      "formula": "\\cos(3\\theta)=4\\cos^3\\theta-3\\cos\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Triple-angle_formulas",
+      "description": "θ: angle, cosθ: cosine",
+      "search_terms": [
+        "cos(3θ)",
+        "triple-angle cosine",
+        "4cos^3θ",
+        "3cosθ",
+        "trigonometric triple-angle"
+      ]
+    }
+  ],
+  "Sum-Product Identities": [
+    {
+      "name": "Sine Sum-to-Product",
+      "formula": "\\sin\\alpha + \\sin\\beta = 2\\sin\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\alpha-\\beta}{2}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Sum-to-product_formulas",
+      "description": "α, β: angles, sin: sine, cos: cosine",
+      "search_terms": [
+        "sinα + sinβ",
+        "sum-to-product sine",
+        "2sin((α+β)/2)cos((α-β)/2)",
+        "trigonometric identity",
+        "sine sum-to-product"
+      ]
+    },
+    {
+      "name": "Cosine Sum-to-Product",
+      "formula": "\\cos\\alpha + \\cos\\beta = 2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\alpha-\\beta}{2}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Sum-to-product_formulas",
+      "description": "α, β: angles, cos: cosine",
+      "search_terms": [
+        "cosα + cosβ",
+        "sum-to-product cosine",
+        "2cos((α+β)/2)cos((α-β)/2)",
+        "trigonometric identity",
+        "cosine sum-to-product"
+      ]
+    }
+  ],
+  "Cot Identities": [
+    {
+      "name": "Cotangent Addition Formula",
+      "formula": "\\cot(\\alpha+\\beta)=\\frac{\\cot\\alpha\\cot\\beta-1}{\\cot\\alpha+\\cot\\beta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, cot: cotangent",
+      "search_terms": [
+        "cot(α+β)",
+        "cotangent addition",
+        "cotα cotβ",
+        "cotangent identity",
+        "trigonometric cotangent"
+      ]
+    }
+  ],
+  "Reciprocal Identities": [
+    {
+      "name": "Secant Identity",
+      "formula": "\\sec\\theta = \\frac{1}{\\cos\\theta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Reciprocal_identities",
+      "description": "θ: angle, secθ: secant, cosθ: cosine",
+      "search_terms": [
+        "secθ",
+        "1/cosθ",
+        "reciprocal identity",
+        "trigonometric reciprocal"
+      ]
+    },
+    {
+      "name": "Cosecant Identity",
+      "formula": "\\csc\\theta = \\frac{1}{\\sin\\theta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Reciprocal_identities",
+      "description": "θ: angle, cscθ: cosecant, sinθ: sine",
+      "search_terms": [
+        "cscθ",
+        "1/sinθ",
+        "reciprocal identity",
+        "trigonometric reciprocal"
       ]
     }
   ]

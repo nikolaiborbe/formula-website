@@ -252,7 +252,7 @@
 			/>
 		</div>
 		{#if query.trim() && results.length === 0}
-			<div>No results found.</div>
+			<div class="p-4">No results found 😔</div>
 		{/if}
 		{#if results.length > 0}
 			<ul class="max-h-[30rem] overflow-y-auto md:max-h-96">

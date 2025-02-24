@@ -1,0 +1,269 @@
+{
+  "Matrix Operations": [
+    {
+      "name": "Matrix Multiplication",
+      "formula": "(AB)_{ij} = \\sum_{k=1}^n A_{ik}B_{kj}",
+      "link": "https://en.wikipedia.org/wiki/Matrix_multiplication",
+      "description": "A and B are matrices of compatible dimensions. The formula uses summation notation to define the product.",
+      "search_terms": [
+        "matrix multiplication",
+        "summation",
+        "index notation",
+        "linear algebra product"
+      ]
+    },
+    {
+      "name": "Transpose of a Product",
+      "formula": "(AB)^T = B^T A^T",
+      "link": "https://en.wikipedia.org/wiki/Transpose",
+      "description": "For any two matrices A and B, the transpose of their product equals the product of their transposes in reverse order.",
+      "search_terms": [
+        "transpose",
+        "matrix product",
+        "B^T A^T",
+        "linear algebra identity"
+      ]
+    },
+    {
+      "name": "Inverse of a Product",
+      "formula": "(AB)^{-1} = B^{-1}A^{-1}",
+      "link": "https://en.wikipedia.org/wiki/Matrix_inverse",
+      "description": "For invertible matrices A and B, the inverse of their product is the product of their inverses in reverse order.",
+      "search_terms": [
+        "matrix inverse",
+        "invertible matrices",
+        "product inverse",
+        "linear algebra"
+      ]
+    }
+  ],
+  "Determinants": [
+    {
+      "name": "Determinant of a 2x2 Matrix",
+      "formula": "\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc",
+      "link": "https://en.wikipedia.org/wiki/Determinant",
+      "description": "Defines the determinant for a 2x2 matrix with entries a, b, c, and d.",
+      "search_terms": [
+        "2x2 determinant",
+        "ad - bc",
+        "matrix determinant",
+        "linear algebra"
+      ]
+    },
+    {
+      "name": "Multiplicative Property of Determinants",
+      "formula": "\\det(AB) = \\det(A)\\det(B)",
+      "link": "https://en.wikipedia.org/wiki/Determinant",
+      "description": "For any two square matrices A and B, the determinant of their product equals the product of their determinants.",
+      "search_terms": [
+        "determinant",
+        "matrix product",
+        "multiplicative property",
+        "linear algebra"
+      ]
+    },
+    {
+      "name": "Cofactor Expansion",
+      "formula": "\\det(A) = \\sum_{j=1}^n (-1)^{i+j} a_{ij} M_{ij}",
+      "link": "https://en.wikipedia.org/wiki/Minor_(linear_algebra)",
+      "description": "A method for computing the determinant of a square matrix by expanding along a row or column, where M_{ij} is the minor of a_{ij}.",
+      "search_terms": [
+        "cofactor expansion",
+        "determinant",
+        "minor",
+        "linear algebra"
+      ]
+    }
+  ],
+  "Eigen Concepts": [
+    {
+      "name": "Characteristic Polynomial",
+      "formula": "p(\\lambda) = \\det(A - \\lambda I)",
+      "link": "https://en.wikipedia.org/wiki/Characteristic_polynomial",
+      "description": "Defines the characteristic polynomial of a square matrix A, where I is the identity matrix and \\lambda represents eigenvalues.",
+      "search_terms": [
+        "characteristic polynomial",
+        "eigenvalues",
+        "determinant",
+        "matrix eigenvalue"
+      ]
+    },
+    {
+      "name": "Eigenvalue Equation",
+      "formula": "A\\mathbf{v} = \\lambda\\mathbf{v}",
+      "link": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "description": "For a square matrix A, an eigenvalue \\lambda and its corresponding eigenvector \\mathbf{v} satisfy this equation.",
+      "search_terms": [
+        "eigenvalue",
+        "eigenvector",
+        "matrix equation",
+        "linear algebra"
+      ]
+    },
+    {
+      "name": "Diagonalization",
+      "formula": "A = P D P^{-1}",
+      "link": "https://en.wikipedia.org/wiki/Diagonalizable_matrix#Diagonalization",
+      "description": "A diagonalizable matrix A can be expressed as PDP^{-1}, where D is a diagonal matrix of eigenvalues and P is the matrix of eigenvectors.",
+      "search_terms": [
+        "diagonalization",
+        "eigenvalues",
+        "eigenvectors",
+        "matrix decomposition"
+      ]
+    }
+  ],
+  "Vector Spaces": [
+    {
+      "name": "Definition of Span",
+      "formula": "\\text{span}\\{\\mathbf{v}_1, \\dots, \\mathbf{v}_k\\} = \\left\\{\\sum_{i=1}^k c_i \\mathbf{v}_i : c_i \\in \\mathbb{R} \\right\\}",
+      "link": "https://en.wikipedia.org/wiki/Span_(linear_algebra)",
+      "description": "The span of a set of vectors is the set of all linear combinations of those vectors.",
+      "search_terms": [
+        "span",
+        "linear combination",
+        "vector space",
+        "basis"
+      ]
+    },
+    {
+      "name": "Basis and Dimension",
+      "formula": "\\text{dim}(V) = n \\quad \\text{if} \\quad V = \\text{span}\\{\\mathbf{v}_1, \\dots, \\mathbf{v}_n\\}",
+      "link": "https://en.wikipedia.org/wiki/Basis_(linear_algebra)",
+      "description": "A basis is a set of linearly independent vectors that span the vector space V; the number of vectors in the basis defines its dimension.",
+      "search_terms": [
+        "basis",
+        "dimension",
+        "vector space",
+        "linear independence"
+      ]
+    },
+    {
+      "name": "Subspace Criteria",
+      "formula": "0 \\in W, \\quad \\text{if } u,v \\in W \\text{ then } u+v \\in W, \\quad \\text{and } c\\cdot u \\in W",
+      "link": "https://en.wikipedia.org/wiki/Subspace",
+      "description": "A subset W of a vector space V is a subspace if it contains the zero vector and is closed under addition and scalar multiplication.",
+      "search_terms": [
+        "subspace",
+        "vector space",
+        "closure",
+        "linear algebra"
+      ]
+    }
+  ],
+  "Linear Transformations": [
+    {
+      "name": "Definition of Linear Transformation",
+      "formula": "T(c\\mathbf{u}+\\mathbf{v}) = cT(\\mathbf{u}) + T(\\mathbf{v})",
+      "link": "https://en.wikipedia.org/wiki/Linear_map",
+      "description": "A function T is a linear transformation if it satisfies additivity and homogeneity for vectors \\mathbf{u} and \\mathbf{v} and scalar c.",
+      "search_terms": [
+        "linear transformation",
+        "linearity",
+        "additivity",
+        "homogeneity"
+      ]
+    },
+    {
+      "name": "Matrix Representation of a Linear Transformation",
+      "formula": "T(\\mathbf{x}) = A\\mathbf{x}",
+      "link": "https://en.wikipedia.org/wiki/Matrix_representation",
+      "description": "Every linear transformation from \\mathbb{R}^n to \\mathbb{R}^m can be represented by an m×n matrix A.",
+      "search_terms": [
+        "matrix representation",
+        "linear transformation",
+        "linear map",
+        "matrix multiplication"
+      ]
+    },
+    {
+      "name": "Kernel and Image",
+      "formula": "\\ker(T) = \\{\\mathbf{x} : T(\\mathbf{x}) = \\mathbf{0}\\}, \\quad \\text{im}(T) = \\{T(\\mathbf{x}) : \\mathbf{x} \\in V\\}",
+      "link": "https://en.wikipedia.org/wiki/Kernel_(linear_algebra)",
+      "description": "The kernel (or null space) of T is the set of all vectors mapped to the zero vector, while the image (or range) is the set of all outputs of T.",
+      "search_terms": [
+        "kernel",
+        "image",
+        "null space",
+        "range",
+        "linear transformation"
+      ]
+    }
+  ],
+  "Orthogonality & Projections": [
+    {
+      "name": "Orthogonality Condition",
+      "formula": "\\mathbf{u} \\cdot \\mathbf{v} = 0",
+      "link": "https://en.wikipedia.org/wiki/Orthogonality",
+      "description": "Two vectors \\mathbf{u} and \\mathbf{v} are orthogonal if their dot product is zero.",
+      "search_terms": [
+        "orthogonality",
+        "dot product",
+        "perpendicular",
+        "vector"
+      ]
+    },
+    {
+      "name": "Projection of a Vector",
+      "formula": "\\text{proj}_{\\mathbf{v}}(\\mathbf{u}) = \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{\\|\\mathbf{v}\\|^2} \\mathbf{v}",
+      "link": "https://en.wikipedia.org/wiki/Projection_(linear_algebra)",
+      "description": "This formula computes the projection of vector \\mathbf{u} onto vector \\mathbf{v}.",
+      "search_terms": [
+        "projection",
+        "vector projection",
+        "dot product",
+        "linear algebra"
+      ]
+    },
+    {
+      "name": "Gram-Schmidt Process",
+      "formula": "v_1 = u_1, \\quad v_2 = u_2 - \\frac{u_2 \\cdot v_1}{\\|v_1\\|^2} v_1, \\quad \\ldots",
+      "link": "https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process",
+      "description": "A method to convert a set of linearly independent vectors into an orthogonal (or orthonormal) set.",
+      "search_terms": [
+        "Gram-Schmidt",
+        "orthogonalization",
+        "orthogonal basis",
+        "vector space"
+      ]
+    }
+  ],
+  "Advanced Topics": [
+    {
+      "name": "Rank-Nullity Theorem",
+      "formula": "\\text{rank}(T) + \\text{nullity}(T) = \\dim(V)",
+      "link": "https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem",
+      "description": "For a linear transformation T: V \\to W, the sum of the rank and the nullity equals the dimension of V.",
+      "search_terms": [
+        "rank-nullity theorem",
+        "linear transformation",
+        "dimension",
+        "nullity"
+      ]
+    },
+    {
+      "name": "Spectral Theorem (Symmetric Matrices)",
+      "formula": "A = Q \\Lambda Q^T",
+      "link": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "description": "A symmetric matrix A can be diagonalized by an orthogonal matrix Q, where \\Lambda is a diagonal matrix containing its eigenvalues.",
+      "search_terms": [
+        "spectral theorem",
+        "symmetric matrix",
+        "diagonalization",
+        "eigenvalues"
+      ]
+    },
+    {
+      "name": "Singular Value Decomposition",
+      "formula": "A = U \\Sigma V^T",
+      "link": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+      "description": "Any m×n matrix A can be factored into U, \\Sigma, and V^T, where U and V are orthogonal matrices and \\Sigma is a diagonal matrix of singular values.",
+      "search_terms": [
+        "singular value decomposition",
+        "SVD",
+        "matrix factorization",
+        "linear algebra"
+      ]
+    }
+  ]
+}

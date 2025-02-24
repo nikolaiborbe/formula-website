@@ -15,6 +15,316 @@
         "c",
         "coefficients"
       ]
+    },
+    {
+      "name": "Completing the Square",
+      "formula": "ax^2 + bx = a\\left(x + \\frac{b}{2a}\\right)^2 - \\frac{b^2}{4a}",
+      "link": "https://en.wikipedia.org/wiki/Completing_the_square",
+      "description": "A method to rewrite a quadratic equation in vertex form by forming a perfect square.",
+      "search_terms": [
+        "completing the square",
+        "vertex form",
+        "perfect square",
+        "quadratic equation method"
+      ]
+    },
+    {
+      "name": "Discriminant",
+      "formula": "D = b^2 - 4ac",
+      "link": "https://en.wikipedia.org/wiki/Discriminant",
+      "description": "Determines the nature of the roots of a quadratic equation.",
+      "search_terms": [
+        "discriminant",
+        "b^2 - 4ac",
+        "nature of roots",
+        "quadratic discriminant"
+      ]
+    },
+    {
+      "name": "Factoring Quadratics",
+      "formula": "ax^2 + bx + c = (mx + n)(px + q)",
+      "link": "https://en.wikipedia.org/wiki/Quadratic_equation#Factoring",
+      "description": "A method of solving quadratic equations by expressing them as a product of two linear factors.",
+      "search_terms": [
+        "factoring quadratics",
+        "factorization",
+        "linear factors",
+        "quadratic factoring"
+      ]
+    }
+  ],
+  "Polynomials": [
+    {
+      "name": "Binomial Theorem",
+      "formula": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+      "link": "https://en.wikipedia.org/wiki/Binomial_theorem",
+      "description": "Expands a binomial raised to a positive integer power.",
+      "search_terms": [
+        "binomial theorem",
+        "binomial expansion",
+        "n choose k",
+        "combinatorics"
+      ]
+    },
+    {
+      "name": "Remainder Theorem",
+      "formula": "f(x) = (x-k)q(x) + f(k)",
+      "link": "https://en.wikipedia.org/wiki/Remainder_theorem",
+      "description": "Expresses a polynomial f(x) in terms of a divisor (x-k), its quotient q(x), and remainder f(k).",
+      "search_terms": [
+        "remainder theorem",
+        "polynomial remainder",
+        "f(k)",
+        "dividing polynomials"
+      ]
+    },
+    {
+      "name": "Factor Theorem",
+      "formula": "(x-k) \\text{ divides } f(x) \\iff f(k)=0",
+      "link": "https://en.wikipedia.org/wiki/Factor_theorem",
+      "description": "Relates the factors of a polynomial to its zeros.",
+      "search_terms": [
+        "factor theorem",
+        "polynomial factors",
+        "roots",
+        "zeros"
+      ]
+    },
+    {
+      "name": "Polynomial Long Division",
+      "formula": "\\text{Dividend} = \\text{Divisor} \\cdot \\text{Quotient} + \\text{Remainder}",
+      "link": "https://en.wikipedia.org/wiki/Polynomial_long_division",
+      "description": "A method to divide one polynomial by another of lower degree.",
+      "search_terms": [
+        "polynomial long division",
+        "divide polynomials",
+        "algebra division",
+        "division algorithm"
+      ]
+    }
+  ],
+  "Exponents and Logarithms": [
+    {
+      "name": "Laws of Exponents",
+      "formula": "a^m \\cdot a^n = a^{m+n}, \\quad \\frac{a^m}{a^n} = a^{m-n}, \\quad (a^m)^n = a^{mn}",
+      "link": "https://en.wikipedia.org/wiki/Exponentiation",
+      "description": "Fundamental properties of exponents used to simplify expressions.",
+      "search_terms": [
+        "laws of exponents",
+        "exponent rules",
+        "multiplication of exponents",
+        "division of exponents",
+        "power rule"
+      ]
+    },
+    {
+      "name": "Change of Base Formula",
+      "formula": "log_b(a) = \\frac{\\log_k(a)}{\\log_k(b)}",
+      "link": "https://en.wikipedia.org/wiki/Logarithm#Change_of_base",
+      "description": "Converts logarithms from one base to another.",
+      "search_terms": [
+        "change of base",
+        "logarithm conversion",
+        "log_b(a)",
+        "logarithm formula"
+      ]
+    },
+    {
+      "name": "Logarithm Rules",
+      "formula": "log_b(MN)=log_b(M)+log_b(N), \\quad log_b(M/N)=log_b(M)-log_b(N), \\quad log_b(M^p)=p\\,log_b(M)",
+      "link": "https://en.wikipedia.org/wiki/Logarithm",
+      "description": "Product, quotient, and power rules for logarithms.",
+      "search_terms": [
+        "logarithm rules",
+        "product rule",
+        "quotient rule",
+        "power rule",
+        "logarithms"
+      ]
+    },
+    {
+      "name": "Exponential Growth and Decay",
+      "formula": "y = y_0 e^{kt}",
+      "link": "https://en.wikipedia.org/wiki/Exponential_growth",
+      "description": "Models growth or decay processes where the rate is proportional to the current value.",
+      "search_terms": [
+        "exponential growth",
+        "exponential decay",
+        "y = y0e^(kt)",
+        "growth model"
+      ]
+    }
+  ],
+  "Systems of Equations": [
+    {
+      "name": "Cramer's Rule",
+      "formula": "x_i = \\frac{\\det(A_i)}{\\det(A)}",
+      "link": "https://en.wikipedia.org/wiki/Cramer%27s_rule",
+      "description": "Uses determinants to solve a system of linear equations.",
+      "search_terms": [
+        "Cramer's Rule",
+        "determinant",
+        "linear system",
+        "algebra"
+      ]
+    }
+  ],
+  "Sequences and Series": [
+    {
+      "name": "Arithmetic Series Sum",
+      "formula": "S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}\\left[2a + (n-1)d\\right]",
+      "link": "https://en.wikipedia.org/wiki/Arithmetic_progression",
+      "description": "Calculates the sum of the first n terms of an arithmetic sequence.",
+      "search_terms": [
+        "arithmetic series",
+        "sum of arithmetic progression",
+        "S_n",
+        "arithmetic sequence",
+        "series sum"
+      ]
+    },
+    {
+      "name": "Geometric Series Sum",
+      "formula": "S_n = a \\frac{1 - r^n}{1 - r} \\quad (r \\neq 1)",
+      "link": "https://en.wikipedia.org/wiki/Geometric_series",
+      "description": "Computes the sum of the first n terms of a geometric sequence.",
+      "search_terms": [
+        "geometric series",
+        "sum of geometric progression",
+        "S_n",
+        "geometric sequence",
+        "series sum"
+      ]
+    },
+    {
+      "name": "Infinite Geometric Series",
+      "formula": "S = \\frac{a}{1 - r} \\quad (|r| < 1)",
+      "link": "https://en.wikipedia.org/wiki/Geometric_series#Infinite_geometric_series",
+      "description": "Gives the sum of an infinite geometric series when the common ratio's absolute value is less than one.",
+      "search_terms": [
+        "infinite geometric series",
+        "geometric series sum",
+        "|r| < 1",
+        "series convergence"
+      ]
+    }
+  ],
+  "Complex Numbers": [
+    {
+      "name": "Euler's Formula",
+      "formula": "e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
+      "link": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "description": "Relates complex exponentials to trigonometric functions.",
+      "search_terms": [
+        "Euler's formula",
+        "e^(iθ)",
+        "complex numbers",
+        "trigonometry",
+        "cosine",
+        "sine"
+      ]
+    },
+    {
+      "name": "Complex Conjugate",
+      "formula": "z = a + bi \\implies \\bar{z} = a - bi",
+      "link": "https://en.wikipedia.org/wiki/Complex_conjugate",
+      "description": "Defines the complex conjugate of a complex number.",
+      "search_terms": [
+        "complex conjugate",
+        "a + bi",
+        "a - bi",
+        "complex numbers"
+      ]
+    }
+  ],
+  "Factoring Techniques": [
+    {
+      "name": "Difference of Squares",
+      "formula": "a^2 - b^2 = (a - b)(a + b)",
+      "link": "https://en.wikipedia.org/wiki/Difference_of_two_squares",
+      "description": "Expresses the difference of two squares as the product of two binomials.",
+      "search_terms": [
+        "difference of squares",
+        "a^2 - b^2",
+        "factoring",
+        "binomials"
+      ]
+    },
+    {
+      "name": "Sum of Cubes",
+      "formula": "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+      "link": "https://en.wikipedia.org/wiki/Sum_of_cubes",
+      "description": "A formula to factor the sum of two cubes.",
+      "search_terms": [
+        "sum of cubes",
+        "a^3 + b^3",
+        "factoring",
+        "algebra"
+      ]
+    },
+    {
+      "name": "Difference of Cubes",
+      "formula": "a^3 - b^3 = (a - b)(a^2 + ab + b^2)",
+      "link": "https://en.wikipedia.org/wiki/Difference_of_cubes",
+      "description": "A formula to factor the difference of two cubes.",
+      "search_terms": [
+        "difference of cubes",
+        "a^3 - b^3",
+        "factoring",
+        "algebra"
+      ]
+    }
+  ],
+  "Inequalities": [
+    {
+      "name": "Linear Inequality",
+      "formula": "ax + b > c",
+      "link": "https://en.wikipedia.org/wiki/Inequality_(mathematics)",
+      "description": "A basic linear inequality in one variable.",
+      "search_terms": [
+        "linear inequality",
+        "ax + b > c",
+        "inequality",
+        "algebra inequality"
+      ]
+    },
+    {
+      "name": "Quadratic Inequality",
+      "formula": "ax^2 + bx + c < 0",
+      "link": "https://en.wikipedia.org/wiki/Inequality_(mathematics)#Quadratic_inequalities",
+      "description": "An inequality involving a quadratic expression.",
+      "search_terms": [
+        "quadratic inequality",
+        "ax^2 + bx + c < 0",
+        "inequality",
+        "algebra"
+      ]
+    }
+  ],
+  "Absolute Value Equations": [
+    {
+      "name": "Absolute Value Equation",
+      "formula": "|ax + b| = c",
+      "link": "https://en.wikipedia.org/wiki/Absolute_value",
+      "description": "An equation involving the absolute value of a linear expression.",
+      "search_terms": [
+        "absolute value equation",
+        "|ax + b| = c",
+        "modulus",
+        "algebra"
+      ]
+    },
+    {
+      "name": "Absolute Value Inequality",
+      "formula": "|ax + b| < c",
+      "link": "https://en.wikipedia.org/wiki/Absolute_value#Inequalities",
+      "description": "An inequality involving the absolute value of a linear expression.",
+      "search_terms": [
+        "absolute value inequality",
+        "|ax + b| < c",
+        "modulus inequality",
+        "algebra"
+      ]
     }
   ]
 }

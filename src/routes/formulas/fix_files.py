@@ -17,7 +17,7 @@ def remove_id_field(data):
 
 def main():
     input_file = '1.json'    # Path to your input JSON file
-    output_file = 'Trigonometry.json'  # Path for the output JSON file
+    output_file = 'Physics.json'  # Path for the output JSON file
 
     # Open and load the JSON data
     with open(input_file, 'r', encoding='utf-8') as f:

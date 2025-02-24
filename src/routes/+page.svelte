@@ -5,17 +5,18 @@
 	import { fade, scale } from 'svelte/transition';
 	import FormulaCard from '../components/FormulaCard.svelte';
 	import SearchModal from '../components/SearchModal.svelte';
-	import { Physics, Trigonometry, Algebra, Statistics, Economics, Other } from './imports';
+	import { Physics, Trigonometry, Algebra, Statistics, Economics, Calculus, Linear_Algebra } from './imports';
 	import Sidebar from '../components/Sidebar.svelte';
 	import LandingPage from '../components/LandingPage.svelte';
 
 	let nestedCategories = {
 		Physics,
+		Calculus,
+		Linear_Algebra,
 		Trigonometry,
 		Algebra,
 		Statistics,
-		Economics,
-		Other
+		Economics
 	}
 
 	let isMac = false;

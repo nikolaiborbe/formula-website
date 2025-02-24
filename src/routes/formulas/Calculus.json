@@ -1,0 +1,345 @@
+{
+  "Differentiation": [
+    {
+      "name": "Limit Definition of Derivative",
+      "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}",
+      "link": "https://en.wikipedia.org/wiki/Derivative",
+      "description": "Definition of the derivative via the difference quotient.",
+      "search_terms": [
+        "derivative",
+        "limit",
+        "difference quotient"
+      ]
+    },
+    {
+      "name": "Tangent Line Equation",
+      "formula": "y = f(x_0) + f'(x_0)(x - x_0)",
+      "link": "https://en.wikipedia.org/wiki/Tangent_line",
+      "description": "Equation of the tangent to y = f(x) at x = x_0.",
+      "search_terms": [
+        "tangent",
+        "line",
+        "derivative",
+        "approximation"
+      ]
+    },
+    {
+      "name": "Product Rule",
+      "formula": "(fg)' = f'\\,g + f\\,g'",
+      "link": "https://en.wikipedia.org/wiki/Product_rule",
+      "description": "Rule for differentiating the product of two functions.",
+      "search_terms": [
+        "product rule",
+        "differentiation",
+        "derivative"
+      ]
+    },
+    {
+      "name": "Quotient Rule",
+      "formula": "\\frac{d}{dx}\\left(\\frac{f}{g}\\right) = \\frac{g\\,f' - f\\,g'}{g^2}",
+      "link": "https://en.wikipedia.org/wiki/Quotient_rule",
+      "description": "Rule for differentiating the quotient of two functions.",
+      "search_terms": [
+        "quotient rule",
+        "differentiation",
+        "derivative"
+      ]
+    },
+    {
+      "name": "Chain Rule",
+      "formula": "\\frac{d}{dx}f(g(x)) = f'(g(x))\\,g'(x)",
+      "link": "https://en.wikipedia.org/wiki/Chain_rule",
+      "description": "Rule for differentiating composite functions.",
+      "search_terms": [
+        "chain rule",
+        "composite",
+        "derivative"
+      ]
+    },
+    {
+      "name": "Derivatives of Trigonometric Functions",
+      "formula": "\\frac{d}{dx}\\sin x = \\cos x; \\quad \\frac{d}{dx}\\cos x = -\\sin x; \\quad \\frac{d}{dx}\\tan x = \\frac{1}{\\cos^2 x}",
+      "link": "https://en.wikipedia.org/wiki/Derivative_of_trigonometric_functions",
+      "description": "Differentiation formulas for sine, cosine, and tangent.",
+      "search_terms": [
+        "derivative",
+        "sine",
+        "cosine",
+        "tangent"
+      ]
+    },
+    {
+      "name": "Mean Value Theorem",
+      "formula": "\\frac{f(b)-f(a)}{b-a} = f'(c) \\text{ for some } c \\in (a,b)",
+      "link": "https://en.wikipedia.org/wiki/Mean_value_theorem",
+      "description": "There exists c in (a, b) where the instantaneous rate equals the average rate.",
+      "search_terms": [
+        "mean value theorem",
+        "MVT",
+        "derivative"
+      ]
+    },
+    {
+      "name": "Derivative of Arcsine",
+      "formula": "\\frac{d}{dx}\\arcsin x = \\frac{1}{\\sqrt{1-x^2}}",
+      "link": "https://en.wikipedia.org/wiki/Inverse_trigonometric_functions",
+      "description": "Derivative of the arcsine function.",
+      "search_terms": [
+        "arcsin",
+        "derivative",
+        "inverse trigonometric"
+      ]
+    },
+    {
+      "name": "Derivative of Arctangent",
+      "formula": "\\frac{d}{dx}\\arctan x = \\frac{1}{1+x^2}",
+      "link": "https://en.wikipedia.org/wiki/Inverse_trigonometric_functions",
+      "description": "Derivative of the arctangent function.",
+      "search_terms": [
+        "arctan",
+        "derivative",
+        "inverse trigonometric"
+      ]
+    }
+  ],
+  "Hyperbolic Functions": [
+    {
+      "name": "Hyperbolic Functions",
+      "formula": "\\cosh x = \\frac{e^x + e^{-x}}{2}; \\quad \\sinh x = \\frac{e^x - e^{-x}}{2}; \\quad \\cosh^2 x - \\sinh^2 x = 1",
+      "link": "https://en.wikipedia.org/wiki/Hyperbolic_function",
+      "description": "Definitions and basic identity of hyperbolic cosine and sine.",
+      "search_terms": [
+        "cosh",
+        "sinh",
+        "hyperbolic",
+        "identity"
+      ]
+    },
+    {
+      "name": "Derivatives of Hyperbolic Functions",
+      "formula": "\\frac{d}{dx}\\cosh x = \\sinh x; \\quad \\frac{d}{dx}\\sinh x = \\cosh x",
+      "link": "https://en.wikipedia.org/wiki/Hyperbolic_function#Derivatives",
+      "description": "Differentiation formulas for hyperbolic functions.",
+      "search_terms": [
+        "hyperbolic derivative",
+        "cosh",
+        "sinh"
+      ]
+    }
+  ],
+  "Integration": [
+    {
+      "name": "Integral of Power Function",
+      "formula": "\\int x^r\\,dx = \\frac{x^{r+1}}{r+1} + C \\quad (r \\neq -1)",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integration formula for x raised to a power.",
+      "search_terms": [
+        "integral",
+        "power rule",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integral of Cosine",
+      "formula": "\\int \\cos(ax)\\,dx = \\frac{1}{a}\\sin(ax) + C",
+      "link": "https://en.wikipedia.org/wiki/Integral",
+      "description": "Integral of the cosine function.",
+      "search_terms": [
+        "integral",
+        "cosine",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integral of 1/x",
+      "formula": "\\int \\frac{dx}{x} = \\ln|x| + C",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integral of the reciprocal function.",
+      "search_terms": [
+        "integral",
+        "1/x",
+        "logarithm"
+      ]
+    },
+    {
+      "name": "Integral Leading to Arcsine",
+      "formula": "\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\arcsin\\left(\\frac{x}{a}\\right) + C \\quad (a>0)",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integral that results in the arcsine function.",
+      "search_terms": [
+        "integral",
+        "arcsine",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integral of Exponential Function",
+      "formula": "\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax} + C",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integral of the exponential function.",
+      "search_terms": [
+        "integral",
+        "exponential",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integral of 1/(a^2+x^2)",
+      "formula": "\\int \\frac{dx}{a^2+x^2} = \\frac{1}{a}\\arctan\\left(\\frac{x}{a}\\right) + C",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integral leading to the arctangent function.",
+      "search_terms": [
+        "integral",
+        "arctan",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integral of Sine",
+      "formula": "\\int \\sin(ax)\\,dx = -\\frac{1}{a}\\cos(ax) + C",
+      "link": "https://en.wikipedia.org/wiki/Antiderivative",
+      "description": "Integral of the sine function.",
+      "search_terms": [
+        "integral",
+        "sine",
+        "antiderivative"
+      ]
+    },
+    {
+      "name": "Integration by Parts",
+      "formula": "\\int u(x)v'(x)\\,dx = u(x)v(x) - \\int u'(x)v(x)\\,dx",
+      "link": "https://en.wikipedia.org/wiki/Integration_by_parts",
+      "description": "Formula for integration by parts.",
+      "search_terms": [
+        "integration by parts",
+        "integral",
+        "antiderivative"
+      ]
+    }
+  ],
+  "Series & Approximations": [
+    {
+      "name": "Taylor Polynomial",
+      "formula": "P_n(x) = \\sum_{k=0}^{n} \\frac{f^{(k)}(a)}{k!}(x-a)^k",
+      "link": "https://en.wikipedia.org/wiki/Taylor_polynomial",
+      "description": "Taylor polynomial of degree n for a function f about a point a.",
+      "search_terms": [
+        "Taylor polynomial",
+        "approximation",
+        "series"
+      ]
+    },
+    {
+      "name": "Taylor Remainder",
+      "formula": "E_n(x) = \\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}",
+      "link": "https://en.wikipedia.org/wiki/Taylor_polynomial",
+      "description": "Error term for the Taylor polynomial approximation, for some s between a and x.",
+      "search_terms": [
+        "Taylor remainder",
+        "error",
+        "approximation"
+      ]
+    },
+    {
+      "name": "Geometric Series",
+      "formula": "\\frac{1}{1-x} = \\sum_{n=0}^{\\infty} x^n \\quad (-1<x<1)",
+      "link": "https://en.wikipedia.org/wiki/Geometric_series",
+      "description": "Series expansion for 1/(1-x).",
+      "search_terms": [
+        "geometric series",
+        "series",
+        "expansion"
+      ]
+    },
+    {
+      "name": "Cosine Series",
+      "formula": "\\cos x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n)!}x^{2n}",
+      "link": "https://en.wikipedia.org/wiki/Taylor_series",
+      "description": "Taylor series expansion for the cosine function.",
+      "search_terms": [
+        "cosine",
+        "Taylor series",
+        "series"
+      ]
+    },
+    {
+      "name": "Natural Logarithm Series",
+      "formula": "\\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n}x^n \\quad (-1<x\\leq1)",
+      "link": "https://en.wikipedia.org/wiki/Taylor_series",
+      "description": "Taylor series expansion for the natural logarithm function.",
+      "search_terms": [
+        "ln series",
+        "Taylor series",
+        "logarithm"
+      ]
+    },
+    {
+      "name": "Exponential Series",
+      "formula": "e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}",
+      "link": "https://en.wikipedia.org/wiki/Taylor_series",
+      "description": "Taylor series expansion for the exponential function.",
+      "search_terms": [
+        "exponential series",
+        "Taylor series",
+        "e^x"
+      ]
+    },
+    {
+      "name": "Sine Series",
+      "formula": "\\sin x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n+1)!}x^{2n+1}",
+      "link": "https://en.wikipedia.org/wiki/Taylor_series",
+      "description": "Taylor series expansion for the sine function.",
+      "search_terms": [
+        "sine series",
+        "Taylor series",
+        "sin x"
+      ]
+    }
+  ],
+  "Numerical Methods": [
+    {
+      "name": "Newton's Method",
+      "formula": "x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}",
+      "link": "https://en.wikipedia.org/wiki/Newton%27s_method",
+      "description": "Iterative method for finding roots of a function.",
+      "search_terms": [
+        "Newton's method",
+        "root finding",
+        "iteration"
+      ]
+    },
+    {
+      "name": "Trapezoidal Rule",
+      "formula": "T_n = h\\left(\\frac{y_0}{2} + y_1 + \\cdots + y_{n-1} + \\frac{y_n}{2}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Trapezoidal_rule",
+      "description": "Numerical integration using trapezoids.",
+      "search_terms": [
+        "trapezoidal rule",
+        "numerical integration",
+        "approximation"
+      ]
+    },
+    {
+      "name": "Simpson's Rule",
+      "formula": "S_{2n} = \\frac{h}{3}\\left(y_0 + 4y_1 + 2y_2 + \\cdots + 4y_{2n-1} + y_{2n}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Simpson%27s_rule",
+      "description": "Numerical integration using parabolic approximations.",
+      "search_terms": [
+        "Simpson's rule",
+        "numerical integration",
+        "approximation"
+      ]
+    },
+    {
+      "name": "Euler's Method",
+      "formula": "x_{n+1} = x_n + h, \\quad y_{n+1} = y_n + h\\,f(x_n,y_n)",
+      "link": "https://en.wikipedia.org/wiki/Euler_method",
+      "description": "Numerical method for solving differential equations.",
+      "search_terms": [
+        "Euler's method",
+        "differential equations",
+        "numerical"
+      ]
+    }
+  ]
+}
