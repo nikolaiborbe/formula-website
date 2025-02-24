@@ -1,0 +1,1457 @@
+{
+  "FY1003 Exam Formulas": [
+    {
+      "id": 41,
+      "name": "Coulomb's Constant",
+      "formula": "k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9.0\\times10^9\\,N\\cdot m^2/C^2",
+      "link": "https://en.wikipedia.org/wiki/Coulomb_constant",
+      "description": "k: Coulomb's constant, ε₀: vacuum permittivity",
+      "search_terms": [
+        "k",
+        "Coulomb's constant",
+        "ε₀",
+        "vacuum permittivity",
+        "electric constant"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Electric Field of a Point Charge",
+      "formula": "E(\\mathbf{r}) = k \\frac{q}{r^2} \\hat{r}",
+      "link": "https://en.wikipedia.org/wiki/Electric_field",
+      "description": "E: electric field, q: point charge, r: distance, r̂: unit vector",
+      "search_terms": [
+        "E",
+        "electric field",
+        "q",
+        "point charge",
+        "r",
+        "distance",
+        "r̂",
+        "unit vector",
+        "electric field formula"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Linear Charge Density",
+      "formula": "\\lambda = \\frac{dq}{dl} = \\frac{Q}{L}",
+      "link": "https://en.wikipedia.org/wiki/Charge_density",
+      "description": "λ: linear charge density, Q: total charge, L: length",
+      "search_terms": [
+        "λ",
+        "linear charge density",
+        "dq/dl",
+        "Q",
+        "total charge",
+        "L",
+        "length",
+        "charge per unit length"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Surface Charge Density",
+      "formula": "\\sigma = \\frac{dq}{dA} = \\frac{Q}{A}",
+      "link": "https://en.wikipedia.org/wiki/Charge_density",
+      "description": "σ: surface charge density, Q: total charge, A: area",
+      "search_terms": [
+        "σ",
+        "surface charge density",
+        "dq/dA",
+        "Q",
+        "total charge",
+        "A",
+        "area",
+        "charge per unit area"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Volume Charge Density",
+      "formula": "\\rho = \\frac{dq}{dV} = \\frac{Q}{V}",
+      "link": "https://en.wikipedia.org/wiki/Charge_density",
+      "description": "ρ: volume charge density, Q: total charge, V: volume",
+      "search_terms": [
+        "ρ",
+        "volume charge density",
+        "dq/dV",
+        "Q",
+        "total charge",
+        "V",
+        "volume",
+        "charge per unit volume"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Electric Flux (Gauss's Law)",
+      "formula": "\\Phi_E = \\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{Q_{enc}}{\\varepsilon_0}",
+      "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
+      "description": "Φ_E: electric flux, Q_enc: enclosed charge, ε₀: vacuum permittivity",
+      "search_terms": [
+        "Φ_E",
+        "electric flux",
+        "E",
+        "electric field",
+        "dA",
+        "differential area",
+        "Q_enc",
+        "enclosed charge",
+        "ε₀",
+        "vacuum permittivity",
+        "Gauss's Law"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Capacitance of a Parallel Plate Capacitor",
+      "formula": "C = \\frac{\\varepsilon_0 A}{d} = \\frac{Q}{V}",
+      "link": "https://en.wikipedia.org/wiki/Parallel-plate_capacitor",
+      "description": "C: capacitance, ε₀: vacuum permittivity, A: plate area, d: separation distance, Q: charge, V: potential difference",
+      "search_terms": [
+        "C",
+        "capacitance",
+        "ε₀",
+        "vacuum permittivity",
+        "A",
+        "plate area",
+        "d",
+        "separation distance",
+        "Q",
+        "charge",
+        "V",
+        "potential difference",
+        "parallel plate capacitor"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Electric Field Between Infinite Sheets",
+      "formula": "E = \\frac{\\sigma}{\\varepsilon_0}",
+      "link": "https://en.wikipedia.org/wiki/Infinite_sheet_of_charge",
+      "description": "E: electric field magnitude, σ: surface charge density, ε₀: vacuum permittivity",
+      "search_terms": [
+        "E",
+        "electric field",
+        "σ",
+        "surface charge density",
+        "ε₀",
+        "vacuum permittivity",
+        "infinite sheets",
+        "infinite sheet of charge"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Electric Potential Outside a Spherical Conductor",
+      "formula": "V(r) = k \\frac{q}{r}",
+      "link": "https://en.wikipedia.org/wiki/Electric_potential",
+      "description": "V: electric potential, k: Coulomb's constant, q: charge, r: radial distance",
+      "search_terms": [
+        "V",
+        "electric potential",
+        "k",
+        "Coulomb's constant",
+        "q",
+        "charge",
+        "r",
+        "radial distance",
+        "spherical conductor"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Electric Potential on a Conductor's Surface",
+      "formula": "V(P) = k \\frac{q}{R}",
+      "link": "https://en.wikipedia.org/wiki/Electric_potential",
+      "description": "V: electric potential, k: Coulomb's constant, q: charge, R: radius of the conductor",
+      "search_terms": [
+        "V",
+        "electric potential",
+        "k",
+        "Coulomb's constant",
+        "q",
+        "charge",
+        "R",
+        "radius",
+        "conductor surface"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ohm's Law",
+      "formula": "V = IR",
+      "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+      "description": "V: voltage, I: current, R: resistance",
+      "search_terms": [
+        "V",
+        "voltage",
+        "I",
+        "current",
+        "R",
+        "resistance",
+        "Ohm's Law"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Magnetic Flux",
+      "formula": "\\Phi_B = \\int \\mathbf{B}\\cdot d\\mathbf{A}",
+      "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
+      "description": "Φ_B: magnetic flux, B: magnetic field, dA: differential area",
+      "search_terms": [
+        "Φ_B",
+        "magnetic flux",
+        "B",
+        "magnetic field",
+        "dA",
+        "differential area"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Equivalent Resistance (Series)",
+      "formula": "R_{eq} = R_1 + R_2 + \\dots + R_n",
+      "link": "https://en.wikipedia.org/wiki/Series_circuit",
+      "description": "Req: equivalent resistance, R_i: individual resistances",
+      "search_terms": [
+        "R_{eq}",
+        "equivalent resistance",
+        "R_1",
+        "R_2",
+        "R_n",
+        "series circuit",
+        "series resistance"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Kirchhoff’s Loop Rule",
+      "formula": "\\sum V = 0",
+      "link": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
+      "description": "∑V: sum of potential differences around a closed loop",
+      "search_terms": [
+        "∑V",
+        "Kirchhoff’s Loop Rule",
+        "Kirchhoff's voltage law",
+        "closed loop",
+        "potential difference"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Equivalent Resistance (Parallel)",
+      "formula": "R_{eq} = \\left( \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots + \\frac{1}{R_n} \\right)^{-1}",
+      "link": "https://en.wikipedia.org/wiki/Parallel_circuit",
+      "description": "Req: equivalent resistance, R_i: individual resistances",
+      "search_terms": [
+        "R_{eq}",
+        "equivalent resistance",
+        "R_1",
+        "R_2",
+        "R_n",
+        "parallel circuit",
+        "parallel resistance"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Magnetic Torque on a Coil",
+      "formula": "\\tau = N I A B \\sin(\\theta)",
+      "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
+      "description": "τ: torque, N: number of loops, I: current, A: area, B: magnetic field, θ: angle between B and the normal to the coil",
+      "search_terms": [
+        "τ",
+        "torque",
+        "N",
+        "number of loops",
+        "I",
+        "current",
+        "A",
+        "area",
+        "B",
+        "magnetic field",
+        "θ",
+        "angle",
+        "magnetic torque",
+        "coil torque"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Magnetic Force on a Wire",
+      "formula": "\\mathbf{F} = I \\mathbf{l} \\times \\mathbf{B}",
+      "link": "https://en.wikipedia.org/wiki/Lorentz_force",
+      "description": "F: force, I: current, l: length vector of the wire, B: magnetic field",
+      "search_terms": [
+        "F",
+        "force",
+        "I",
+        "current",
+        "l",
+        "length vector",
+        "B",
+        "magnetic field",
+        "Lorentz force",
+        "magnetic force on a wire"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "RC Circuit Discharge",
+      "formula": "Q = Q_0 e^{-t/(RC)}",
+      "link": "https://en.wikipedia.org/wiki/RC_circuit",
+      "description": "Q: charge at time t, Q₀: initial charge, R: resistance, C: capacitance, t: time",
+      "search_terms": [
+        "Q",
+        "charge",
+        "Q₀",
+        "initial charge",
+        "t",
+        "time",
+        "R",
+        "resistance",
+        "C",
+        "capacitance",
+        "RC circuit",
+        "discharge"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Current Density",
+      "formula": "J = \\frac{I}{A}",
+      "link": "https://en.wikipedia.org/wiki/Current_density",
+      "description": "J: current density, I: current, A: cross-sectional area",
+      "search_terms": [
+        "J",
+        "current density",
+        "I",
+        "current",
+        "A",
+        "area",
+        "cross-sectional area"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Magnetic Field of a Long Straight Conductor",
+      "formula": "B = \\frac{\\mu_0}{2\\pi} \\frac{I}{r}",
+      "link": "https://en.wikipedia.org/wiki/Magnetic_field#Current-carrying_conductor",
+      "description": "B: magnetic field, μ₀: permeability of free space, I: current, r: distance from the conductor",
+      "search_terms": [
+        "B",
+        "magnetic field",
+        "μ₀",
+        "permeability of free space",
+        "I",
+        "current",
+        "r",
+        "distance",
+        "long straight conductor",
+        "magnetic field conductor"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Electromagnetic Wave Relation",
+      "formula": "\\nu \\lambda = c",
+      "link": "https://en.wikipedia.org/wiki/Electromagnetic_radiation",
+      "description": "ν: frequency, λ: wavelength, c: speed of light",
+      "search_terms": [
+        "ν",
+        "frequency",
+        "λ",
+        "wavelength",
+        "c",
+        "speed of light",
+        "electromagnetic wave relation"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Speed of Light",
+      "formula": "c = 3 \\times 10^8\\,m/s",
+      "link": "https://en.wikipedia.org/wiki/Speed_of_light",
+      "description": "c: speed of light in vacuum",
+      "search_terms": [
+        "c",
+        "speed of light",
+        "3x10^8 m/s",
+        "vacuum speed of light"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Electric and Magnetic Field Relation in EM Waves",
+      "formula": "c = \\frac{E}{B}",
+      "link": "https://en.wikipedia.org/wiki/Electromagnetic_wave",
+      "description": "E: electric field amplitude, B: magnetic field amplitude, c: speed of light",
+      "search_terms": [
+        "c",
+        "speed of light",
+        "E",
+        "electric field amplitude",
+        "B",
+        "magnetic field amplitude",
+        "EM waves",
+        "electric and magnetic field relation"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Maxwell-Ampère Law (with Displacement Current)",
+      "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 \\left(i_C + \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
+      "description": "B: magnetic field, dl: differential length, i_C: conduction current, ε₀: permittivity of free space, dΦ_E/dt: rate of change of electric flux, μ₀: permeability of free space",
+      "search_terms": [
+        "B",
+        "magnetic field",
+        "dl",
+        "differential length",
+        "i_C",
+        "conduction current",
+        "ε₀",
+        "permittivity of free space",
+        "dΦ_E/dt",
+        "rate of change of electric flux",
+        "μ₀",
+        "permeability of free space",
+        "Maxwell-Ampère Law",
+        "displacement current"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Self-Inductance",
+      "formula": "L = \\frac{\\Phi_B}{I}",
+      "link": "https://en.wikipedia.org/wiki/Inductance",
+      "description": "L: inductance, Φ_B: magnetic flux, I: current",
+      "search_terms": [
+        "L",
+        "inductance",
+        "Φ_B",
+        "magnetic flux",
+        "I",
+        "current",
+        "self-inductance"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Power Dissipated in a Resistor",
+      "formula": "P_{loss} = I^2 R",
+      "link": "https://en.wikipedia.org/wiki/Electric_power#Dissipation",
+      "description": "P_loss: power loss, I: current, R: resistance",
+      "search_terms": [
+        "P_{loss}",
+        "power loss",
+        "power dissipated",
+        "I",
+        "current",
+        "R",
+        "resistance",
+        "Joule heating"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Electrical Power",
+      "formula": "P = V I",
+      "link": "https://en.wikipedia.org/wiki/Electric_power",
+      "description": "P: power, V: voltage, I: current",
+      "search_terms": [
+        "P",
+        "power",
+        "V",
+        "voltage",
+        "I",
+        "current",
+        "electrical power"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Phase Angle in AC Circuits",
+      "formula": "\\phi = \\arctan\\left(\\frac{X_L - X_C}{R}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Alternating_current",
+      "description": "φ: phase angle, X_L: inductive reactance, X_C: capacitive reactance, R: resistance",
+      "search_terms": [
+        "φ",
+        "phase angle",
+        "X_L",
+        "inductive reactance",
+        "X_C",
+        "capacitive reactance",
+        "R",
+        "resistance",
+        "AC circuits",
+        "alternating current"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Inductive Reactance",
+      "formula": "X_L = \\omega L",
+      "link": "https://en.wikipedia.org/wiki/Inductive_reactance",
+      "description": "X_L: inductive reactance, ω: angular frequency, L: inductance",
+      "search_terms": [
+        "X_L",
+        "inductive reactance",
+        "ω",
+        "angular frequency",
+        "L",
+        "inductance"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Capacitive Reactance",
+      "formula": "X_C = \\frac{1}{\\omega C}",
+      "link": "https://en.wikipedia.org/wiki/Capacitive_reactance",
+      "description": "X_C: capacitive reactance, ω: angular frequency, C: capacitance",
+      "search_terms": [
+        "X_C",
+        "capacitive reactance",
+        "ω",
+        "angular frequency",
+        "C",
+        "capacitance"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Impedance of an AC Circuit",
+      "formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+      "link": "https://en.wikipedia.org/wiki/Impedance",
+      "description": "Z: impedance, R: resistance, X_L: inductive reactance, X_C: capacitive reactance",
+      "search_terms": [
+        "Z",
+        "impedance",
+        "R",
+        "resistance",
+        "X_L",
+        "inductive reactance",
+        "X_C",
+        "capacitive reactance",
+        "AC circuit impedance"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Voltage Amplitude in an AC Circuit",
+      "formula": "V = Z I",
+      "link": "https://en.wikipedia.org/wiki/Alternating_current",
+      "description": "V: voltage amplitude, Z: impedance, I: current amplitude",
+      "search_terms": [
+        "V",
+        "voltage amplitude",
+        "Z",
+        "impedance",
+        "I",
+        "current amplitude",
+        "AC circuit voltage"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Average AC Power",
+      "formula": "P_{av} = \\frac{1}{2} V I \\cos\\phi",
+      "link": "https://en.wikipedia.org/wiki/AC_power",
+      "description": "P_av: average power, V: voltage amplitude, I: current amplitude, φ: phase angle",
+      "search_terms": [
+        "P_{av}",
+        "average power",
+        "V",
+        "voltage amplitude",
+        "I",
+        "current amplitude",
+        "φ",
+        "phase angle",
+        "AC power",
+        "alternating current power"
+      ]
+    }
+  ],
+  "TFY4163 Exam Formulas (Previous)": [
+    {
+      "id": 110,
+      "name": "Harmonic Plane Wave (1D)",
+      "formula": "\\xi(x,t) = \\xi_0 \\sin\\left(kx - \\omega t + \\varphi\\right)",
+      "link": "https://en.wikipedia.org/wiki/Harmonic_wave",
+      "description": "ξ: displacement, ξ₀: amplitude, k: wave number, ω: angular frequency, φ: phase",
+      "search_terms": [
+        "ξ",
+        "displacement",
+        "ξ₀",
+        "amplitude",
+        "k",
+        "wave number",
+        "ω",
+        "angular frequency",
+        "φ",
+        "phase",
+        "harmonic wave",
+        "plan bølge"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Harmonic Plane Wave (3D)",
+      "formula": "\\xi(\\mathbf{r},t) = \\xi_0 \\sin\\left(\\mathbf{k}\\cdot\\mathbf{r} - \\omega t + \\varphi\\right)",
+      "link": "https://en.wikipedia.org/wiki/Harmonic_wave",
+      "description": "ξ: displacement, ξ₀: amplitude, k: wave vector, r: position vector, ω: angular frequency, φ: phase",
+      "search_terms": [
+        "ξ",
+        "displacement",
+        "ξ₀",
+        "amplitude",
+        "k",
+        "wave vector",
+        "r",
+        "position vector",
+        "ω",
+        "angular frequency",
+        "φ",
+        "phase",
+        "harmonic wave",
+        "3D bølge"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Wave Equation (1D)",
+      "formula": "\\frac{\\partial^2 \\xi(x,t)}{\\partial x^2} = \\frac{1}{v^2}\\frac{\\partial^2 \\xi(x,t)}{\\partial t^2}",
+      "link": "https://en.wikipedia.org/wiki/Wave_equation",
+      "description": "Relates the second spatial derivative to the second time derivative; v: wave speed",
+      "search_terms": [
+        "∂²ξ/∂x²",
+        "second derivative",
+        "v",
+        "wave speed",
+        "wave equation",
+        "bølgeligning"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Wave Equation (3D)",
+      "formula": "\\nabla^2 \\xi(\\mathbf{r},t) = \\frac{1}{v^2}\\frac{\\partial^2 \\xi(\\mathbf{r},t)}{\\partial t^2}",
+      "link": "https://en.wikipedia.org/wiki/Wave_equation",
+      "description": "Three-dimensional wave equation using the Laplacian; v: wave speed",
+      "search_terms": [
+        "\\nabla^2 \\xi",
+        "laplacian",
+        "v",
+        "wave equation",
+        "3D bølgeligning"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Phase Velocity",
+      "formula": "v = \\frac{\\omega}{k}",
+      "link": "https://en.wikipedia.org/wiki/Phase_velocity",
+      "description": "v: phase velocity, ω: angular frequency, k: wave number",
+      "search_terms": [
+        "v",
+        "phase velocity",
+        "ω",
+        "angular frequency",
+        "k",
+        "wave number",
+        "fasehastighet"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Group Velocity",
+      "formula": "v_{g} = \\frac{d\\omega}{dk}",
+      "link": "https://en.wikipedia.org/wiki/Group_velocity",
+      "description": "v₍g₎: group velocity, the derivative of angular frequency with respect to wave number",
+      "search_terms": [
+        "v₍g₎",
+        "group velocity",
+        "dω/dk",
+        "derivative",
+        "gruppehastighet"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Non-dispersive Wave Speed in Elastic Media",
+      "formula": "v = \\sqrt{\\frac{E}{\\rho}}",
+      "link": "https://en.wikipedia.org/wiki/Wave_equation#In_an_elastic_medium",
+      "description": "v: wave speed, E: elastic modulus, ρ: mass density",
+      "search_terms": [
+        "v",
+        "wave speed",
+        "E",
+        "elastic modulus",
+        "ρ",
+        "mass density",
+        "elastisk modul",
+        "massetetthet",
+        "non-dispersive"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Mechanical Stress in Elastic Media",
+      "formula": "\\text{stress} = E \\times \\text{strain}",
+      "link": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+      "description": "stress: mechanical stress, E: elastic modulus, strain: relative deformation",
+      "search_terms": [
+        "stress",
+        "mekanisk spenning",
+        "E",
+        "elastic modulus",
+        "strain",
+        "tøyning",
+        "mechanical stress"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Transverse Wave on a String",
+      "formula": "v = \\sqrt{\\frac{S}{\\mu}}",
+      "link": "https://en.wikipedia.org/wiki/Wave_on_a_string",
+      "description": "v: wave speed, S: tension, μ: linear mass density",
+      "search_terms": [
+        "v",
+        "wave speed",
+        "S",
+        "tension",
+        "μ",
+        "linear density",
+        "streng bølge",
+        "spenning",
+        "strengetthet"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Longitudinal Wave in Fluids",
+      "formula": "v = \\sqrt{\\frac{B}{\\rho}}",
+      "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "description": "v: speed of sound, B: bulk modulus, ρ: density",
+      "search_terms": [
+        "v",
+        "speed of sound",
+        "B",
+        "bulk modulus",
+        "ρ",
+        "density",
+        "lyd i væske",
+        "lydhastighet"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Longitudinal Wave in Solids",
+      "formula": "v = \\sqrt{\\frac{Y}{\\rho}}",
+      "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "description": "v: speed of sound, Y: Young's modulus, ρ: density",
+      "search_terms": [
+        "v",
+        "speed of sound",
+        "Y",
+        "Young's modulus",
+        "ρ",
+        "density",
+        "faste stoffer",
+        "lyd i faste materialer"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Average Value over Wavelength",
+      "formula": "A = \\frac{1}{\\lambda}\\int_0^{\\lambda}A(x,t)\\,dx",
+      "link": "https://en.wikipedia.org/wiki/Average",
+      "description": "A: average value, λ: wavelength, computed by integrating over one wavelength",
+      "search_terms": [
+        "A",
+        "average value",
+        "λ",
+        "wavelength",
+        "integral",
+        "middelverdi",
+        "bølgelengde"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Average Value over Period",
+      "formula": "\\langle A \\rangle = \\frac{1}{T}\\int_0^T A(x,t)\\,dt",
+      "link": "https://en.wikipedia.org/wiki/Average",
+      "description": "⟨A⟩: average value, T: period, computed by integrating over one period",
+      "search_terms": [
+        "⟨A⟩",
+        "average value",
+        "T",
+        "period",
+        "integral",
+        "middelverdi",
+        "periode"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Average Energy per Unit Length (String)",
+      "formula": "\\varepsilon = \\frac{1}{2}\\mu\\omega^2\\xi_0^2",
+      "link": "https://en.wikipedia.org/wiki/Wave_energy",
+      "description": "ε: energy per unit length, μ: linear mass density, ω: angular frequency, ξ₀: amplitude",
+      "search_terms": [
+        "ε",
+        "energy per unit length",
+        "μ",
+        "linear density",
+        "ω",
+        "angular frequency",
+        "ξ₀",
+        "amplitude",
+        "streng bølge",
+        "energi per lengdeenhet"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Average Energy per Unit Volume (Plane Wave)",
+      "formula": "\\varepsilon = \\frac{1}{2}\\rho\\omega^2\\xi_0^2",
+      "link": "https://en.wikipedia.org/wiki/Wave_energy",
+      "description": "ε: energy per unit volume, ρ: density, ω: angular frequency, ξ₀: amplitude",
+      "search_terms": [
+        "ε",
+        "energy per unit volume",
+        "ρ",
+        "density",
+        "ω",
+        "angular frequency",
+        "ξ₀",
+        "amplitude",
+        "plan bølge",
+        "energitetthet"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Average Power (String Wave)",
+      "formula": "P = v\\,\\varepsilon = \\frac{1}{2}v\\mu\\omega^2\\xi_0^2",
+      "link": "https://en.wikipedia.org/wiki/Wave_energy",
+      "description": "P: power, v: wave speed, calculated as the product of wave speed and energy density",
+      "search_terms": [
+        "P",
+        "power",
+        "v",
+        "wave speed",
+        "μ",
+        "linear density",
+        "ω",
+        "angular frequency",
+        "ξ₀",
+        "streng bølge",
+        "effekt"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Intensity of a Plane Wave",
+      "formula": "I = v\\,\\varepsilon = \\frac{1}{2}v\\rho\\omega^2\\xi_0^2",
+      "link": "https://en.wikipedia.org/wiki/Wave_intensity",
+      "description": "I: intensity, v: wave speed, ρ: density; intensity is the product of wave speed and energy density",
+      "search_terms": [
+        "I",
+        "intensity",
+        "v",
+        "wave speed",
+        "ρ",
+        "density",
+        "ω",
+        "angular frequency",
+        "ξ₀",
+        "plan bølge",
+        "intensitet"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Average Momentum Density",
+      "formula": "\\pi = \\frac{\\varepsilon}{v}",
+      "link": "https://en.wikipedia.org/wiki/Momentum",
+      "description": "π: momentum density, calculated as energy density divided by wave speed",
+      "search_terms": [
+        "π",
+        "momentum density",
+        "energy",
+        "v",
+        "wave speed",
+        "impuls",
+        "impulstetthet"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Ideal Gas Law",
+      "formula": "pV = Nk_BT",
+      "link": "https://en.wikipedia.org/wiki/Ideal_gas_law",
+      "description": "p: pressure, V: volume, N: number of molecules, k_B: Boltzmann's constant, T: temperature",
+      "search_terms": [
+        "p",
+        "pressure",
+        "V",
+        "volume",
+        "N",
+        "number of molecules",
+        "k_B",
+        "Boltzmann's constant",
+        "T",
+        "temperature",
+        "ideal gas",
+        "gasslov"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Heat Capacity at Constant Pressure",
+      "formula": "C_p = \\left(\\frac{dQ}{dT}\\right)_p",
+      "link": "https://en.wikipedia.org/wiki/Heat_capacity",
+      "description": "Cₚ: heat capacity at constant pressure, Q: heat, T: temperature",
+      "search_terms": [
+        "C_p",
+        "heat capacity",
+        "dQ/dT",
+        "constant pressure",
+        "varmekapasitet",
+        "trykk"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Heat Capacity at Constant Volume",
+      "formula": "C_V = \\left(\\frac{dQ}{dT}\\right)_V",
+      "link": "https://en.wikipedia.org/wiki/Heat_capacity",
+      "description": "C_V: heat capacity at constant volume, Q: heat, T: temperature",
+      "search_terms": [
+        "C_V",
+        "heat capacity",
+        "dQ/dT",
+        "constant volume",
+        "varmekapasitet",
+        "volum"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Adiabatic Process (Ideal Gas)",
+      "formula": "pV^\\gamma = \\text{constant}",
+      "link": "https://en.wikipedia.org/wiki/Adiabatic_process",
+      "description": "p: pressure, V: volume, γ: adiabatic index; describes a process with no heat exchange",
+      "search_terms": [
+        "pV^γ",
+        "adiabatic",
+        "constant",
+        "gass",
+        "adiabatisk",
+        "adibatiske forhold"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Adiabatic Constant",
+      "formula": "\\gamma = \\frac{C_p}{C_V}",
+      "link": "https://en.wikipedia.org/wiki/Adiabatic_process",
+      "description": "γ: adiabatic constant (ratio of heat capacities), Cₚ: heat capacity at constant pressure, C_V: heat capacity at constant volume",
+      "search_terms": [
+        "γ",
+        "adiabatic constant",
+        "C_p",
+        "C_V",
+        "varmekapasitet",
+        "adiabatisk konstant"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Bulk Modulus (Ideal Gas, Adiabatic)",
+      "formula": "B = \\gamma p",
+      "link": "https://en.wikipedia.org/wiki/Bulk_modulus",
+      "description": "B: bulk modulus, p: pressure, γ: adiabatic constant",
+      "search_terms": [
+        "B",
+        "bulk modulus",
+        "pressure",
+        "p",
+        "γ",
+        "adiabatic",
+        "kompresjonsmodul"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Speed of Sound in Gas",
+      "formula": "v = \\sqrt{\\frac{\\gamma p}{\\rho}} = \\sqrt{\\frac{\\gamma k_BT}{m}}",
+      "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "description": "v: speed of sound, p: pressure, ρ: density, T: temperature, k_B: Boltzmann's constant, m: molecular mass",
+      "search_terms": [
+        "v",
+        "speed of sound",
+        "p",
+        "pressure",
+        "ρ",
+        "density",
+        "T",
+        "temperature",
+        "k_B",
+        "m",
+        "lyd",
+        "lydhastighet"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Sound Pressure",
+      "formula": "\\Delta p = -B \\frac{\\partial \\xi}{\\partial x}",
+      "link": "https://en.wikipedia.org/wiki/Sound_pressure",
+      "description": "Δp: sound pressure, B: bulk modulus, ∂ξ/∂x: spatial derivative of displacement",
+      "search_terms": [
+        "Δp",
+        "sound pressure",
+        "B",
+        "bulk modulus",
+        "∂ξ/∂x",
+        "pressure variation",
+        "lydtrykk"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Sound Level",
+      "formula": "\\beta = 10\\log\\left(\\frac{I}{I_0}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Sound_pressure_level",
+      "description": "β: sound level in decibels, I: intensity, I₀: reference intensity (10⁻¹² W/m²)",
+      "search_terms": [
+        "β",
+        "sound level",
+        "intensity",
+        "I",
+        "I₀",
+        "decibels",
+        "dB",
+        "lydnivå"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Doppler Effect (Sound Waves)",
+      "formula": "\\nu_O = \\left(\\frac{1-\\frac{v_O}{v}}{1-\\frac{v_S}{v}}\\right)\\nu_S",
+      "link": "https://en.wikipedia.org/wiki/Doppler_effect",
+      "description": "ν_O: observed frequency, ν_S: source frequency, v_O: observer speed, v_S: source speed, v: wave speed",
+      "search_terms": [
+        "ν_O",
+        "observed frequency",
+        "ν_S",
+        "source frequency",
+        "v_O",
+        "observer speed",
+        "v_S",
+        "source speed",
+        "v",
+        "Doppler Effect",
+        "dopplereffekt",
+        "lydbølger"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Shock Waves Relation",
+      "formula": "\\sin \\alpha = \\frac{v}{v_S}",
+      "link": "https://en.wikipedia.org/wiki/Shock_wave",
+      "description": "sin α: sine of the shock angle, v: wave speed, v_S: shock speed",
+      "search_terms": [
+        "sin α",
+        "shock waves",
+        "v",
+        "v_S",
+        "shock",
+        "sjokkbølger"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Maxwell's Equations (Integral Form)",
+      "formula": "\\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{q}{\\varepsilon_0}, \\quad \\oint \\mathbf{B}\\cdot d\\mathbf{A} = 0, \\quad \\oint \\mathbf{E}\\cdot d\\mathbf{l} = -\\frac{d}{dt}\\int \\mathbf{B}\\cdot d\\mathbf{A}, \\quad \\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 I + \\mu_0\\varepsilon_0\\frac{d}{dt}\\int \\mathbf{E}\\cdot d\\mathbf{A}",
+      "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+      "description": "E: electric field, B: magnetic field, q: charge, I: current, ε₀: permittivity of free space, μ₀: permeability of free space",
+      "search_terms": [
+        "E",
+        "electric field",
+        "B",
+        "magnetic field",
+        "q",
+        "charge",
+        "I",
+        "current",
+        "ε₀",
+        "permittivity of free space",
+        "μ₀",
+        "permeability of free space",
+        "Maxwell's equations",
+        "integral form"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Maxwell's Equations (Differential Form)",
+      "formula": "\\nabla\\cdot\\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}, \\quad \\nabla\\cdot\\mathbf{B} = 0, \\quad \\nabla\\times\\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}, \\quad \\nabla\\times\\mathbf{B} = \\mu_0\\mathbf{j} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t}",
+      "link": "https://en.wikipedia.org/wiki/Macroscopic_maxwell_equations",
+      "description": "E: electric field, B: magnetic field, ρ: charge density, j: current density, ε₀: permittivity, μ₀: permeability",
+      "search_terms": [
+        "E",
+        "electric field",
+        "B",
+        "magnetic field",
+        "ρ",
+        "charge density",
+        "j",
+        "current density",
+        "ε₀",
+        "μ₀",
+        "Maxwell's equations",
+        "differential form"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Lorentz Force",
+      "formula": "F = q\\left(\\mathbf{E} + \\mathbf{v}\\times\\mathbf{B}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Lorentz_force",
+      "description": "F: force, q: charge, E: electric field, v: velocity, B: magnetic field",
+      "search_terms": [
+        "F",
+        "force",
+        "q",
+        "charge",
+        "E",
+        "electric field",
+        "v",
+        "velocity",
+        "B",
+        "magnetic field",
+        "Lorentz Force"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Wave Equation in Vacuum for EM Fields",
+      "formula": "\\nabla^2 \\mathbf{E} = \\frac{1}{c^2}\\frac{\\partial^2 \\mathbf{E}}{\\partial t^2}, \\quad \\nabla^2 \\mathbf{B} = \\frac{1}{c^2}\\frac{\\partial^2 \\mathbf{B}}{\\partial t^2}, \\quad c = \\frac{1}{\\sqrt{\\varepsilon_0\\mu_0}}",
+      "link": "https://en.wikipedia.org/wiki/Wave_equation",
+      "description": "E: electric field, B: magnetic field, c: speed of light, ε₀: permittivity, μ₀: permeability",
+      "search_terms": [
+        "E",
+        "electric field",
+        "B",
+        "magnetic field",
+        "c",
+        "speed of light",
+        "ε₀",
+        "μ₀",
+        "vakuum",
+        "wave equation"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Energy Density in EM Field",
+      "formula": "u = \\frac{1}{2}\\varepsilon_0E^2 + \\frac{1}{2}\\mu_0B^2",
+      "link": "https://en.wikipedia.org/wiki/Electromagnetic_energy",
+      "description": "u: energy density, E: electric field, B: magnetic field, ε₀: permittivity, μ₀: permeability",
+      "search_terms": [
+        "u",
+        "energy density",
+        "E",
+        "electric field",
+        "B",
+        "magnetic field",
+        "ε₀",
+        "μ₀",
+        "energitetthet"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Intensity of an EM Wave",
+      "formula": "I = c\\varepsilon_0E^2 = c\\varepsilon_0\\langle E^2\\rangle",
+      "link": "https://en.wikipedia.org/wiki/Light_intensity",
+      "description": "I: intensity, c: speed of light, E: electric field (time-averaged square gives intensity)",
+      "search_terms": [
+        "I",
+        "intensity",
+        "c",
+        "speed of light",
+        "E",
+        "electric field",
+        "ε₀",
+        "light intensity",
+        "intensitet"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Poynting Vector",
+      "formula": "S = \\frac{1}{\\mu_0}(\\mathbf{E}\\times\\mathbf{B})",
+      "link": "https://en.wikipedia.org/wiki/Poynting_vector",
+      "description": "S: Poynting vector representing the power per unit area carried by an EM wave; E: electric field, B: magnetic field",
+      "search_terms": [
+        "S",
+        "Poynting vector",
+        "E",
+        "electric field",
+        "B",
+        "magnetic field",
+        "μ₀",
+        "power flow",
+        "strømtetthet"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Momentum in an EM Wave",
+      "formula": "\\pi = \\mu_0\\varepsilon_0S",
+      "link": "https://en.wikipedia.org/wiki/Momentum",
+      "description": "π: momentum density, S: Poynting vector, μ₀: permeability, ε₀: permittivity",
+      "search_terms": [
+        "π",
+        "momentum density",
+        "S",
+        "Poynting vector",
+        "μ₀",
+        "ε₀",
+        "impuls"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Electric Dipole Moment",
+      "formula": "p = qd",
+      "link": "https://en.wikipedia.org/wiki/Electric_dipole",
+      "description": "p: electric dipole moment, q: charge, d: separation distance",
+      "search_terms": [
+        "p",
+        "electric dipole moment",
+        "q",
+        "charge",
+        "d",
+        "distance",
+        "dipole",
+        "elektrisk dipol"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Magnetic Dipole Moment",
+      "formula": "m = IA",
+      "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
+      "description": "m: magnetic dipole moment, I: current, A: area of the current loop",
+      "search_terms": [
+        "m",
+        "magnetic dipole moment",
+        "I",
+        "current",
+        "A",
+        "area",
+        "magnetisk dipol"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Radiated Power (Electric Dipole)",
+      "formula": "\\langle P \\rangle = \\frac{p_0^2\\omega^4}{12\\pi\\varepsilon_0c^3}",
+      "link": "https://en.wikipedia.org/wiki/Electric_dipole_radiation",
+      "description": "⟨P⟩: average radiated power, p₀: dipole moment amplitude, ω: angular frequency, ε₀: permittivity, c: speed of light",
+      "search_terms": [
+        "⟨P⟩",
+        "radiated power",
+        "p₀",
+        "dipole",
+        "ω",
+        "angular frequency",
+        "ε₀",
+        "c",
+        "electric dipole",
+        "strålingskraft"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Radiated Power (Magnetic Dipole)",
+      "formula": "\\langle P \\rangle = \\frac{\\mu_0m_0^2\\omega^4}{12\\pi c^3}",
+      "link": "https://en.wikipedia.org/wiki/Magnetic_dipole_radiation",
+      "description": "⟨P⟩: average radiated power, m₀: magnetic dipole moment amplitude, ω: angular frequency, μ₀: permeability, c: speed of light",
+      "search_terms": [
+        "⟨P⟩",
+        "radiated power",
+        "m₀",
+        "magnetic dipole",
+        "ω",
+        "angular frequency",
+        "μ₀",
+        "c",
+        "strålingskraft"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Malus' Law",
+      "formula": "I(\\theta) = I_0\\cos^2\\theta",
+      "link": "https://en.wikipedia.org/wiki/Malus%27s_law",
+      "description": "I(θ): transmitted intensity, I₀: initial intensity, θ: angle between polarization directions",
+      "search_terms": [
+        "I(θ)",
+        "intensity",
+        "I_0",
+        "initial intensity",
+        "θ",
+        "angle",
+        "cos²θ",
+        "Malus' Law",
+        "polarisasjonslov"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Linear Media Relations",
+      "formula": "P = \\varepsilon_0\\chi_eE, \\quad D = \\varepsilon_0E+P=\\varepsilon_0(1+\\chi_e)E=\\varepsilon_0\\varepsilon_rE, \\quad M = \\chi_mH, \\quad B = \\mu_0H+\\mu_0M=\\mu_0(1+\\chi_m)H=\\mu_0\\mu_rH",
+      "link": "https://en.wikipedia.org/wiki/Electromagnetic_properties_of_matter",
+      "description": "P: polarization, E: electric field, D: electric displacement, M: magnetization, H: magnetic field, χₑ and χₘ: susceptibilities, ε₀, εᵣ, μ₀, μᵣ: permittivity and permeability parameters",
+      "search_terms": [
+        "P",
+        "polarization",
+        "E",
+        "electric field",
+        "D",
+        "electric displacement",
+        "M",
+        "magnetization",
+        "H",
+        "magnetic field",
+        "χₑ",
+        "χₘ",
+        "linear media",
+        "lineære medier"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Gauss's Law for Electric Displacement",
+      "formula": "\\oint \\mathbf{D}\\cdot d\\mathbf{A} = q_{\\text{free}}",
+      "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
+      "description": "D: electric displacement, q_free: free charge, dA: differential area, over a closed surface",
+      "search_terms": [
+        "D",
+        "electric displacement",
+        "q_free",
+        "free charge",
+        "dA",
+        "Gauss's Law",
+        "Gauss lov"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Gauss's Law for Magnetic Fields",
+      "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{A} = 0",
+      "link": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
+      "description": "B: magnetic field, dA: differential area; indicates that magnetic monopoles do not exist",
+      "search_terms": [
+        "B",
+        "magnetic field",
+        "dA",
+        "Gauss's Law",
+        "magnetisk fluks",
+        "null flux"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Faraday's Law of Induction",
+      "formula": "\\varepsilon = -\\frac{d\\Phi}{dt}",
+      "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
+      "description": "ε: induced electromotive force, Φ: magnetic flux, t: time",
+      "search_terms": [
+        "ε",
+        "electromotive force",
+        "EMF",
+        "Φ",
+        "magnetic flux",
+        "t",
+        "time",
+        "Faraday's Law",
+        "induction",
+        "induksjonslov"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Lorentz Transformation",
+      "formula": "x' = \\gamma(x - vt), \\quad t' = \\gamma\\left(t - \\frac{vx}{c^2}\\right)",
+      "link": "https://en.wikipedia.org/wiki/Lorentz_transformation",
+      "description": "x': transformed position, t': transformed time, γ: Lorentz factor, v: relative velocity, c: speed of light",
+      "search_terms": [
+        "x'",
+        "t'",
+        "γ",
+        "Lorentz transformation",
+        "spesiell relativitet",
+        "time dilation",
+        "length contraction"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Time Dilation",
+      "formula": "\\Delta t = \\gamma\\Delta t_0",
+      "link": "https://en.wikipedia.org/wiki/Time_dilation",
+      "description": "Δt: dilated time, Δt₀: proper time, γ: Lorentz factor",
+      "search_terms": [
+        "Δt",
+        "time dilation",
+        "γ",
+        "proper time",
+        "tidsdilatasjon",
+        "relativitet"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Length Contraction",
+      "formula": "\\Delta x = \\gamma\\Delta x_0",
+      "link": "https://en.wikipedia.org/wiki/Length_contraction",
+      "description": "Δx: contracted length, Δx₀: proper length, γ: Lorentz factor",
+      "search_terms": [
+        "Δx",
+        "length contraction",
+        "γ",
+        "proper length",
+        "lengdekontraksjon",
+        "relativitet"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Relativistic Velocity Addition",
+      "formula": "v_{AC} = \\frac{v_{AB}+v_{BC}}{1+\\frac{v_{AB}v_{BC}}{c^2}}",
+      "link": "https://en.wikipedia.org/wiki/Velocity-addition_formula",
+      "description": "v₍AC₎: resultant velocity, v₍AB₎ and v₍BC₎: component velocities, c: speed of light",
+      "search_terms": [
+        "v_{AC}",
+        "velocity addition",
+        "v_{AB}",
+        "v_{BC}",
+        "c",
+        "relativistic",
+        "addisjon av hastigheter"
+      ]
+    }
+  ]
+}

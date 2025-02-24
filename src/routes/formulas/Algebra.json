@@ -1,0 +1,21 @@
+{
+  "Quadratic Equations": [
+    {
+      "id": 6,
+      "name": "Quadratic Formula",
+      "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+      "link": "https://en.wikipedia.org/wiki/Quadratic_equation",
+      "description": "x: solution, a, b, c: coefficients of the quadratic equation",
+      "search_terms": [
+        "quadratic formula",
+        "-b ± sqrt(b^2 - 4ac)",
+        "2a",
+        "quadratic equation solution",
+        "a",
+        "b",
+        "c",
+        "coefficients"
+      ]
+    }
+  ]
+}

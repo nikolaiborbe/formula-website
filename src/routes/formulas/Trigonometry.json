@@ -1,0 +1,203 @@
+{
+  "Sin Identities": [
+    {
+      "id": 4,
+      "name": "Basic Sine Identity",
+      "formula": "\\sin^2 \\theta + \\cos^2 \\theta = 1",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin^2 θ",
+        "cos^2 θ",
+        "sine squared",
+        "cosine squared",
+        "1",
+        "basic sine identity",
+        "trigonometric identity",
+        "Pythagorean identity"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sine Addition Formula",
+      "formula": "\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, sin: sine, cos: cosine",
+      "search_terms": [
+        "sin(α+β)",
+        "sine addition",
+        "sinα cosβ",
+        "cosα sinβ",
+        "trigonometric addition",
+        "sine addition formula"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sine Subtraction Formula",
+      "formula": "\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, sin: sine, cos: cosine",
+      "search_terms": [
+        "sin(α-β)",
+        "sine subtraction",
+        "sinα cosβ",
+        "cosα sinβ",
+        "trigonometric subtraction",
+        "sine subtraction formula"
+      ]
+    }
+  ],
+  "Cos Identities": [
+    {
+      "id": 5,
+      "name": "Cosine Double-Angle",
+      "formula": "\\cos(2\\theta) = 2\\cos^2\\theta - 1",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
+      "description": "θ: angle, cosθ: cosine",
+      "search_terms": [
+        "cos(2θ)",
+        "double-angle cosine",
+        "2cos^2θ",
+        "cosine identity",
+        "trigonometric double-angle"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cosine Double-Angle Alternative",
+      "formula": "\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "cos(2θ)",
+        "cos^2θ - sin^2θ",
+        "alternative double-angle",
+        "cosine identity",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cosine Addition Formula",
+      "formula": "\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, sin: sine, cos: cosine",
+      "search_terms": [
+        "cos(α+β)",
+        "cosine addition",
+        "cosα cosβ",
+        "sinα sinβ",
+        "trigonometric addition",
+        "cosine addition formula"
+      ]
+    }
+  ],
+  "Tan Identities": [
+    {
+      "id": 11,
+      "name": "Tangent Addition Formula",
+      "formula": "\\tan(\\alpha+\\beta)=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
+      "description": "α, β: angles, tan: tangent",
+      "search_terms": [
+        "tan(α+β)",
+        "tangent addition",
+        "tanα",
+        "tanβ",
+        "addition formula",
+        "trigonometric tangent"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Tangent Double-Angle Formula",
+      "formula": "\\tan(2\\theta)=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+      "description": "θ: angle, tanθ: tangent",
+      "search_terms": [
+        "tan(2θ)",
+        "double-angle tangent",
+        "2tanθ",
+        "tan^2θ",
+        "tangent identity",
+        "trigonometric double-angle"
+      ]
+    }
+  ],
+  "Other Identities": [
+    {
+      "id": 13,
+      "name": "Pythagorean Identity (Tangent-Secant)",
+      "formula": "1+\\tan^2\\theta = \\sec^2\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
+      "description": "θ: angle, tanθ: tangent, secθ: secant",
+      "search_terms": [
+        "1+tan^2θ",
+        "sec^2θ",
+        "tangent secant identity",
+        "Pythagorean identity",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Pythagorean Identity (Cotangent-Cosecant)",
+      "formula": "1+\\cot^2\\theta = \\csc^2\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
+      "description": "θ: angle, cotθ: cotangent, cscθ: cosecant",
+      "search_terms": [
+        "1+cot^2θ",
+        "csc^2θ",
+        "cotangent cosecant identity",
+        "Pythagorean identity",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sine of a Double Angle",
+      "formula": "\\sin(2\\theta)=2\\sin\\theta\\cos\\theta",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
+      "description": "θ: angle, sinθ: sine, cosθ: cosine",
+      "search_terms": [
+        "sin(2θ)",
+        "double-angle sine",
+        "2sinθ cosθ",
+        "sine double-angle",
+        "trigonometric identity"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Cosine of a Half Angle",
+      "formula": "\\cos\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
+      "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
+      "description": "θ: angle, cosθ: cosine",
+      "search_terms": [
+        "cos(θ/2)",
+        "half-angle cosine",
+        "±sqrt((1+cosθ)/2)",
+        "cosine half-angle",
+        "trigonometric half-angle"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Standard Circle Equation",
+      "formula": "(x - h)^2 + (y - k)^2 = r^2",
+      "link": "https://en.wikipedia.org/wiki/Circle",
+      "description": "x, y: coordinates, h, k: center of the circle, r: radius",
+      "search_terms": [
+        "(x-h)^2",
+        "(y-k)^2",
+        "r^2",
+        "circle equation",
+        "standard circle equation",
+        "coordinates",
+        "radius",
+        "center of circle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "Macroeconomics": [
+    {
+      "id": 25,
+      "name": "GDP (Expenditure Approach)",
+      "formula": "GDP = C + I + G + (X - M)",
+      "link": "https://en.wikipedia.org/wiki/Gross_domestic_product",
+      "description": "GDP: gross domestic product, C: consumption, I: investment, G: government spending, X: exports, M: imports",
+      "search_terms": [
+        "GDP",
+        "gross domestic product",
+        "C",
+        "consumption",
+        "I",
+        "investment",
+        "G",
+        "government spending",
+        "X",
+        "exports",
+        "M",
+        "imports",
+        "expenditure approach"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Consumer Surplus (Approximation)",
+      "formula": "CS \\approx \\frac{1}{2} Q (P_{max} - P)",
+      "link": "https://en.wikipedia.org/wiki/Consumer_surplus",
+      "description": "CS: consumer surplus, Q: quantity, Pₘₐₓ: maximum price, P: market price",
+      "search_terms": [
+        "CS",
+        "consumer surplus",
+        "quantity",
+        "Q",
+        "P_max",
+        "maximum price",
+        "P",
+        "market price",
+        "approximation",
+        "economic surplus"
+      ]
+    }
+  ],
+  "Microeconomics": [
+    {
+      "id": 27,
+      "name": "Price Elasticity of Demand",
+      "formula": "E_p = \\frac{\\%\\Delta Q}{\\%\\Delta P}",
+      "link": "https://en.wikipedia.org/wiki/Price_elasticity_of_demand",
+      "description": "Eₚ: price elasticity, %ΔQ: percentage change in quantity demanded, %ΔP: percentage change in price",
+      "search_terms": [
+        "E_p",
+        "price elasticity",
+        "elasticity of demand",
+        "%ΔQ",
+        "percentage change in quantity",
+        "%ΔP",
+        "percentage change in price",
+        "demand elasticity"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Cobb-Douglas Production Function",
+      "formula": "Y = A K^{\\alpha} L^{1-\\alpha}",
+      "link": "https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function",
+      "description": "Y: output, A: total factor productivity, K: capital input, L: labor input, α: output elasticity of capital",
+      "search_terms": [
+        "Cobb-Douglas",
+        "production function",
+        "Y",
+        "output",
+        "A",
+        "total factor productivity",
+        "K",
+        "capital",
+        "L",
+        "labor",
+        "α",
+        "output elasticity"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Present Value",
+      "formula": "PV = \\frac{FV}{(1 + r)^n}",
+      "link": "https://en.wikipedia.org/wiki/Present_value",
+      "description": "PV: present value, FV: future value, r: interest rate, n: number of periods",
+      "search_terms": [
+        "PV",
+        "present value",
+        "FV",
+        "future value",
+        "r",
+        "interest rate",
+        "n",
+        "number of periods",
+        "discounting",
+        "time value of money"
+      ]
+    }
+  ]
+}

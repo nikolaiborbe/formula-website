@@ -5,9 +5,19 @@
 	import { fade, scale } from 'svelte/transition';
 	import FormulaCard from '../components/FormulaCard.svelte';
 	import SearchModal from '../components/SearchModal.svelte';
-	import nestedCategories from './formulas.json';
+	import { Physics, Trigonometry, Algebra, Statistics, Economics, Other } from './imports';
+	//import nestedCategories from './formulas/formulas.json';
 	import Sidebar from '../components/Sidebar.svelte';
 	import LandingPage from '../components/LandingPage.svelte';
+
+	let nestedCategories = {
+		Physics,
+		Trigonometry,
+		Algebra,
+		Statistics,
+		Economics,
+		Other
+	}
 
 	let isMac = false;
 	let morphed = false;

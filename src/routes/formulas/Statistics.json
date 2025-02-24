@@ -1,0 +1,91 @@
+{
+  "Descriptive Statistics": [
+    {
+      "id": 20,
+      "name": "Mean",
+      "formula": "\\mu = \\frac{1}{N}\\sum_{i=1}^{N} x_i",
+      "link": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+      "description": "μ: mean, N: number of data points, xᵢ: individual data values",
+      "search_terms": [
+        "μ",
+        "mean",
+        "arithmetic mean",
+        "average",
+        "N",
+        "number of data points",
+        "x_i",
+        "data values"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Variance",
+      "formula": "\\sigma^2 = \\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2",
+      "link": "https://en.wikipedia.org/wiki/Variance",
+      "description": "σ²: variance, N: number of data points, xᵢ: individual data values, μ: mean",
+      "search_terms": [
+        "σ²",
+        "variance",
+        "data variance",
+        "N",
+        "number of data points",
+        "x_i",
+        "mean",
+        "statistical variance"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Standard Deviation",
+      "formula": "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2}",
+      "link": "https://en.wikipedia.org/wiki/Standard_deviation",
+      "description": "σ: standard deviation, N: number of data points, xᵢ: individual data values, μ: mean",
+      "search_terms": [
+        "σ",
+        "standard deviation",
+        "square root",
+        "variance",
+        "data dispersion",
+        "N",
+        "x_i",
+        "mean"
+      ]
+    }
+  ],
+  "Probability": [
+    {
+      "id": 23,
+      "name": "Bayes' Theorem",
+      "formula": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
+      "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+      "description": "P(A|B): probability of A given B, P(B|A): probability of B given A, P(A): probability of A, P(B): probability of B",
+      "search_terms": [
+        "Bayes' Theorem",
+        "P(A|B)",
+        "conditional probability",
+        "P(B|A)",
+        "P(A)",
+        "P(B)",
+        "probability theorem",
+        "Bayesian"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Normal Distribution (PDF)",
+      "formula": "f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\,e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+      "link": "https://en.wikipedia.org/wiki/Normal_distribution",
+      "description": "f(x): probability density, x: variable, μ: mean, σ: standard deviation",
+      "search_terms": [
+        "normal distribution",
+        "PDF",
+        "probability density function",
+        "μ",
+        "σ",
+        "mean",
+        "standard deviation",
+        "Gaussian"
+      ]
+    }
+  ]
+}

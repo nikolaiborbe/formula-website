@@ -5,7 +5,7 @@
   // this will automatically center the main content.
 </script>
 
-<div class="hidden xl:block">
+<div class="hidden 2xl:block">
   <div class="sticky top-0 right-0 hidden h-screen w-64 overflow-y-auto border-r border-gray-300 p-4 md:block">
   </div>
 </div>

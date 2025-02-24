@@ -1,0 +1,6 @@
+export { default as Trigonometry } from "./formulas/Trigonometry.json"
+export { default as Physics } from "./formulas/Physics.json"
+export { default as Other } from "./formulas/Other.json"
+export { default as Statistics } from "./formulas/Statistics.json"
+export { default as Algebra } from "./formulas/Algebra.json"
+export { default as Economics } from "./formulas/Economics.json"
