@@ -6,7 +6,6 @@
 	import FormulaCard from '../components/FormulaCard.svelte';
 	import SearchModal from '../components/SearchModal.svelte';
 	import { Physics, Trigonometry, Algebra, Statistics, Economics, Other } from './imports';
-	//import nestedCategories from './formulas/formulas.json';
 	import Sidebar from '../components/Sidebar.svelte';
 	import LandingPage from '../components/LandingPage.svelte';
 
@@ -151,7 +150,7 @@
 									{subcategory}
 								</h3>
 								<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-									{#each formulas as formula (formula.id)}
+									{#each formulas as formula}
 										<FormulaCard {formula} />
 									{/each}
 								</div>
