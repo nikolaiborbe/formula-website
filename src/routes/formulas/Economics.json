@@ -1,7 +1,6 @@
 {
   "Macroeconomics": [
     {
-      "id": 25,
       "name": "GDP (Expenditure Approach)",
       "formula": "GDP = C + I + G + (X - M)",
       "link": "https://en.wikipedia.org/wiki/Gross_domestic_product",
@@ -23,7 +22,6 @@
       ]
     },
     {
-      "id": 26,
       "name": "Consumer Surplus (Approximation)",
       "formula": "CS \\approx \\frac{1}{2} Q (P_{max} - P)",
       "link": "https://en.wikipedia.org/wiki/Consumer_surplus",
@@ -44,7 +42,6 @@
   ],
   "Microeconomics": [
     {
-      "id": 27,
       "name": "Price Elasticity of Demand",
       "formula": "E_p = \\frac{\\%\\Delta Q}{\\%\\Delta P}",
       "link": "https://en.wikipedia.org/wiki/Price_elasticity_of_demand",
@@ -61,7 +58,6 @@
       ]
     },
     {
-      "id": 28,
       "name": "Cobb-Douglas Production Function",
       "formula": "Y = A K^{\\alpha} L^{1-\\alpha}",
       "link": "https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function",
@@ -82,7 +78,6 @@
       ]
     },
     {
-      "id": 29,
       "name": "Present Value",
       "formula": "PV = \\frac{FV}{(1 + r)^n}",
       "link": "https://en.wikipedia.org/wiki/Present_value",

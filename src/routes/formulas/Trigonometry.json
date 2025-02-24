@@ -1,7 +1,6 @@
 {
   "Sin Identities": [
     {
-      "id": 4,
       "name": "Basic Sine Identity",
       "formula": "\\sin^2 \\theta + \\cos^2 \\theta = 1",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
@@ -18,7 +17,6 @@
       ]
     },
     {
-      "id": 7,
       "name": "Sine Addition Formula",
       "formula": "\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
@@ -33,7 +31,6 @@
       ]
     },
     {
-      "id": 8,
       "name": "Sine Subtraction Formula",
       "formula": "\\sin(\\alpha-\\beta)=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
@@ -50,7 +47,6 @@
   ],
   "Cos Identities": [
     {
-      "id": 5,
       "name": "Cosine Double-Angle",
       "formula": "\\cos(2\\theta) = 2\\cos^2\\theta - 1",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities",
@@ -64,7 +60,6 @@
       ]
     },
     {
-      "id": 9,
       "name": "Cosine Double-Angle Alternative",
       "formula": "\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
@@ -78,7 +73,6 @@
       ]
     },
     {
-      "id": 10,
       "name": "Cosine Addition Formula",
       "formula": "\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
@@ -95,7 +89,6 @@
   ],
   "Tan Identities": [
     {
-      "id": 11,
       "name": "Tangent Addition Formula",
       "formula": "\\tan(\\alpha+\\beta)=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Addition_formulas",
@@ -110,7 +103,6 @@
       ]
     },
     {
-      "id": 12,
       "name": "Tangent Double-Angle Formula",
       "formula": "\\tan(2\\theta)=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
@@ -127,7 +119,6 @@
   ],
   "Other Identities": [
     {
-      "id": 13,
       "name": "Pythagorean Identity (Tangent-Secant)",
       "formula": "1+\\tan^2\\theta = \\sec^2\\theta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
@@ -141,7 +132,6 @@
       ]
     },
     {
-      "id": 14,
       "name": "Pythagorean Identity (Cotangent-Cosecant)",
       "formula": "1+\\cot^2\\theta = \\csc^2\\theta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Pythagorean_identities",
@@ -155,7 +145,6 @@
       ]
     },
     {
-      "id": 15,
       "name": "Sine of a Double Angle",
       "formula": "\\sin(2\\theta)=2\\sin\\theta\\cos\\theta",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Double-angle_formulas",
@@ -169,7 +158,6 @@
       ]
     },
     {
-      "id": 16,
       "name": "Cosine of a Half Angle",
       "formula": "\\cos\\left(\\frac{\\theta}{2}\\right)=\\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
       "link": "https://en.wikipedia.org/wiki/Trigonometric_identities#Half-angle_formulas",
@@ -183,7 +171,6 @@
       ]
     },
     {
-      "id": 17,
       "name": "Standard Circle Equation",
       "formula": "(x - h)^2 + (y - k)^2 = r^2",
       "link": "https://en.wikipedia.org/wiki/Circle",

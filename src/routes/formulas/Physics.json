@@ -1,7 +1,6 @@
 {
   "Maxwell's Equations": [
     {
-      "id": 1,
       "name": "Gauss's Law (Electric)",
       "formula": "\\oint_{S} \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{Q}{\\varepsilon_0}",
       "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
@@ -23,7 +22,6 @@
       ]
     },
     {
-      "id": 2,
       "name": "Faraday's Law",
       "formula": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
       "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
@@ -40,7 +38,6 @@
       ]
     },
     {
-      "id": 7,
       "name": "Ampère's Law",
       "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc}",
       "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
@@ -60,7 +57,6 @@
       ]
     },
     {
-      "id": 8,
       "name": "Gauss's Law (Magnetic)",
       "formula": "\\oint_{S} \\mathbf{B} \\cdot d\\mathbf{A} = 0",
       "link": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
@@ -79,7 +75,6 @@
   ],
   "Newtonian Mechanics": [
     {
-      "id": 3,
       "name": "Newton's Second Law",
       "formula": "F = ma",
       "link": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
@@ -95,7 +90,6 @@
       ]
     },
     {
-      "id": 9,
       "name": "Kinetic Energy",
       "formula": "KE = \\frac{1}{2}mv^2",
       "link": "https://en.wikipedia.org/wiki/Kinetic_energy",
@@ -110,7 +104,6 @@
       ]
     },
     {
-      "id": 10,
       "name": "Gravitational Potential Energy",
       "formula": "U = mgh",
       "link": "https://en.wikipedia.org/wiki/Potential_energy#Gravitational_potential_energy",
@@ -128,7 +121,6 @@
       ]
     },
     {
-      "id": 11,
       "name": "Work",
       "formula": "W = Fd\\cos\\theta",
       "link": "https://en.wikipedia.org/wiki/Work_(physics)",
@@ -148,7 +140,6 @@
   ],
   "Relativity": [
     {
-      "id": 12,
       "name": "Mass-Energy Equivalence",
       "formula": "E = mc^2",
       "link": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
@@ -164,7 +155,6 @@
       ]
     },
     {
-      "id": 13,
       "name": "Lorentz Factor",
       "formula": "\\gamma = \\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}",
       "link": "https://en.wikipedia.org/wiki/Lorentz_factor",
@@ -182,7 +172,6 @@
   ],
   "Thermodynamics": [
     {
-      "id": 14,
       "name": "Ideal Gas Law",
       "formula": "PV = nRT",
       "link": "https://en.wikipedia.org/wiki/Ideal_gas_law",
@@ -203,7 +192,6 @@
       ]
     },
     {
-      "id": 15,
       "name": "First Law of Thermodynamics",
       "formula": "\\Delta U = Q - W",
       "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
@@ -223,7 +211,6 @@
   ],
   "Quantum Mechanics": [
     {
-      "id": 16,
       "name": "Time-Dependent Schrödinger Equation",
       "formula": "i\\hbar\\frac{\\partial}{\\partial t}\\Psi(\\mathbf{r},t) = \\hat{H}\\Psi(\\mathbf{r},t)",
       "link": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
@@ -246,7 +233,6 @@
       ]
     },
     {
-      "id": 17,
       "name": "Heisenberg Uncertainty Principle",
       "formula": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}",
       "link": "https://en.wikipedia.org/wiki/Uncertainty_principle",
@@ -266,7 +252,6 @@
   ],
   "Optics": [
     {
-      "id": 18,
       "name": "Thin Lens Formula",
       "formula": "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}",
       "link": "https://en.wikipedia.org/wiki/Thin_lens",
@@ -284,7 +269,6 @@
   ],
   "Electricity and Magnetism": [
     {
-      "id": 30,
       "name": "Coulomb's Law",
       "formula": "F = k \\frac{q_1 q_2}{r^2}",
       "link": "https://en.wikipedia.org/wiki/Coulomb%27s_law",
@@ -304,7 +288,6 @@
       ]
     },
     {
-      "id": 31,
       "name": "Lorentz Force",
       "formula": "F = q(\\mathbf{E} + \\mathbf{v} \\times \\mathbf{B})",
       "link": "https://en.wikipedia.org/wiki/Lorentz_force",
@@ -324,7 +307,6 @@
       ]
     },
     {
-      "id": 32,
       "name": "Ampère's Law with Maxwell's Correction",
       "formula": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_{enc} + \\mu_0 \\varepsilon_0 \\frac{d\\Phi_E}{dt}",
       "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law#Maxwell%27s_correction",
@@ -346,7 +328,6 @@
       ]
     },
     {
-      "id": 33,
       "name": "Biot–Savart Law",
       "formula": "d\\mathbf{B} = \\frac{\\mu_0}{4\\pi} \\frac{I d\\mathbf{l} \\times \\hat{\\mathbf{r}}}{r^2}",
       "link": "https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law",
@@ -368,7 +349,6 @@
       ]
     },
     {
-      "id": 34,
       "name": "Electric Potential",
       "formula": "V = -\\int_C \\mathbf{E} \\cdot d\\mathbf{l}",
       "link": "https://en.wikipedia.org/wiki/Electric_potential",
@@ -387,7 +367,6 @@
       ]
     },
     {
-      "id": 35,
       "name": "Capacitance",
       "formula": "C = \\frac{Q}{V}",
       "link": "https://en.wikipedia.org/wiki/Capacitance",
@@ -404,7 +383,6 @@
       ]
     },
     {
-      "id": 36,
       "name": "Energy Stored in a Capacitor",
       "formula": "U = \\frac{1}{2} C V^2",
       "link": "https://en.wikipedia.org/wiki/Energy_storage_in_capacitors",
@@ -422,7 +400,6 @@
       ]
     },
     {
-      "id": 37,
       "name": "Magnetic Flux",
       "formula": "\\Phi_B = \\int_S \\mathbf{B} \\cdot d\\mathbf{A}",
       "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
@@ -440,7 +417,6 @@
       ]
     },
     {
-      "id": 38,
       "name": "Inductance",
       "formula": "L = \\frac{N\\Phi_B}{I}",
       "link": "https://en.wikipedia.org/wiki/Inductance",
@@ -457,7 +433,6 @@
       ]
     },
     {
-      "id": 39,
       "name": "Energy Stored in an Inductor",
       "formula": "U = \\frac{1}{2} L I^2",
       "link": "https://en.wikipedia.org/wiki/Inductance#Energy_stored",
@@ -474,7 +449,6 @@
       ]
     },
     {
-      "id": 40,
       "name": "Ohm's Law",
       "formula": "V = IR",
       "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
@@ -490,7 +464,6 @@
       ]
     },
     {
-      "id": 81,
       "name": "EMF (Battery with Internal Resistance)",
       "formula": "\\varepsilon = V + I r",
       "link": "https://en.wikipedia.org/wiki/Internal_resistance",
@@ -509,7 +482,6 @@
       ]
     },
     {
-      "id": 82,
       "name": "Faraday's Law of Induction",
       "formula": "\\varepsilon = -\\frac{d\\Phi}{dt}",
       "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
@@ -527,7 +499,6 @@
       ]
     },
     {
-      "id": 83,
       "name": "Faraday's Law for a Coil",
       "formula": "\\varepsilon = -N\\frac{d\\Phi}{dt}",
       "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
@@ -547,7 +518,5 @@
       ]
     }
   ],
-  "Waves & Fluid Mechanics": [
-
-  ]
+  "Waves & Fluid Mechanics": []
 }

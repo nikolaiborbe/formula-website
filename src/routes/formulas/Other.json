@@ -1,7 +1,6 @@
 {
   "FY1003 Exam Formulas": [
     {
-      "id": 41,
       "name": "Coulomb's Constant",
       "formula": "k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9.0\\times10^9\\,N\\cdot m^2/C^2",
       "link": "https://en.wikipedia.org/wiki/Coulomb_constant",
@@ -15,7 +14,6 @@
       ]
     },
     {
-      "id": 42,
       "name": "Electric Field of a Point Charge",
       "formula": "E(\\mathbf{r}) = k \\frac{q}{r^2} \\hat{r}",
       "link": "https://en.wikipedia.org/wiki/Electric_field",
@@ -33,7 +31,6 @@
       ]
     },
     {
-      "id": 43,
       "name": "Linear Charge Density",
       "formula": "\\lambda = \\frac{dq}{dl} = \\frac{Q}{L}",
       "link": "https://en.wikipedia.org/wiki/Charge_density",
@@ -50,7 +47,6 @@
       ]
     },
     {
-      "id": 44,
       "name": "Surface Charge Density",
       "formula": "\\sigma = \\frac{dq}{dA} = \\frac{Q}{A}",
       "link": "https://en.wikipedia.org/wiki/Charge_density",
@@ -67,7 +63,6 @@
       ]
     },
     {
-      "id": 45,
       "name": "Volume Charge Density",
       "formula": "\\rho = \\frac{dq}{dV} = \\frac{Q}{V}",
       "link": "https://en.wikipedia.org/wiki/Charge_density",
@@ -84,7 +79,6 @@
       ]
     },
     {
-      "id": 46,
       "name": "Electric Flux (Gauss's Law)",
       "formula": "\\Phi_E = \\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{Q_{enc}}{\\varepsilon_0}",
       "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
@@ -104,7 +98,6 @@
       ]
     },
     {
-      "id": 47,
       "name": "Capacitance of a Parallel Plate Capacitor",
       "formula": "C = \\frac{\\varepsilon_0 A}{d} = \\frac{Q}{V}",
       "link": "https://en.wikipedia.org/wiki/Parallel-plate_capacitor",
@@ -126,7 +119,6 @@
       ]
     },
     {
-      "id": 48,
       "name": "Electric Field Between Infinite Sheets",
       "formula": "E = \\frac{\\sigma}{\\varepsilon_0}",
       "link": "https://en.wikipedia.org/wiki/Infinite_sheet_of_charge",
@@ -143,7 +135,6 @@
       ]
     },
     {
-      "id": 49,
       "name": "Electric Potential Outside a Spherical Conductor",
       "formula": "V(r) = k \\frac{q}{r}",
       "link": "https://en.wikipedia.org/wiki/Electric_potential",
@@ -161,7 +152,6 @@
       ]
     },
     {
-      "id": 50,
       "name": "Electric Potential on a Conductor's Surface",
       "formula": "V(P) = k \\frac{q}{R}",
       "link": "https://en.wikipedia.org/wiki/Electric_potential",
@@ -179,7 +169,6 @@
       ]
     },
     {
-      "id": 51,
       "name": "Ohm's Law",
       "formula": "V = IR",
       "link": "https://en.wikipedia.org/wiki/Ohm%27s_law",
@@ -195,7 +184,6 @@
       ]
     },
     {
-      "id": 52,
       "name": "Magnetic Flux",
       "formula": "\\Phi_B = \\int \\mathbf{B}\\cdot d\\mathbf{A}",
       "link": "https://en.wikipedia.org/wiki/Magnetic_flux",
@@ -210,7 +198,6 @@
       ]
     },
     {
-      "id": 53,
       "name": "Equivalent Resistance (Series)",
       "formula": "R_{eq} = R_1 + R_2 + \\dots + R_n",
       "link": "https://en.wikipedia.org/wiki/Series_circuit",
@@ -226,7 +213,6 @@
       ]
     },
     {
-      "id": 54,
       "name": "Kirchhoff’s Loop Rule",
       "formula": "\\sum V = 0",
       "link": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
@@ -240,7 +226,6 @@
       ]
     },
     {
-      "id": 55,
       "name": "Equivalent Resistance (Parallel)",
       "formula": "R_{eq} = \\left( \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots + \\frac{1}{R_n} \\right)^{-1}",
       "link": "https://en.wikipedia.org/wiki/Parallel_circuit",
@@ -256,7 +241,6 @@
       ]
     },
     {
-      "id": 56,
       "name": "Magnetic Torque on a Coil",
       "formula": "\\tau = N I A B \\sin(\\theta)",
       "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
@@ -279,7 +263,6 @@
       ]
     },
     {
-      "id": 57,
       "name": "Magnetic Force on a Wire",
       "formula": "\\mathbf{F} = I \\mathbf{l} \\times \\mathbf{B}",
       "link": "https://en.wikipedia.org/wiki/Lorentz_force",
@@ -298,7 +281,6 @@
       ]
     },
     {
-      "id": 58,
       "name": "RC Circuit Discharge",
       "formula": "Q = Q_0 e^{-t/(RC)}",
       "link": "https://en.wikipedia.org/wiki/RC_circuit",
@@ -319,7 +301,6 @@
       ]
     },
     {
-      "id": 59,
       "name": "Current Density",
       "formula": "J = \\frac{I}{A}",
       "link": "https://en.wikipedia.org/wiki/Current_density",
@@ -335,7 +316,6 @@
       ]
     },
     {
-      "id": 60,
       "name": "Magnetic Field of a Long Straight Conductor",
       "formula": "B = \\frac{\\mu_0}{2\\pi} \\frac{I}{r}",
       "link": "https://en.wikipedia.org/wiki/Magnetic_field#Current-carrying_conductor",
@@ -354,7 +334,6 @@
       ]
     },
     {
-      "id": 61,
       "name": "Electromagnetic Wave Relation",
       "formula": "\\nu \\lambda = c",
       "link": "https://en.wikipedia.org/wiki/Electromagnetic_radiation",
@@ -370,7 +349,6 @@
       ]
     },
     {
-      "id": 62,
       "name": "Speed of Light",
       "formula": "c = 3 \\times 10^8\\,m/s",
       "link": "https://en.wikipedia.org/wiki/Speed_of_light",
@@ -383,7 +361,6 @@
       ]
     },
     {
-      "id": 63,
       "name": "Electric and Magnetic Field Relation in EM Waves",
       "formula": "c = \\frac{E}{B}",
       "link": "https://en.wikipedia.org/wiki/Electromagnetic_wave",
@@ -400,7 +377,6 @@
       ]
     },
     {
-      "id": 64,
       "name": "Maxwell-Ampère Law (with Displacement Current)",
       "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 \\left(i_C + \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\right)",
       "link": "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law",
@@ -423,7 +399,6 @@
       ]
     },
     {
-      "id": 65,
       "name": "Self-Inductance",
       "formula": "L = \\frac{\\Phi_B}{I}",
       "link": "https://en.wikipedia.org/wiki/Inductance",
@@ -439,7 +414,6 @@
       ]
     },
     {
-      "id": 66,
       "name": "Power Dissipated in a Resistor",
       "formula": "P_{loss} = I^2 R",
       "link": "https://en.wikipedia.org/wiki/Electric_power#Dissipation",
@@ -456,7 +430,6 @@
       ]
     },
     {
-      "id": 67,
       "name": "Electrical Power",
       "formula": "P = V I",
       "link": "https://en.wikipedia.org/wiki/Electric_power",
@@ -472,7 +445,6 @@
       ]
     },
     {
-      "id": 68,
       "name": "Phase Angle in AC Circuits",
       "formula": "\\phi = \\arctan\\left(\\frac{X_L - X_C}{R}\\right)",
       "link": "https://en.wikipedia.org/wiki/Alternating_current",
@@ -491,7 +463,6 @@
       ]
     },
     {
-      "id": 69,
       "name": "Inductive Reactance",
       "formula": "X_L = \\omega L",
       "link": "https://en.wikipedia.org/wiki/Inductive_reactance",
@@ -506,7 +477,6 @@
       ]
     },
     {
-      "id": 70,
       "name": "Capacitive Reactance",
       "formula": "X_C = \\frac{1}{\\omega C}",
       "link": "https://en.wikipedia.org/wiki/Capacitive_reactance",
@@ -521,7 +491,6 @@
       ]
     },
     {
-      "id": 71,
       "name": "Impedance of an AC Circuit",
       "formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
       "link": "https://en.wikipedia.org/wiki/Impedance",
@@ -539,7 +508,6 @@
       ]
     },
     {
-      "id": 72,
       "name": "Voltage Amplitude in an AC Circuit",
       "formula": "V = Z I",
       "link": "https://en.wikipedia.org/wiki/Alternating_current",
@@ -555,7 +523,6 @@
       ]
     },
     {
-      "id": 73,
       "name": "Average AC Power",
       "formula": "P_{av} = \\frac{1}{2} V I \\cos\\phi",
       "link": "https://en.wikipedia.org/wiki/AC_power",
@@ -576,7 +543,6 @@
   ],
   "TFY4163 Exam Formulas (Previous)": [
     {
-      "id": 110,
       "name": "Harmonic Plane Wave (1D)",
       "formula": "\\xi(x,t) = \\xi_0 \\sin\\left(kx - \\omega t + \\varphi\\right)",
       "link": "https://en.wikipedia.org/wiki/Harmonic_wave",
@@ -597,7 +563,6 @@
       ]
     },
     {
-      "id": 111,
       "name": "Harmonic Plane Wave (3D)",
       "formula": "\\xi(\\mathbf{r},t) = \\xi_0 \\sin\\left(\\mathbf{k}\\cdot\\mathbf{r} - \\omega t + \\varphi\\right)",
       "link": "https://en.wikipedia.org/wiki/Harmonic_wave",
@@ -620,7 +585,6 @@
       ]
     },
     {
-      "id": 112,
       "name": "Wave Equation (1D)",
       "formula": "\\frac{\\partial^2 \\xi(x,t)}{\\partial x^2} = \\frac{1}{v^2}\\frac{\\partial^2 \\xi(x,t)}{\\partial t^2}",
       "link": "https://en.wikipedia.org/wiki/Wave_equation",
@@ -635,7 +599,6 @@
       ]
     },
     {
-      "id": 113,
       "name": "Wave Equation (3D)",
       "formula": "\\nabla^2 \\xi(\\mathbf{r},t) = \\frac{1}{v^2}\\frac{\\partial^2 \\xi(\\mathbf{r},t)}{\\partial t^2}",
       "link": "https://en.wikipedia.org/wiki/Wave_equation",
@@ -649,7 +612,6 @@
       ]
     },
     {
-      "id": 114,
       "name": "Phase Velocity",
       "formula": "v = \\frac{\\omega}{k}",
       "link": "https://en.wikipedia.org/wiki/Phase_velocity",
@@ -665,7 +627,6 @@
       ]
     },
     {
-      "id": 115,
       "name": "Group Velocity",
       "formula": "v_{g} = \\frac{d\\omega}{dk}",
       "link": "https://en.wikipedia.org/wiki/Group_velocity",
@@ -679,7 +640,6 @@
       ]
     },
     {
-      "id": 116,
       "name": "Non-dispersive Wave Speed in Elastic Media",
       "formula": "v = \\sqrt{\\frac{E}{\\rho}}",
       "link": "https://en.wikipedia.org/wiki/Wave_equation#In_an_elastic_medium",
@@ -697,7 +657,6 @@
       ]
     },
     {
-      "id": 117,
       "name": "Mechanical Stress in Elastic Media",
       "formula": "\\text{stress} = E \\times \\text{strain}",
       "link": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
@@ -713,7 +672,6 @@
       ]
     },
     {
-      "id": 118,
       "name": "Transverse Wave on a String",
       "formula": "v = \\sqrt{\\frac{S}{\\mu}}",
       "link": "https://en.wikipedia.org/wiki/Wave_on_a_string",
@@ -731,7 +689,6 @@
       ]
     },
     {
-      "id": 119,
       "name": "Longitudinal Wave in Fluids",
       "formula": "v = \\sqrt{\\frac{B}{\\rho}}",
       "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
@@ -748,7 +705,6 @@
       ]
     },
     {
-      "id": 120,
       "name": "Longitudinal Wave in Solids",
       "formula": "v = \\sqrt{\\frac{Y}{\\rho}}",
       "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
@@ -765,7 +721,6 @@
       ]
     },
     {
-      "id": 121,
       "name": "Average Value over Wavelength",
       "formula": "A = \\frac{1}{\\lambda}\\int_0^{\\lambda}A(x,t)\\,dx",
       "link": "https://en.wikipedia.org/wiki/Average",
@@ -781,7 +736,6 @@
       ]
     },
     {
-      "id": 122,
       "name": "Average Value over Period",
       "formula": "\\langle A \\rangle = \\frac{1}{T}\\int_0^T A(x,t)\\,dt",
       "link": "https://en.wikipedia.org/wiki/Average",
@@ -797,7 +751,6 @@
       ]
     },
     {
-      "id": 123,
       "name": "Average Energy per Unit Length (String)",
       "formula": "\\varepsilon = \\frac{1}{2}\\mu\\omega^2\\xi_0^2",
       "link": "https://en.wikipedia.org/wiki/Wave_energy",
@@ -816,7 +769,6 @@
       ]
     },
     {
-      "id": 124,
       "name": "Average Energy per Unit Volume (Plane Wave)",
       "formula": "\\varepsilon = \\frac{1}{2}\\rho\\omega^2\\xi_0^2",
       "link": "https://en.wikipedia.org/wiki/Wave_energy",
@@ -835,7 +787,6 @@
       ]
     },
     {
-      "id": 125,
       "name": "Average Power (String Wave)",
       "formula": "P = v\\,\\varepsilon = \\frac{1}{2}v\\mu\\omega^2\\xi_0^2",
       "link": "https://en.wikipedia.org/wiki/Wave_energy",
@@ -855,7 +806,6 @@
       ]
     },
     {
-      "id": 126,
       "name": "Intensity of a Plane Wave",
       "formula": "I = v\\,\\varepsilon = \\frac{1}{2}v\\rho\\omega^2\\xi_0^2",
       "link": "https://en.wikipedia.org/wiki/Wave_intensity",
@@ -875,7 +825,6 @@
       ]
     },
     {
-      "id": 127,
       "name": "Average Momentum Density",
       "formula": "\\pi = \\frac{\\varepsilon}{v}",
       "link": "https://en.wikipedia.org/wiki/Momentum",
@@ -891,7 +840,6 @@
       ]
     },
     {
-      "id": 128,
       "name": "Ideal Gas Law",
       "formula": "pV = Nk_BT",
       "link": "https://en.wikipedia.org/wiki/Ideal_gas_law",
@@ -912,7 +860,6 @@
       ]
     },
     {
-      "id": 129,
       "name": "Heat Capacity at Constant Pressure",
       "formula": "C_p = \\left(\\frac{dQ}{dT}\\right)_p",
       "link": "https://en.wikipedia.org/wiki/Heat_capacity",
@@ -927,7 +874,6 @@
       ]
     },
     {
-      "id": 130,
       "name": "Heat Capacity at Constant Volume",
       "formula": "C_V = \\left(\\frac{dQ}{dT}\\right)_V",
       "link": "https://en.wikipedia.org/wiki/Heat_capacity",
@@ -942,7 +888,6 @@
       ]
     },
     {
-      "id": 131,
       "name": "Adiabatic Process (Ideal Gas)",
       "formula": "pV^\\gamma = \\text{constant}",
       "link": "https://en.wikipedia.org/wiki/Adiabatic_process",
@@ -957,7 +902,6 @@
       ]
     },
     {
-      "id": 132,
       "name": "Adiabatic Constant",
       "formula": "\\gamma = \\frac{C_p}{C_V}",
       "link": "https://en.wikipedia.org/wiki/Adiabatic_process",
@@ -972,7 +916,6 @@
       ]
     },
     {
-      "id": 133,
       "name": "Bulk Modulus (Ideal Gas, Adiabatic)",
       "formula": "B = \\gamma p",
       "link": "https://en.wikipedia.org/wiki/Bulk_modulus",
@@ -988,7 +931,6 @@
       ]
     },
     {
-      "id": 134,
       "name": "Speed of Sound in Gas",
       "formula": "v = \\sqrt{\\frac{\\gamma p}{\\rho}} = \\sqrt{\\frac{\\gamma k_BT}{m}}",
       "link": "https://en.wikipedia.org/wiki/Speed_of_sound",
@@ -1009,7 +951,6 @@
       ]
     },
     {
-      "id": 135,
       "name": "Sound Pressure",
       "formula": "\\Delta p = -B \\frac{\\partial \\xi}{\\partial x}",
       "link": "https://en.wikipedia.org/wiki/Sound_pressure",
@@ -1025,7 +966,6 @@
       ]
     },
     {
-      "id": 136,
       "name": "Sound Level",
       "formula": "\\beta = 10\\log\\left(\\frac{I}{I_0}\\right)",
       "link": "https://en.wikipedia.org/wiki/Sound_pressure_level",
@@ -1042,7 +982,6 @@
       ]
     },
     {
-      "id": 137,
       "name": "Doppler Effect (Sound Waves)",
       "formula": "\\nu_O = \\left(\\frac{1-\\frac{v_O}{v}}{1-\\frac{v_S}{v}}\\right)\\nu_S",
       "link": "https://en.wikipedia.org/wiki/Doppler_effect",
@@ -1063,7 +1002,6 @@
       ]
     },
     {
-      "id": 138,
       "name": "Shock Waves Relation",
       "formula": "\\sin \\alpha = \\frac{v}{v_S}",
       "link": "https://en.wikipedia.org/wiki/Shock_wave",
@@ -1078,7 +1016,6 @@
       ]
     },
     {
-      "id": 139,
       "name": "Maxwell's Equations (Integral Form)",
       "formula": "\\oint \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{q}{\\varepsilon_0}, \\quad \\oint \\mathbf{B}\\cdot d\\mathbf{A} = 0, \\quad \\oint \\mathbf{E}\\cdot d\\mathbf{l} = -\\frac{d}{dt}\\int \\mathbf{B}\\cdot d\\mathbf{A}, \\quad \\oint \\mathbf{B}\\cdot d\\mathbf{l} = \\mu_0 I + \\mu_0\\varepsilon_0\\frac{d}{dt}\\int \\mathbf{E}\\cdot d\\mathbf{A}",
       "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
@@ -1101,7 +1038,6 @@
       ]
     },
     {
-      "id": 140,
       "name": "Maxwell's Equations (Differential Form)",
       "formula": "\\nabla\\cdot\\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}, \\quad \\nabla\\cdot\\mathbf{B} = 0, \\quad \\nabla\\times\\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}, \\quad \\nabla\\times\\mathbf{B} = \\mu_0\\mathbf{j} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t}",
       "link": "https://en.wikipedia.org/wiki/Macroscopic_maxwell_equations",
@@ -1122,7 +1058,6 @@
       ]
     },
     {
-      "id": 141,
       "name": "Lorentz Force",
       "formula": "F = q\\left(\\mathbf{E} + \\mathbf{v}\\times\\mathbf{B}\\right)",
       "link": "https://en.wikipedia.org/wiki/Lorentz_force",
@@ -1142,7 +1077,6 @@
       ]
     },
     {
-      "id": 142,
       "name": "Wave Equation in Vacuum for EM Fields",
       "formula": "\\nabla^2 \\mathbf{E} = \\frac{1}{c^2}\\frac{\\partial^2 \\mathbf{E}}{\\partial t^2}, \\quad \\nabla^2 \\mathbf{B} = \\frac{1}{c^2}\\frac{\\partial^2 \\mathbf{B}}{\\partial t^2}, \\quad c = \\frac{1}{\\sqrt{\\varepsilon_0\\mu_0}}",
       "link": "https://en.wikipedia.org/wiki/Wave_equation",
@@ -1161,7 +1095,6 @@
       ]
     },
     {
-      "id": 143,
       "name": "Energy Density in EM Field",
       "formula": "u = \\frac{1}{2}\\varepsilon_0E^2 + \\frac{1}{2}\\mu_0B^2",
       "link": "https://en.wikipedia.org/wiki/Electromagnetic_energy",
@@ -1179,7 +1112,6 @@
       ]
     },
     {
-      "id": 144,
       "name": "Intensity of an EM Wave",
       "formula": "I = c\\varepsilon_0E^2 = c\\varepsilon_0\\langle E^2\\rangle",
       "link": "https://en.wikipedia.org/wiki/Light_intensity",
@@ -1197,7 +1129,6 @@
       ]
     },
     {
-      "id": 145,
       "name": "Poynting Vector",
       "formula": "S = \\frac{1}{\\mu_0}(\\mathbf{E}\\times\\mathbf{B})",
       "link": "https://en.wikipedia.org/wiki/Poynting_vector",
@@ -1215,7 +1146,6 @@
       ]
     },
     {
-      "id": 146,
       "name": "Momentum in an EM Wave",
       "formula": "\\pi = \\mu_0\\varepsilon_0S",
       "link": "https://en.wikipedia.org/wiki/Momentum",
@@ -1231,7 +1161,6 @@
       ]
     },
     {
-      "id": 147,
       "name": "Electric Dipole Moment",
       "formula": "p = qd",
       "link": "https://en.wikipedia.org/wiki/Electric_dipole",
@@ -1248,7 +1177,6 @@
       ]
     },
     {
-      "id": 148,
       "name": "Magnetic Dipole Moment",
       "formula": "m = IA",
       "link": "https://en.wikipedia.org/wiki/Magnetic_dipole",
@@ -1264,7 +1192,6 @@
       ]
     },
     {
-      "id": 149,
       "name": "Radiated Power (Electric Dipole)",
       "formula": "\\langle P \\rangle = \\frac{p_0^2\\omega^4}{12\\pi\\varepsilon_0c^3}",
       "link": "https://en.wikipedia.org/wiki/Electric_dipole_radiation",
@@ -1283,7 +1210,6 @@
       ]
     },
     {
-      "id": 150,
       "name": "Radiated Power (Magnetic Dipole)",
       "formula": "\\langle P \\rangle = \\frac{\\mu_0m_0^2\\omega^4}{12\\pi c^3}",
       "link": "https://en.wikipedia.org/wiki/Magnetic_dipole_radiation",
@@ -1301,7 +1227,6 @@
       ]
     },
     {
-      "id": 151,
       "name": "Malus' Law",
       "formula": "I(\\theta) = I_0\\cos^2\\theta",
       "link": "https://en.wikipedia.org/wiki/Malus%27s_law",
@@ -1319,7 +1244,6 @@
       ]
     },
     {
-      "id": 152,
       "name": "Linear Media Relations",
       "formula": "P = \\varepsilon_0\\chi_eE, \\quad D = \\varepsilon_0E+P=\\varepsilon_0(1+\\chi_e)E=\\varepsilon_0\\varepsilon_rE, \\quad M = \\chi_mH, \\quad B = \\mu_0H+\\mu_0M=\\mu_0(1+\\chi_m)H=\\mu_0\\mu_rH",
       "link": "https://en.wikipedia.org/wiki/Electromagnetic_properties_of_matter",
@@ -1342,7 +1266,6 @@
       ]
     },
     {
-      "id": 153,
       "name": "Gauss's Law for Electric Displacement",
       "formula": "\\oint \\mathbf{D}\\cdot d\\mathbf{A} = q_{\\text{free}}",
       "link": "https://en.wikipedia.org/wiki/Gauss%27s_law",
@@ -1358,7 +1281,6 @@
       ]
     },
     {
-      "id": 154,
       "name": "Gauss's Law for Magnetic Fields",
       "formula": "\\oint \\mathbf{B}\\cdot d\\mathbf{A} = 0",
       "link": "https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism",
@@ -1373,7 +1295,6 @@
       ]
     },
     {
-      "id": 155,
       "name": "Faraday's Law of Induction",
       "formula": "\\varepsilon = -\\frac{d\\Phi}{dt}",
       "link": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction",
@@ -1392,7 +1313,6 @@
       ]
     },
     {
-      "id": 156,
       "name": "Lorentz Transformation",
       "formula": "x' = \\gamma(x - vt), \\quad t' = \\gamma\\left(t - \\frac{vx}{c^2}\\right)",
       "link": "https://en.wikipedia.org/wiki/Lorentz_transformation",
@@ -1408,7 +1328,6 @@
       ]
     },
     {
-      "id": 157,
       "name": "Time Dilation",
       "formula": "\\Delta t = \\gamma\\Delta t_0",
       "link": "https://en.wikipedia.org/wiki/Time_dilation",
@@ -1423,7 +1342,6 @@
       ]
     },
     {
-      "id": 158,
       "name": "Length Contraction",
       "formula": "\\Delta x = \\gamma\\Delta x_0",
       "link": "https://en.wikipedia.org/wiki/Length_contraction",
@@ -1438,7 +1356,6 @@
       ]
     },
     {
-      "id": 159,
       "name": "Relativistic Velocity Addition",
       "formula": "v_{AC} = \\frac{v_{AB}+v_{BC}}{1+\\frac{v_{AB}v_{BC}}{c^2}}",
       "link": "https://en.wikipedia.org/wiki/Velocity-addition_formula",

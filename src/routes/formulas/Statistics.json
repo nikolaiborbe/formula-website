@@ -1,7 +1,6 @@
 {
   "Descriptive Statistics": [
     {
-      "id": 20,
       "name": "Mean",
       "formula": "\\mu = \\frac{1}{N}\\sum_{i=1}^{N} x_i",
       "link": "https://en.wikipedia.org/wiki/Arithmetic_mean",
@@ -18,7 +17,6 @@
       ]
     },
     {
-      "id": 21,
       "name": "Variance",
       "formula": "\\sigma^2 = \\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2",
       "link": "https://en.wikipedia.org/wiki/Variance",
@@ -35,7 +33,6 @@
       ]
     },
     {
-      "id": 22,
       "name": "Standard Deviation",
       "formula": "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^{N} (x_i - \\mu)^2}",
       "link": "https://en.wikipedia.org/wiki/Standard_deviation",
@@ -54,7 +51,6 @@
   ],
   "Probability": [
     {
-      "id": 23,
       "name": "Bayes' Theorem",
       "formula": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
       "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
@@ -71,7 +67,6 @@
       ]
     },
     {
-      "id": 24,
       "name": "Normal Distribution (PDF)",
       "formula": "f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}}\\,e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
       "link": "https://en.wikipedia.org/wiki/Normal_distribution",
