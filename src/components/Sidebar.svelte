@@ -36,9 +36,9 @@
 </script>
 
 <!-- Desktop Sidebar (visible on medium screens and up) -->
-<aside class="sticky top-0 hidden h-screen w-64 border-r border-gray-300 p-4 pb-0 lg:block">
+<aside class="sticky top-0 hidden h-screen w-64 border-r border-gray-300 p-4 pr-0 pb-0 lg:block">
 	<!-- Header row in the sidebar -->
-	<div class="mb-4 flex items-center justify-between">
+	<div class="mb-4 flex items-center justify-between pr-4">
 		<h2 class="text-xl font-bold">Contents</h2>
 		<!-- Search button to toggle SearchModal -->
 		<button
@@ -64,7 +64,7 @@
 	</div>
 
 	<!-- List of categories -->
-	<div class="h-full overflow-y-auto pb-20">
+	<div class="h-full overflow-y-auto scrollbar-rounded pb-20">
 		<ul class="mb-20 space-y-4">
 			{#each Object.entries(nestedCategories) as [category, subcategories]}
 				<li>
@@ -166,6 +166,20 @@
 {/if}
 
 <style>
+	/* Hide scrollbar for WebKit-based browsers */
+	/* For WebKit-based browsers (Chrome, Safari) */
+	.scrollbar-rounded::-webkit-scrollbar {
+		width: 8px;
+	}
+	.scrollbar-rounded::-webkit-scrollbar-thumb {
+		border-radius: 30px; /* Adjust the value as needed */
+	}
+
+	/* For Firefox */
+	.scrollbar-rounded {
+		scrollbar-width: medium;
+		scrollbar-color: #e8e8e8 transparent;
+	}
 	.category {
 		font-size: 0.8rem;
 		color: rgb(59, 58, 58);
